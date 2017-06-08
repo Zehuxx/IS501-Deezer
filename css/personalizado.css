@@ -1,0 +1,112 @@
+
+/* index.php */
+.col-lgj-2 {
+   padding-top:15px; 
+   width:220px;
+   float: left;
+   height: 100%;
+   background-color: #23232c;
+}
+
+.col-lgj-10 {
+	width:100%;
+	height: 100%;
+	background-color: red;
+}
+
+.svg-icon{
+fill: #c2c2ca;
+}
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#buscador{
+	margin-top: 10px;
+  background-color: #d1d1d7;
+  padding: 8px 40px 8px 12px;
+  font-size: 12px;
+  height: 32px;
+  width: 180px;
+  margin-left: 19px;
+  margin-bottom:  10px;
+}
+
+#fimage{
+	margin-left: 49px;
+}
+
+#info{
+	color: white;
+}
+
+.control{
+  margin-right: 55px;
+  padding-left: 20px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 14px;
+}
+.control2{
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 15px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+.linea{
+  background-color: #32323d;
+    height: 1px;
+    margin: 5px 12px;
+}
+   
+.space{
+  padding-left: 20px;
+} 
+
+
+.ajustar{
+  margin-left: 22px;
+
+}
+
+.icon2{
+  margin-left: 40px;
+  margin-right: 12px;
+}
+
+/* Definimos el color inicial */
+.cambioColor {
+  color:#c2c2ca;
+}
+
+/* Definimos el color al pasar el mouse por encima */
+.cambioColor:hover {
+  color:#fff;
+}
+
+.svg-icon:hover{
+  fill: white;
+}
+
+/* Definimos el color inicial */
+.cambioFondo{
+  background-color: #23232c; 
+}
+
+/* Definimos el color al pasar el mouse por encima */
+.cambioFondo:hover{
+  background-color: #15151e;
+  width: 220px;
+  height: 34px;
+  }
+.cambioFondo2:hover{
+  background-color: #15151e;
+  width: 220px;
+  height: 25px;
+  }
