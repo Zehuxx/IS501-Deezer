@@ -7,7 +7,7 @@
    height: 100%;
    background-color: #23232c;
 }
-
+ 
 .col-lgj-10 {
 	width:100%;
 	height: 100%;
@@ -16,6 +16,22 @@
 
 .svg-icon{
 fill: #c2c2ca;
+}
+
+.boton{
+    color: #fff;
+    font-size: 12px;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 800;
+    background-color: #007feb;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: 3px;
+    padding: 6px 45px 6px 45px;
+}
+
+.boton:hover{
+  background-color: #0b66cd;
 }
 
 html{
@@ -44,21 +60,23 @@ html{
 }
 
 .control{
-  margin-right: 55px;
+  margin-right: 63px;
   padding-left: 20px;
   margin-top: 7px;
   margin-bottom: 7px;
   font-family: "Open Sans",Arial,sans-serif;
   font-size: 14px;
 }
+
 .control2{
   margin-top: 7px;
   margin-bottom: 7px;
-  font-family: "Open Sans",Arial,sans-serif;
-  font-size: 15px;
+  font-family: Arial,sans-serif;
+  font-size: 14px;
   padding-bottom: 7px;
   padding-top: 7px;
 }
+
 .linea{
   background-color: #32323d;
     height: 1px;
@@ -66,19 +84,48 @@ html{
 }
    
 .space{
-  padding-left: 20px;
+  padding-bottom: 7px;
+  padding-top: 7px;
 } 
-
 
 .ajustar{
   margin-left: 22px;
-
 }
 
+.letras{
+  margin-left: 10px;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 12px;
+}
+
+.letras1{
+  margin-right: 58px;
+}
+
+.letras2{
+  margin-right: 128px;
+}
+
+.letras3{
+  margin-right: 123px;
+}
+
+.letras4{
+  margin-right: 122px;
+}
+
+.letras5{
+  margin-right: 104px;
+}
 .icon2{
   margin-left: 40px;
-  margin-right: 12px;
+  margin-right: 15px;
 }
+
+.ajuste{
+margin-left: 20px;
+}
+
 
 /* Definimos el color inicial */
 .cambioColor {
@@ -105,8 +152,11 @@ html{
   width: 220px;
   height: 34px;
   }
+
 .cambioFondo2:hover{
   background-color: #15151e;
   width: 220px;
   height: 25px;
   }
+
+
