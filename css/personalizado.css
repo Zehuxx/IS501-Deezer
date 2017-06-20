@@ -55,27 +55,7 @@ html{
 	margin-left: 49px;
 }
 
-#info{
-	color: white;
-}
 
-.control{
-  margin-right: 63px;
-  padding-left: 20px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  font-family: "Open Sans",Arial,sans-serif;
-  font-size: 14px;
-}
-
-.control2{
-  margin-top: 7px;
-  margin-bottom: 7px;
-  font-family: Arial,sans-serif;
-  font-size: 14px;
-  padding-bottom: 7px;
-  padding-top: 7px;
-}
 
 .linea{
   background-color: #32323d;
@@ -88,75 +68,201 @@ html{
   padding-top: 7px;
 } 
 
-.ajustar{
-  margin-left: 22px;
-}
 
-.letras{
-  margin-left: 10px;
-  font-family: "Open Sans",Arial,sans-serif;
-  font-size: 12px;
-}
-
-.letras1{
-  margin-right: 58px;
-}
-
-.letras2{
-  margin-right: 128px;
-}
-
-.letras3{
-  margin-right: 123px;
-}
-
-.letras4{
-  margin-right: 122px;
-}
-
-.letras5{
-  margin-right: 104px;
-}
 .icon2{
   margin-left: 40px;
   margin-right: 15px;
 }
 
-.ajuste{
-margin-left: 20px;
-}
 
-
-/* Definimos el color inicial */
-.cambioColor {
-  color:#c2c2ca;
-}
-
-/* Definimos el color al pasar el mouse por encima */
-.cambioColor:hover {
-  color:#fff;
-}
 
 .svg-icon:hover{
   fill: white;
 }
 
-/* Definimos el color inicial */
-.cambioFondo{
-  background-color: #23232c; 
+.nav li a .settings{
+  float: right;
 }
 
-/* Definimos el color al pasar el mouse por encima */
-.cambioFondo:hover{
-  background-color: #15151e;
+.nav, .nav a{
+  color:#C2C2CA;
+  text-decoration: none;
+}
+
+.nav > .active > a,
+.nav > .active > a:hover,
+.nav> .active > a:focus {
+  border-left:solid 10px #007feb;
+  padding-left: 20px;
+  background-color:#15151e;
+}
+
+.nav > li .si:hover,
+.nav > li .si:focus {
+  background-color: #191922;
+  color: white;
+  font-size: 15px;
+}
+
+.hijo .flecha{
+  float: right;
+  margin-right: 30px;
+  line-height: 32px;
+  color: #c5c5cd;
+}
+
+.hijo li:focus,
+.hijo li:hover{
+  background-color: #efeff2;
+  cursor:pointer;
+  font-size: 15px;
+}
+
+.nav {
+  margin-bottom: 20px;
+  margin-left: -11px;
+}
+
+.iconn{
+  margin-left: 190px;
+  margin-top: -27px;
+  position: fixed;
+}
+
+.nav hr{
+  margin: 5px 0 5px 0;
+  margin-left: 10%;
+  width: 80%;
+  border-top: 1px solid #474747;
+}
+
+.nav .hijo hr{
+   border-top: 1.7px solid #e8e8ec;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.titulo{
+  margin-top: 20px;
+      color: #32323d;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.hijo .icono{
+  display:inline;
+  margin-left: 10px;
+  line-height: 40px;
+}
+
+.hijo .icon{
+  background-color: #007feb;
+  border-radius: 32px;
+  color:white; 
+  line-height: 32px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 4px;
+  text-align: center; 
+  width: 32px;
+}
+
+   
+.nav li .hijo a{
+  height: 40px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  margin-bottom: 3px;
+  text-decoration:none;
+}
+
+.nav > li > a {
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 30px;
+    margin-bottom: 7px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#cover{
+  height: 140px;
   width: 220px;
-  height: 34px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  opacity: 0.5;
+  background-image: url("../img/goku.jpg");
+}
+
+.nombresong{
+  padding-top: 8px;
+  margin-right: 30px;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+#nombresong{
+    font-family:"Open Sans", Arial, sans-serif;
+    font-size:18px;
+    font-weight:800;
+    padding-left: 22px;
+    padding-right: 30px;
+    color: #fff;
+    
+    
+}
+
+.icon3{
+  margin-right: 15px;
+}
+
+.nombreartista{
+  font-family:"Open Sans", Arial, sans-serif;
+  padding-left: 22px;
+  margin-right: 30px;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  color: #fff;
+  font-size:14px;
   }
 
-.cambioFondo2:hover{
-  background-color: #15151e;
-  width: 220px;
-  height: 25px;
+#nombreartista{
+font-family:"Open Sans", Arial, sans-serif;
+font-size:14px;
+font-weight:normal;
+padding-left: 6px;
+color: #fff;
+
+}
+
+
+
+
+
+.col-lgj-2 ul li div{
+  transition-duration:  0.7s;
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+} 
+
+.col-lgj-2 ul li:hover > div{
+opacity: 1;
+visibility: visible;
+transition-duration:  0.7s;
   }
 
-
+  .hijo{
+    width: 368px;
+    height: 701px; 
+    background-color: #fff;
+    position:fixed; 
+    margin-left: 230px; 
+    margin-top: -215px;
+    
+  }
