@@ -11,9 +11,10 @@
     <div class="trackinfo">
         <p id="title"></p>
         <p id="artist"></p>
+        <div id="progress"></div>
     </div>
     <div id="track">
-        <div id="progress"></div>
+        
         <div id="handler"></div>
     </div>
     <div class="container">

@@ -15,3 +15,4 @@ function ifra2(link){
      if(link==3)
     	$("#ifra2").html("<iframe class='contenido2' src='dispositivos.php' frameborder='0'></iframe>");
 }
+
