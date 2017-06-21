@@ -73,3 +73,10 @@ li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+
+.contenido2{
+  border: solid 1px #ccc;
+  width:1144px;
+  height: 644px;
+}
+

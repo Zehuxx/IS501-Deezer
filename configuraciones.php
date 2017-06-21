@@ -16,6 +16,9 @@
 				<li onclick="ifra2(1)"><a href="#">Mis datos</a></li>
 			</ul>
 		</div>
+		<div id="ifra2">
+			
+		</div>
 	</div>
 </div>
 <script type="text/javascript" src="js/jquery.min.js"></script>
