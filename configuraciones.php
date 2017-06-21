@@ -11,12 +11,15 @@
 	<div class="row">
 		<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 contenedor">
 			<ul class="bar">
-				<li><a href="#" >Mis dispositivos conectados</a></li>
-				<li><a href="#">Notificaciones y compartir</a></li>
-				<li><a href="#">Mis datos</a></li>
+				<li onclick="ifra2(3)"><a href="#" >Mis dispositivos conectados</a></li>
+				<li onclick="ifra2(2)"><a href="#">Notificaciones y compartir</a></li>
+				<li onclick="ifra2(1)"><a href="#">Mis datos</a></li>
 			</ul>
 		</div>
 	</div>
 </div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>

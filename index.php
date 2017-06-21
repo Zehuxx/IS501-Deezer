@@ -47,18 +47,18 @@
 			    	<ul class="oculto">
 			    	<p class="titulo">Cuenta<p>
 			    	<hr>
-				<li><a href="" >
+				<li onclick="ifra(1)"><a href="#" >
 				        <span class="glyphicon glyphicon-user icon "></span>
                         <span class="titulo">Ajustes de la cuenta</span>
                         <span class=" glyphicon glyphicon-chevron-right flecha"></span>
                      </a></li>
-				<li><a href="">
+				<li ><a href="#">
 					    <span class="glyphicon glyphicon-question-sign icon" style="background-color: #76d016"></span>
                         <span class="titulo">Ayuda</span>
                         <span class=" glyphicon glyphicon-chevron-right flecha"></span>
 				</a>
 				</li>
-				<li><a href="">
+				<li ><a href="#">
 					    <span class="glyphicon glyphicon-barcode icon" style="background-color: #8d05ad"></span>
                         <span class="titulo">Activar un código</span>
                         <span class=" glyphicon glyphicon-chevron-right flecha"></span>
@@ -127,15 +127,12 @@
 		</div>
 			
 		
-		<div  class="col-lgj-10">
-           <p>fdddddddddddddddddddddddddddd</p>
-           <img src="img/goku.jpg">
-			
+		<div  class="col-lgj-10" id="ifra">
+          
 		</div>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/index.js"></script>
-	<script src="js/ion.sound.js"></script>
-	<script src="js/reproductor.js"></script>
+
 </body>
 </html>
