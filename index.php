@@ -28,7 +28,7 @@
 <body>
   
 			<div  class="col-lgj-2">
-			<img src="img/deezer.png" id="fimage">
+			<img src="img/deezerr.png" id="fimage">
 			<input type="text" class="form-control" placeholder="Buscar" id="buscador">
 			<ul class="nav">
 
