@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 	<title>Deezer</title>
 	<link rel="icon" href="img/fav.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/personalizado.css">
+	<link rel="stylesheet" type="text/css" href="css/recomendaciones.css">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 	<style type="text/css">
 		body{
@@ -26,9 +27,10 @@
 
 </head>
 <body>
-  
+		
+
 			<div  class="col-lgj-2">
-			<img src="img/deezer.png" id="fimage">
+			<img src="img/deezer.png" width="130" height="50" id="fimage">
 			<input type="text" class="form-control" placeholder="Buscar" id="buscador">
 			<ul class="nav">
 
@@ -141,14 +143,41 @@
                     	    </div>
            
           
-        
 		</div>
-		<div class="col-lgj-10" id="ifra"  >
+		</br></br>
+		<div class="col-lgj-10" id="ifra">
+			
+				<p align="center">Recomendado hoy para ti.</p>
+			<section class="main row">
+			<div class="container-fluid">
+				<article class="col-md-5">
+				<p>Álbum</p>
+				<p>Y si escuchas:</p>
+				<button class="btn btn-link">The Perfect Melody</button></br>
+				de
+				<button class="btn btn-link">Zion</button>
+				</article>
+
+				<aside class="col-md-5">
+					<img src="img/zion.jpg" height="350" width="350">
+				</aside>
+				<footer class="footer">
+					<button class="btn btn-xs btn-default">
+					<span class="glyphicon glyphicon-heart" aria-hidden="true">  Añadir a Mi música</button>
+					<button class="btn btn-xs btn-default">
+					<span class="glyphicon glyphicon-share" aria-hidden="true">  Compartir</button>
+					<button class="btn btn-xs btn-default">
+					<span class=" glyphicon glyphicon-comment" aria-hidden="true">  Comentar</button>
+
+				</footer>
+				
+			</section>
+			
+		
 		</div>	
-		
-		
-  
-<script type="text/javascript" src="js/jquery.min.js"></script>
+</div>	</div>
+ 
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/index.js"></script>
 
