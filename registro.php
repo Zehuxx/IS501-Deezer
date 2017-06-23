@@ -36,13 +36,14 @@
                    <option value="mujer">Mujer</option>
                    <option value="hombre">Hombre</option>
     </select>
+    
     <select  class="form-control" style="width:200px;float: right;">
-                   <option value="sexo">Sexo</option> 
-                   <option value="mujer">Mujer</option>
-                   <option value="hombre">Hombre</option>
+                   <option value="sexo">edad</option> 
+                   <option value="mujer">1</option>
+                   <option value="hombre">2</option>
     </select>
    
-    </div>
+    </div>s
          <button id="Reg" class="btn btn-lg btn-primary" type="submit" style="width:400px">Registrarse</button><br>
 
               <h6>Al hacer clic en "Registrase", aceptas las condiciones</h7></br>generales de uso.</h7>
