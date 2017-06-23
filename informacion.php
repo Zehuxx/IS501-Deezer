@@ -170,7 +170,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<button class="btn btn-primary" type="button" style="margin-left: 135px"><span class="label">Guardar</span></button>
+							<button class="btn btn-primary" type="button" style="margin-left: 163px"><span class="label">Guardar</span></button>
 						</td>
 					</tr>
 				</table>
@@ -180,7 +180,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12" style="padding-top: 20px;">
 				<div class="final">
-					<a href="#" style="text-decoration:none;color: #72727d; ">Eliminar mi Cuenta</a>
+					<a href="" style="text-decoration:none;color: #72727d; ">Eliminar mi Cuenta</a>
 				</div>
 			</div>
 			</div>

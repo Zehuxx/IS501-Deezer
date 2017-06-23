@@ -13,6 +13,6 @@ function ifra2(link){
     if(link==2)
     	$("#ifra2").html("<iframe class='contenido2' src='notificaciones.php' frameborder='0'></iframe>");
      if(link==3)
-    	$("#ifra2").html("<iframe class='contenido2' src='dispoitivos.php' frameborder='0'></iframe>");
+    	$("#ifra2").html("<iframe class='contenido2' src='dispositivosconectados.php' frameborder='0'></iframe>");
 }
 

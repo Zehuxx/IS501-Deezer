@@ -83,14 +83,23 @@
 				<p class="titlee"> Deseo:</p>
 				<hr>
 				<div>
-					<span>
-						<label class="texxt"><input type="checkbox" >&nbsp&nbsp&nbsp&nbsp&nbspHacer mi perfil privado (solamente tú podrás ver lo que escuchas)</label>
-					</span>
+
+				<input type="checkbox" id="casilla1" name="casilla1">
+                <label for="casilla1" style="text-align: right;">
+                
+                  <span class="texxt">Hacer mi perfil privado (solamente tú podrás ver lo que escuchas)</span>
+                
+                </label>
+
 				</div>
+
 				<div>
-					<span>
-						<label class="texxt"><input type="checkbox" >&nbsp&nbsp&nbsp&nbsp&nbspRecibir una alerta al salir de Deezer mientras está sonando una canción.</label>
-					</span>
+
+				<input type="checkbox"  id="casilla2" name="casilla2">
+				<label for="casilla2" style="text-align:right; ">
+                     <span class="texxt">Recibir una alerta al salir de Deezer mientras está sonando una canción.</span>
+                 </label>
+					
 				</div>
 				<p class="titlee">Deseo recibir una notificación cuando:</p>
 				<hr>
