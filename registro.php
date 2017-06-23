@@ -14,17 +14,17 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 col-md-6 col-xs-12">
-        <img src="img/goku.jpg" width="180" height="40">
+       <!-- <img src="img/goku.jpg" width="180" height="40"> -->
           <button type="button" style="float: right;" class="btn btn-danger">Conectarse</button>
         </div>
-        <center><div class="col-lg-12 col-md-12 col-xs-12 " style="padding-top: 20px">
+        <center><div class="col-lg-12 col-md-12 col-xs-12 " style="padding-top: 40px">
              
-     <font size=60>Tu música. Tu flow</font><br>
+     <strong><font size=60>Tu música. Tu flow</font></strong><br>
      <font size=5>Disfruta de tu música donde quieras y cuando quieras <br>
      Regístrate gratis<br>
    
    <div style="width: 400px">
-   <button type="summit" class="btn btn-default btn-primary" style="width: 200px;float: left"><span style="float: left"><img src="img/goku.jpg" width="20" height="20"> Facebook</span> </button>
+   <button type="summit" class="btn btn-default btn-primary" style="width: 200px;float: left"><span style="float: left"><img src="img/F.png" width="20" height="20"> Facebook</span> </button>
    <button type="summit" class="btn btn-default btn-danger" style="width: 200px;float: left;"><span style="float: left"><img src="img/goku.jpg" width="20" height="20"> Google+<span></button><br>
 
     
@@ -42,14 +42,14 @@
                    <option value="hombre">Hombre</option>
     </select>
    
-    </div> 
+    </div>
          <button id="Reg" class="btn btn-lg btn-primary" type="submit" style="width:400px">Registrarse</button><br>
 
               <h6>Al hacer clic en "Registrase", aceptas las condiciones</h7></br>generales de uso.</h7>
 
-
         </div></center>
       </div>
+      
     </div> 
 	</body>
 

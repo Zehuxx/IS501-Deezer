@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/personalizado.css">
 	<style type="text/css">
 		body{
-			width: 95%;
+			width: 100%;
 		}
 	</style>
 </head>
