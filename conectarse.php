@@ -6,7 +6,7 @@
 <meta name="vieport" content="width = device-width, initial-scale=1">
 	<title>Conectarse</title>
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body style="background-image:url(img/Conectarse3IMG.jpg); color:#ffffff;background-repeat:no-repeat;background-size:cover;">
 	<div class="container-fluid">
@@ -28,8 +28,10 @@
 				</div>
 				<div>
 					<br>
-				    <input type="dirc" name="direccion" class="form-control" style="width: 300px;height: 40px;float: center;" placeholder="Correo electronico" >
-				    <input type="password" name="direccion" class="form-control" style="width: 300px;height: 40px;float: center;" placeholder="contraseña">
+					<form>
+						<input type="dirc" name="direccion" class="form-control" style="width: 300px;height: 40px;float: center;" placeholder="Correo electronico" >
+				    	<input type="password" name="direccion" class="form-control" style="width: 300px;height: 40px;float: center;" placeholder="contraseña">
+					</form>
 	   			</div> 
 	   			<h6>¿Has olvidado tu contraseña?</h6>
 			    <button id="Reg" class="btn btn-lg btn-primary" type="submit" style="width:305px;height: 40px">Conectarse</button>
