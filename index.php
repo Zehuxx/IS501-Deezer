@@ -27,7 +27,7 @@
 </head>
 <body>
   
-			<div  class="col-lgj-2">
+			<div  class="col-lgj-2" id="barrra">
 			<img src="img/deezerr.png" id="fimage">
 			<input type="text" class="form-control" placeholder="Buscar" id="buscador">
 			<ul class="nav">
@@ -48,18 +48,18 @@
 			    	<ul class="oculto" >
 			    	<p class="titulo1">Cuenta<p>
 			    	<hr>
-				<li onclick="ifra(1)"><a href="#" >
+				<li onclick="reload();ifra(1);"><a href="#">
 				        <span class="glyphicon glyphicon-user icon "></span>
                         <span class="titulo">Ajustes de la cuenta</span>
                         <span class=" glyphicon glyphicon-chevron-right flecha"></span>
                      </a></li>
-				<li ><a href="#">
+				<li onclick="reload();" ><a href="#">
 					    <span class="glyphicon glyphicon-question-sign icon" style="background-color: #76d016"></span>
                         <span class="titulo">Ayuda</span>
                         <span class=" glyphicon glyphicon-chevron-right flecha"></span>
 				</a>
 				</li>
-				<li ><a href="#">
+				<li  onclick="reload();"><a href="#">
 					    <span class="glyphicon glyphicon-barcode icon" style="background-color: #8d05ad"></span>
                         <span class="titulo">Activar un código</span>
                         <span class=" glyphicon glyphicon-chevron-right flecha"></span>
@@ -144,6 +144,7 @@
         
 		</div>
 		<div class="col-lgj-10" id="ifra"  >
+		
 		</div>	
 		
 		
@@ -151,6 +152,9 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/index.js"></script>
-
+  <script type="text/javascript">
+  
+  	
+  </script>
 </body>
 </html>

@@ -16,3 +16,15 @@ function ifra2(link){
     	$("#ifra2").html("<iframe class='contenido2' src='dispositivosconectados.php' frameborder='0'></iframe>");
 }
 
+function reload(){
+            var container = document.getElementById("barrra");
+            var content = container.innerHTML;
+            container.innerHTML= content;
+        }
+
+function cambiarborde(id,id2,id3){
+
+   $("#"+id).addClass("borderr");
+   $("#"+id2).removeClass("borderr");
+   $("#"+id3).removeClass("borderr");
+}
