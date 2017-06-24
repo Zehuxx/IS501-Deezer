@@ -24,7 +24,7 @@
 			    <div>
 			    	<br>
 				    <button type="summit" class="btn btn-default btn-primary" style="width: 150px; height: 40px;float: center"><span style="float: left"><img src="img/logoFacebook.png" width="30" height="30"> Facebook</span> </button>
-				    <button type="summit" class="btn btn-default btn-danger" style="width: 150px;height: 40px;float: center;"><span style="float: left"><img src="img/logoGoogle+.png" width="30" height="30"> Google+<span></button>
+				    <button type="summit" class="btn btn-default btn-danger" style="width: 150px;height: 40px;float: center;"><span style="float: left"><img src="img/logoGoogle+.png" width="30" height="20"> Google+<span></button>
 				</div>
 				<div>
 					<br>

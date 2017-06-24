@@ -14,46 +14,43 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 col-md-6 col-xs-12">
-       <!-- <img src="img/goku.jpg" width="180" height="40"> -->
           <button type="button" style="float: right;" class="btn btn-danger">Conectarse</button>
         </div>
         <center><div class="col-lg-12 col-md-12 col-xs-12 " style="padding-top: 40px">
              
-     <strong><font size=60>Tu música. Tu flow</font></strong><br>
-     <font size=5>Disfruta de tu música donde quieras y cuando quieras <br>
+     <strong><font size=60>Tu música. Tu flow.</font></strong><br>
+     <font size=5>Disfruta de tu música donde quieras y cuando quieras.<br>
      Regístrate gratis<br>
    
-   <div style="width: 400px">
-   <button type="summit" class="btn btn-default btn-primary" style="width: 200px;float: left"><span style="float: left"><img src="img/F.png" width="20" height="20"> Facebook</span> </button>
-   <button type="summit" class="btn btn-default btn-danger" style="width: 200px;float: left;"><span style="float: left"><img src="img/goku.jpg" width="20" height="20"> Google+<span></button><br>
+   <div style="width: 300px">
+   <button type="summit" class="btn btn-default btn-primary" style="width: 140px;  height: 40px; float: left;"><span style="float: left"><img src="img/facebook.png" width="30" height="25"> Facebook</span> </button>
+   <button type="summit" class="btn btn-default btn-danger" style="width: 140px;  height: 40px;float: right;"><span style="float: left"><img src="img/google.png" width="30" height="25"> Google+</span></button><br><br>
 
-    
-    <input type="dirc" name="direccion" class="form-control"  placeholder="Correo electronico" >
-    <input type="dirc" name="direccion" class="form-control" placeholder="Contraseña (6 caracteres minimo)"  >
-    <input type="dirc" name="direccion" class="form-control" placeholder="Nombre de usuario">
-    <select  class="form-control" style="width: 200px;float: left;">
+    <input type="dirc" name="direccion" class="form-control"  style="width: 300px;height: 40px;float: center;" placeholder="Correo electrónico" >
+    <input type="dirc" name="direccion" class="form-control"  style="width: 300px;height: 40px;float: center;" placeholder="Contraseña (6 caracteres mínimo)"  >
+    <input type="dirc" name="direccion" class="form-control"  style="width: 300px;height: 40px;float: center;" placeholder="Nombre de usuario">
+
+    <select  class="form-control" style="width: 150px; float: left;">
                    <option value="sexo">Sexo</option> 
                    <option value="mujer">Mujer</option>
                    <option value="hombre">Hombre</option>
     </select>
     
-    <select  class="form-control" style="width:200px;float: right;">
-                   <option value="sexo">edad</option> 
-                   <option value="mujer">1</option>
-                   <option value="hombre">2</option>
+    <select  class="form-control" style="margin-bottom: 20px; width: 150px; float: right;">
+                           <option value="edad">Edad</option> 
+                              <?php
+                                  for ($i=1; $i <100 ; $i++) { 
+                                    echo "<option value=".$i.">".$i."</option>";
+                                  }
+                              ?>
     </select>
-   
-    </div>s
-         <button id="Reg" class="btn btn-lg btn-primary" type="submit" style="width:400px">Registrarse</button><br>
+    
+         <button id="Reg" class="btn btn-lg btn-primary" type="submit" style="width:300px">Registrarse</button><br>
 
               <h6>Al hacer clic en "Registrase", aceptas las condiciones</h7></br>generales de uso.</h7>
 
         </div></center>
       </div>
-      
-    </div> 
+    </div>
 	</body>
-
-
-
 </html>
