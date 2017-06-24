@@ -15,7 +15,12 @@
     font-size: 18px;
     letter-spacing: .25px;
 	}
-
+body{
+  height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+}
 
 	.subtitulo{
     color: #72727d;
@@ -42,7 +47,7 @@
 
 <div class="modal fade" tabindex="-1" role="dialog" id="modal-inicio">
              
-              <div class="modal-dialog" role="document"  style="width:1000px;height:800px" >
+              <div class="modal-dialog" role="document"  style="width:1000px;" >
                 <div class="modal-content">
                    <div >
                     <h4 class="modal-title" id="myModalLabel"><center><p class="titulo">Es un placer verte</p></center></h4>
@@ -74,12 +79,27 @@
               <div class="modal-dialog" role="document" style="width:1100px" >
                 <div class="modal-content">
                   <div class="modal-body"  >
-                  <div style="margin-left: 20px;padding-top: 30px">
-                      <p style="font-size: 30px;font-weight: 900;">¿Que tipo de musica te gusta?</p>
-                         <p style="font-size: 18">Elige uno para empezar</p>
-                  </div>
-                           
-                  <div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  style="max-height: calc(100vh - 280px);
+                  <button type="button" onclick="cerrarmodal2_y_abrir_modal3()" class="btn btn-primary" style="margin-left: 980px">Saltar</button>
+                  <div style="margin-left: 20px;padding-top: 7px">
+                  <table style="margin-top: 10px;margin-bottom: 7px">
+                   <tr>
+                     <td>
+                       <p style="font-size: 30px;font-weight: 900;">¿Que tipo de musica te gusta?</p>
+                       
+                     </td>
+                     
+                     <td>
+                        <input type="text" class="form-control" placeholder="Buscar" style="width: 250px;margin-left: 270px">
+                     </td>
+                   </tr>
+                   <tr>
+                   <td>
+                       <p style="font-size: 18">Elige uno para empezar</p>
+                     </td>
+                     </tr>
+                 </table>
+                  </div>         
+                  <div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  style="max-height: calc(100vh - 340px);
                    overflow-y: auto;">
               <?php
                   echo
@@ -268,9 +288,8 @@
                    
                         <div>
                           <center>
-                              <button type="button" style="margin-top: 40px;margin-bottom: 20px" onclick="cerrarmodal2_y_abrir_modal3()" class="btn btn-primary start"  id="start">Continuar</button>
+                              <button type="button" style="margin-top: 30px;margin-bottom: 20px" onclick="cerrarmodal2_y_abrir_modal3()" class="btn btn-primary start"  id="start">Continuar</button>
                            </center>
-                           <button type="button" style="margin-top: 40px;margin-bottom: 20px" onclick="abrir_modal" class="btn btn-primary start"  id="start">atras</button>
             
                       </div> 
                        
@@ -287,16 +306,24 @@
               <div class="modal-dialog" role="document" style="width:1100px" >
                 <div class="modal-content">
                 <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true"></span>
-        </button>
-                  <div class="modal-body"  >
-                  <div style="margin-left: 20px;padding-top: 30px">
-                      <p style="font-size: 30px;font-weight: 900;">¿Te gusta alguno de estos artistas? </p>
-                         <p style="font-size: 18"></p>
+                
+                 <button type="button" onclick="atras()" id="atras" class="btn btn-primary">Atras</button>
+                 <button type="button" onclick="" class="btn btn-primary" style="margin-left: 898px">Saltar</button>
+                 <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+                 <table style="margin-top: 10px;margin-bottom: 10px">
+                   <tr>
+                     <td>
+                       <p style="font-size: 30px;font-weight: 900;">¿Te gusta alguno de estos artistas?  </p>
+                     </td>
+                     <td>
+                        <input type="text" class="form-control" placeholder="Buscar" style="width: 250px;margin-left: 170px">
+                     </td>
+                   </tr>
+                 </table>
                   </div>
+                
                            
-                  <div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height: calc(100vh - 280px);
+                  <div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height: calc(100vh - 300px);
                    overflow-y: auto;">
               <?php
                   
@@ -473,9 +500,9 @@
                       	  
                    </div>
                    
-                        <div>
+                        <div class="col-lg-12">
                           <center>
-                              <button type="button" style="margin-top: 40px;margin-bottom: 20px" onclick="cerrarmodal2_y_abrir_modal3()" class="btn btn-primary start"  id="start">Continuar</button>
+                              <button type="button" style="margin-top: 30px;margin-bottom: 20px" onclick="cerrarmodal2_y_abrir_modal3()" class="btn btn-primary start"  id="start">Continuar</button>
                            </center>
                      
                       </div> 
@@ -512,6 +539,10 @@ function cerrarmodal2_y_abrir_modal3(){
 	$("#modal-artistas").modal("show");
 };
 
+function atras(){ 
+  $("#modal-artistas").modal("hide");
+  $("#modal-generos").modal("show");
+}
 
 	
 	</script>
