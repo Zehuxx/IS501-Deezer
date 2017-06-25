@@ -6,7 +6,7 @@
 <meta name="vieport" content="width = device-width, initial-scale=1">
 	<title>Conectarse</title>
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body style="background-image:url(img/Conectarse3IMG.jpg); color:#ffffff;background-repeat:no-repeat;background-size:cover;">
 	<div class="container-fluid">
@@ -24,12 +24,14 @@
 			    <div>
 			    	<br>
 				    <button type="summit" class="btn btn-default btn-primary" style="width: 150px; height: 40px;float: center"><span style="float: left"><img src="img/logoFacebook.png" width="30" height="30"> Facebook</span> </button>
-				    <button type="summit" class="btn btn-default btn-danger" style="width: 150px;height: 40px;float: center;"><span style="float: left"><img src="img/logoGoogle+.png" width="30" height="30"> Google+<span></button>
+				    <button type="summit" class="btn btn-default btn-danger" style="width: 150px;height: 40px;float: center;"><span style="float: left"><img src="img/logoGoogle+.png" width="30" height="20"> Google+<span></button>
 				</div>
 				<div>
 					<br>
-				    <input type="dirc" name="direccion" class="form-control" style="width: 300px;height: 40px;float: center;" placeholder="Correo electronico" >
-				    <input type="password" name="direccion" class="form-control" style="width: 300px;height: 40px;float: center;" placeholder="contraseña">
+					<form>
+						<input type="dirc" name="direccion" class="form-control" style="width: 300px;height: 40px;float: center;" placeholder="Correo electronico" >
+				    	<input type="password" name="direccion" class="form-control" style="width: 300px;height: 40px;float: center;" placeholder="contraseña">
+					</form>
 	   			</div> 
 	   			<h6>¿Has olvidado tu contraseña?</h6>
 			    <button id="Reg" class="btn btn-lg btn-primary" type="submit" style="width:305px;height: 40px">Conectarse</button>

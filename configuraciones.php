@@ -19,14 +19,14 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 contenedor">
-			<ul class="bar">
-				<li onclick="ifra2(3)"><a href="#" >Mis dispositivos conectados</a></li>
-				<li onclick="ifra2(2)"><a href="#">Notificaciones y compartir</a></li>
-				<li onclick="ifra2(1)"><a href="#">Mis datos</a></li>
+			<ul class="bar" >
+				<li onclick="ifra2(3);cambiarborde('dis','not','dat')" id="dis"  ><a href="#">Mis dispositivos conectados</a></li>
+				<li onclick="ifra2(2);cambiarborde('not','dis','dat')" id="not" ><a href="#">Notificaciones y compartir</a></li>
+				<li onclick="ifra2(1);cambiarborde('dat','dis','not')" id="dat" class="borderr"><a href="#">Mis datos</a></li>
 			</ul>
 		</div>
 		<div id="ifra2">
-			
+			<iframe class="contenido2" src="informacion.php" frameborder="0"></iframe>
 		</div>
 	</div>
 </div>
