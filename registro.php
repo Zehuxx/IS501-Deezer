@@ -51,6 +51,85 @@
 
         </div></center>
       </div>
-    </div>
+    </div><br>
+    <select class="form-control" style="margin-top: 20px; width: 100px; float: left;">
+
+                                    <option value="en" >
+                English             </option>
+                                                <option value="us" >
+                English (us)              </option>
+                                                <option value="ar" >
+                العربیة             </option>
+                                                <option value="cs" >
+                Čeština             </option>
+                                                <option value="da" >
+                Dansk             </option>
+                                                <option value="de" >
+                Deutsch             </option>
+                                                <option value="es" selected="selected">
+                Español             </option>
+                                                <option value="mx" >
+                Español (mx)              </option>
+                                                <option value="fr" >
+                Français              </option>
+                                                <option value="id" >
+                Indonesia             </option>
+                                                <option value="it" >
+                Italiano              </option>
+                                                <option value="hu" >
+                Magyar              </option>
+                                                <option value="ms" >
+                Melayu              </option>
+                                                <option value="nl" >
+                Nederlands              </option>
+                                                <option value="no" >
+                Norsk             </option>
+                                                <option value="pl" >
+                Polski              </option>
+                                                <option value="br" >
+                Português (br)              </option>
+                                                <option value="pt" >
+                Português (pt)              </option>
+                                                <option value="ru" >
+                Pусский             </option>
+                                                <option value="ro" >
+                Română              </option>
+                                                <option value="rs" >
+                Srpski              </option>
+                                                <option value="fi" >
+                Suomi             </option>
+                                                <option value="se" >
+                Svenska             </option>
+                                                <option value="sq" >
+                Shqip             </option>
+                                                <option value="sk" >
+                Slovenčina              </option>
+                                                <option value="sl" >
+                Slovenščina             </option>
+                                                <option value="tr" >
+                Türkçe              </option>
+                                                <option value="me" >
+                Crnogorski              </option>
+                                                <option value="th" >
+                ภาษาไทย             </option>
+                                                <option value="cn" >
+                中文              </option>
+                                                <option value="hr" >
+                Hrvatski              </option>
+                                                <option value="ko" >
+                한국어             </option>
+                      
+        </select></div></center>
 	</body>
+  <br><center>
+  <h6><span style="margin: 5px" >Ofertas</span>
+  <span style="margin: 5px">Ventajas</span>
+  <span style="margin: 5px ">Móvil</span>
+  <span style="margin: 5px">Trabajos</span>
+  <span style="margin: 5px">Ayuda y Contactos</span>
+  <span style="margin: 5px">Condiciones genrales de Uso</span>
+  <span style="margin: 5px">Datos personales y cookies</span>
+  <span style="margin: 5px"> © 2017</span></h6>
+  </center>
+ 
 </html>
