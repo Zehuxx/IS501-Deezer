@@ -20,9 +20,9 @@
 	<div class="row">
 		<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 contenedor">
 			<ul class="bar" >
-				<li onclick="ifra2(3);cambiarborde('dis','not','dat')" id="dis"  ><a href="#">Mis dispositivos conectados</a></li>
-				<li onclick="ifra2(2);cambiarborde('not','dis','dat')" id="not" ><a href="#">Notificaciones y compartir</a></li>
-				<li onclick="ifra2(1);cambiarborde('dat','dis','not')" id="dat" class="borderr"><a href="#">Mis datos</a></li>
+				<li><a id="dis" onclick="ifra2(3);cambiarborde('dis','not','dat')" href="#">Mis dispositivos conectados</a></li>
+				<li><a id="not" onclick="ifra2(2);cambiarborde('not','dis','dat')" href="#">Notificaciones y compartir</a></li>
+				<li><a id="dat" class="borderr" onclick="ifra2(1);cambiarborde('dat','dis','not')" href="#">Mis datos</a></li>
 			</ul>
 		</div>
 		<div id="ifra2">

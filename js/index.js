@@ -6,7 +6,7 @@ function ifra(link){
      if(link==3)
     	$("#ifra").html("<iframe class='contenido' src='disposi.php' frameborder='0' ></iframe>");
 }
-
+ 
 function ifra2(link){
     if (link==1)
     	$("#ifra2").html('<iframe class="contenido2" src="informacion.php" frameborder="0"></iframe>');
@@ -28,3 +28,6 @@ function cambiarborde(id,id2,id3){
    $("#"+id2).removeClass("borderr");
    $("#"+id3).removeClass("borderr");
 }
+
+
+

@@ -1,5 +1,6 @@
 
 /* index.php */
+
 input[type="checkbox"] {
     display:none;
 
@@ -145,7 +146,7 @@ html{
   color: white;
   font-size: 15px;
 }
-
+ 
 .hijo .flecha{
   float: right;
   margin-right: 30px;
@@ -153,8 +154,8 @@ html{
   color: #c5c5cd;
 }
 
-.nav .hijo li a .flecha:hover{
-  font-size: 10px;
+.oculto>li>a>.flecha:hover{
+  font-size: 12px;
 }
 
 .hijo li:focus,

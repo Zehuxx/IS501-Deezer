@@ -67,7 +67,8 @@
 				<p class="titulo1">Audio<p>
 			     <hr>
 			     <li ><a href="#"><input type="checkbox" name="chk1" id="chk1"><label for="chk1"><span>Reproductor HTML5</span> </label></a></li>
-			     <li><a href="#"><input type="checkbox" name="chk2" id="chk2"><label for="chk2"><span>Alta Calidad</span></a></li>
+			     <li><a href="#"><input type="checkbox" name="chk2" id="chk2"><label for="chk2"><span>Alta Calidad</span>
+			     </a></li>
 			     <li><a href="#">Fader</a></li>
 			     <p class="titulo1">¿Qué es Deezer?</p>
 			     <hr>
