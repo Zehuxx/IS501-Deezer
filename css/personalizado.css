@@ -351,11 +351,50 @@ color: #fff;
   overflow: hidden;
 } 
 
-.col-lgj-2 ul li:hover > div{
+.col-lgj-2 ul li:hover> div{
 opacity: 1;
 visibility: visible;
 
   }
+.hijo2 {
+    width: 368px;
+    height: 701px; 
+    background-color: #F8FAFA;
+    position:fixed; 
+    margin-left: 230px; 
+    margin-top: -320px;
+    transition-duration:  0.4s;
+}
+
+.hijo5 {
+    width: 368px;
+    height: 701px; 
+    background-color: #F8FAFA;
+    position:fixed; 
+    margin-left: 230px; 
+    margin-top: -430px;
+    transition-duration:  0.4s;
+}
+
+.hijo3 {
+    width: 368px;
+    height: 701px; 
+    background-color: #F8FAFA;
+    position:fixed; 
+    margin-left: 230px; 
+    margin-top: -360px;
+    transition-duration:  0.4s;
+}
+
+.hijo4 {
+    width: 368px;
+    height: 701px; 
+    background-color: #F8FAFA;
+    position:fixed; 
+    margin-left: 230px; 
+    margin-top: -395px;
+    transition-duration:  0.4s;
+}
 
   .hijo{
     width: 368px;
