@@ -23,8 +23,8 @@
 				y descubre las colecciones de música por género.<br>
 			    <div>
 			    	<br>
-				    <button type="summit" class="btn btn-default btn-primary" style="width: 150px; height: 40px;float: center"><span style="float: left"><img src="img/logoFacebook.png" width="30" height="30"> Facebook</span> </button>
-				    <button type="summit" class="btn btn-default btn-danger" style="width: 150px;height: 40px;float: center;"><span style="float: left"><img src="img/logoGoogle+.png" width="30" height="20"> Google+<span></button>
+				    <button type="summit" class="btn btn-default btn-primary" style="width: 150px; height: 40px;float: center"><span style="float: left"><img src="img/facebook.svg" width="27" height="27"> Facebook</span> </button>
+				    <button type="summit" class="btn btn-default btn-danger" style="width: 150px;height: 40px;float: center;"><span style="float: left"><img src="img/google.svg" width="30" height="20"> Google+<span></button>
 				</div>
 				<div>
 					<br>
@@ -34,7 +34,7 @@
 					</form>
 	   			</div> 
 	   			<h6>¿Has olvidado tu contraseña?</h6>
-			    <button id="Reg" class="btn btn-lg btn-primary" type="submit" style="width:305px;height: 40px">Conectarse</button>
+			    <button id="Reg" class="btn btn-lg btn-primary" type="submit" style="padding:7px 100px 7px 100px ">Conectarse</button>
 			    <br>
 	    	</div>
 	    	</center>

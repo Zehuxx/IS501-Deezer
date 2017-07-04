@@ -8,7 +8,11 @@
 	   <link rel="icon" href="img/fav.ico" type="image/x-icon">
 	   <link rel="stylesheet" type="text/css" href="css/estilos.css">
 	   <link href="css/bootstrap.min.css" rel="stylesheet">
-
+<style type="text/css">
+  body{
+    overflow: hidden;
+  }
+</style>
 	</head><br>
 	<body style="background-image:url(img/Musica.png); color:#ffffff;">
     <div class="container-fluid">
@@ -23,8 +27,8 @@
      Regístrate gratis<br>
    
    <div style="width: 300px">
-   <button type="summit" class="btn btn-default btn-primary" style="width: 140px;  height: 40px; float: left;"><span style="float: left"><img src="img/facebook.png" width="30" height="25"> Facebook</span> </button>
-   <button type="summit" class="btn btn-default btn-danger" style="width: 140px;  height: 40px;float: right;"><span style="float: left"><img src="img/google.png" width="30" height="25"> Google+</span></button><br><br>
+   <button type="summit" class="btn btn-default btn-primary" style="width: 140px;  height: 40px; float: left;"><img src="img/facebook.svg" width="27" class="bot" height="27"> Facebook</button>
+   <button type="summit" class="btn btn-default btn-danger" style="width: 140px;  height: 40px;float: right;"><img src="img/google.svg" width="22" class="bot" height="22"> Google+</button><br><br>
 
     <input type="dirc" name="direccion" class="form-control"  style="width: 300px;height: 40px;float: center;" placeholder="Correo electrónico" >
     <input type="dirc" name="direccion" class="form-control"  style="width: 300px;height: 40px;float: center;" placeholder="Contraseña (6 caracteres mínimo)"  >
