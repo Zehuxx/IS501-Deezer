@@ -29,5 +29,35 @@ function cambiarborde(id,id2,id3){
    $("#"+id3).removeClass("borderr");
 }
 
+$("#playy").click(function(){
+    if ($("#pausee").hasClass("ocultoo")) {
+       $("#playy").addClass("ocultoo");
+       $("#pausee").removeClass("ocultoo");
+       
+    }
+});
 
+$("#pausee").click(function(){
+    if ($("#playy").hasClass("ocultoo")) {
+       $("#pausee").addClass("ocultoo");
+       $("#playy").removeClass("ocultoo");
+       
+    }
+});
+
+$(".jp-mute").hover(function () {
+    $("#barravol").removeClass("ocultoo");
+    $("#volplus").removeClass("ocultoo");
+    $("#ran").addClass("ocultoo");
+    $("#repetir").addClass("ocultoo");
+},function(){
+ setTimeout(function(){
+ $("#barravol").addClass("ocultoo");
+ $("#volplus").addClass("ocultoo");
+ $("#ran").removeClass("ocultoo");
+ $("#repetir").removeClass("ocultoo");
+ }
+ , 5000);
+ 
+});
 

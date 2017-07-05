@@ -5,6 +5,7 @@
 	<link rel="icon" href="img/fav.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/personalizado.css">
+	<link href="css/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 	<style type="text/css">
 		body{
@@ -104,9 +105,9 @@
 									<svg class="svg-icon icon3 svg-icon-playlist" viewBox="0 0 12 12" aria-hidden="true" height="16" width="16"><g><path d="M8,9.99224439 C8,11.1010972 6.88071187,12 5.5,12 C4.11928813,12 3,11.1010972 3,9.99224439 C3,8.88339158 4.11928813,7.98448877 5.5,7.98448877 C6.06280296,7.98448877 6.58216973,8.13384364 7,8.38589285 L7,2.36277306 L7,0.75552108 C7,0.201673187 7.42629719,-0.118924155 7.95813424,0.0412456698 L12,1.25850747 L12,3.26731057 C12,3.82115846 11.5737028,4.1417558 11.0418658,3.98158598 L8,3 L8,9.99224439 Z M0,0 L6,0 L6,1 L0,1 L0,0 L0,0 Z M0,2 L6,2 L6,3 L0,3 L0,2 L0,2 Z M0,4 L6,4 L6,5 L0,5 L0,4 L0,4 Z"></path></g></svg></span>Playlists
 								</a>
 								
-                                <div class="hijo2" id="hijo2">
-                                	
-                                </div>
+								<div class="hijo2" id="hijo2">
+
+								</div>
 
 							</li>
 							
@@ -118,8 +119,8 @@
 										<svg class="svg-icon icon3 svg-icon-album" viewBox="0 0 12 12" aria-hidden="true" height="16" width="16"><g><path d="M6,12 C2.68630007,12 0,9.31370447 0,6.00000293 C0,2.68627795 2.68630007,0 6,0 C9.31369993,0 12,2.68627795 12,6.00000293 C11.9999941,9.31370447 9.31369993,12 6,12 L6,12 L6,12 Z M6,2.99999854 C4.34315297,2.99999854 3.00000293,4.34313751 3.00000293,5.99999707 C3.00000293,7.65684491 4.34315297,8.99999561 6,8.99999561 C7.65684703,8.99999561 8.99999707,7.65684491 8.99999707,5.99999707 C8.99999707,4.34314337 7.65684703,2.99999854 6,2.99999854 L6,2.99999854 L6,2.99999854 Z M4,6 C4,4.89544508 4.89545094,4 6,4 C7.10454906,4 8,4.89544508 8,6 C8,7.10454906 7.10454906,8 6,8 C4.89545094,8 4,7.10454906 4,6 L4,6 Z M5,6 C5,6.55229635 5.44770365,7 6,7 C6.55229635,7 7,6.55229635 7,6 C6.99998828,5.44769193 6.55229635,5 6,5 C5.44770365,5 5,5.44769193 5,6 L5,6 Z"></path></g></svg></span>Albumes
 									</a>
 									<div class="hijo3" id="hijo3">
-                                	
-                                </div>
+
+									</div>
 								</li>
 
 
@@ -130,8 +131,8 @@
 											<svg class="svg-icon icon3 svg-icon-time" viewBox="0 0 12 12" aria-hidden="true" height="16" width="16"><g><path d="M11,6 C11,3.23857625 8.76142375,1 6,1 C3.23857625,1 1,3.23857625 1,6 C1,8.76142375 3.23857625,11 6,11 C8.76142375,11 11,8.76142375 11,6 Z M7,6.50952148 L7,3.49047852 C7,3.21505737 6.77614237,3 6.5,3 C6.23193359,3 6,3.21959471 6,3.49047852 L6,6 L4.49538898,6 C4.2157526,6 4,6.22385763 4,6.5 C4,6.76806641 4.2217932,7 4.49538898,7 L6.50461102,7 C6.64282453,7 6.76543159,6.94531282 6.85409473,6.85665508 C6.94267961,6.76617647 7,6.64418681 7,6.50952148 Z" fill-rule="evenodd"></path></g></svg></span>Actividad
 										</a>
 										<div class="hijo4" id="hijo4">
-                                	
-                                </div>
+
+										</div>
 									</li>
 
 
@@ -142,48 +143,192 @@
 												<svg class="svg-icon icon3 svg-icon-app" viewBox="0 0 12 12" aria-hidden="true" height="16" width="16"><g><path d="M0.375518305,6.90836424 C-0.126157409,6.40668852 -0.124187159,5.59134123 0.375518305,5.09163576 L5.09163576,0.375518305 C5.59331148,-0.126157409 6.40865877,-0.124187159 6.90836424,0.375518305 L11.6244817,5.09163576 C12.1261574,5.59331148 12.1241872,6.40865877 11.6244817,6.90836424 L6.90836424,11.6244817 C6.40668852,12.1261574 5.59134123,12.1241872 5.09163576,11.6244817 L0.375518305,6.90836424 L0.375518305,6.90836424 Z M8.56634425,6.00000601 L4.9734623,3.9469246 L4.9734623,8.0530754 L8.56634425,6.00000601 L8.56634425,6.00000601 Z"></path></g></svg></span>Aplicaciones
 											</a>
 											<div class="hijo5" id="hijo5">
-                                	
-                                </div>
+
+											</div>
 										</li>
 									</ul>
+									<div id="jp_container_1"  class="jp-video jp-video-270p" role="application" aria-label="media player">
+										<div class="jp-type-playlist" >
+											<div id="jquery_jplayer_1" class="jp-jplayer">
+												
+											</div>
+											<div class="jp-gui">
+												<div class="jp-video-play">
+													<button class="jp-video-play-icon" role="button" tabindex="0">play</button>
+												</div>
+												<div class="jp-interface">
+													<div class="jp-progress">
+														<div class="jp-seek-bar">
+															<div class="jp-play-bar"></div>
+														</div>
+													</div>
+													<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+													<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+													<div class="jp-controls-holder">
+														<div class="jp-controls">
+															
+															<a href="#"><span class="jp-previous glyphicon glyphicon-step-backward" aria-hidden="true"></span></a>
+															<a href=""  id="pausee" class="ocultoo"><span class="jp-play glyphicon glyphicon-pause"></span></a>
+															<a href="" id="playy"><span class="jp-play glyphicon glyphicon-play"></span></a>
+															<a href="#"><span class="jp-next glyphicon glyphicon-step-forward" aria-hidden="true"></span></a>
+															
+														</div>
+														<div class="jp-volume-controls">			
+															<a href="#"><span class="jp-mute glyphicon glyphicon-volume-off" id="iconos" aria-hidden="true"></span></a>
+															<div class="ocultoo" id="barravol">
+																<div class="jp-volume-bar ">
+																	<div class="jp-volume-bar-value"></div>
+																</div></div>
+																
+																<a href="#" class="ocultoo" id="volplus"><span class="jp-volume-max glyphicon glyphicon-volume-up " id="iconos" aria-hidden="true"></span></a>
+																
+															</div>
+															<div class="jp-toggles">
+																<a href="#" id="repetir"><span class=" jp-repeat glyphicon glyphicon-refresh"  aria-hidden="true"></span></a>
+																<a href="#" id="ran"><span class=" jp-shuffle glyphicon glyphicon-random" aria-hidden="true"></span></a>
+																
+															</div>
+														</div>
+														<div class="jp-details">
+															<div class="jp-title" aria-label="title">&nbsp;</div>
+														</div>
+													</div>
+												</div>
+												<div class="jp-playlist" style="display: none;">
+													<ul>
+														<!-- The method Playlist.displayPlaylist() uses this unordered list -->
+														<li>&nbsp;</li>
+													</ul>
+												</div>
+												<div class="jp-no-solution">
+													<span>Update Required</span>
+													To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+												</div>
+											</div>
+										</div>
+									<!--
 									<div id="cover">
-									
+
 										
 									</div>
 									
 									<span style="position: relative;">
-									<p class="nombresong"><a href="#" id="nombresong">Chuva de Arros Juco</a></p>
-									<p class="nombreartista" style="margin-top: -5px">de<a href="#" id="nombreartista">calljksksdkkkkx 13</a></p>
+										<p class="nombresong"><a href="#" id="nombresong">Chuva de Arros Juco</a></p>
+										<p class="nombreartista" style="margin-top: -5px">de<a href="#" id="nombreartista">calljksksdkkkkx 13</a></p>
 									</span>
-								
+
 									<div style="color: white;position: relative;padding-top: 74px">
-									<div style="text-align: center;">
-										 <a href="#"><span class="glyphicon glyphicon-step-backward" id="iconos"  aria-hidden="true" style="font-size: 24px;"></span></a>
-										 <a href="#" ><span class="glyphicon glyphicon-play cambia" id="iconos"  aria-hidden="true" style="font-size: 34px;padding-left: 10px;padding-right: 10px"></span></a>
-										 <a href="#"><span class="glyphicon glyphicon-step-forward" id="iconos" aria-hidden="true" style="font-size: 24px"></span></a>
-										    
-									</div>
+										<div style="text-align: center;">
+											<a href="#"><span class="glyphicon glyphicon-step-backward" id="iconos"  aria-hidden="true" style="font-size: 24px;"></span></a>
+											<a href="#" ><span class="glyphicon glyphicon-play cambia" id="iconos"  aria-hidden="true" style="font-size: 34px;padding-left: 10px;padding-right: 10px"></span></a>
+											<a href="#"><span class="glyphicon glyphicon-step-forward" id="iconos" aria-hidden="true" style="font-size: 24px"></span></a>
+
+										</div>
 										<div style="padding-top: 7px">
 											<a href="#"><span class="glyphicon glyphicon-volume-up" id="iconos" aria-hidden="true" style="font-size: 17px;padding-left: 20px"></span></a>
-										 <a href="#"><span class="glyphicon glyphicon-refresh" id="iconos"  aria-hidden="true" style="font-size: 17px;padding-left: 33px"></span></a>
-										 <a href="#"><span class="glyphicon glyphicon-random" id="iconos" aria-hidden="true" style="font-size: 17px;padding-left: 33px"></span></a>
-										 <a href="#"><span class="glyphicon glyphicon-list-alt" id="iconos" aria-hidden="true" style="font-size: 17px;padding-left:33px "></span></a>
+											<a href="#"><span class="glyphicon glyphicon-refresh" id="iconos"  aria-hidden="true" style="font-size: 17px;padding-left: 33px"></span></a>
+											<a href="#"><span class="glyphicon glyphicon-random" id="iconos" aria-hidden="true" style="font-size: 17px;padding-left: 33px"></span></a>
+											<a href="#"><span class="glyphicon glyphicon-list-alt" id="iconos" aria-hidden="true" style="font-size: 17px;padding-left:33px "></span></a>
 										</div>
 										
 									</div>
+									-->
 								</div>
 								<div class="col-lgj-10" id="ifra"  >
-									
-								</div>	
-								
-								
-								
-								<script type="text/javascript" src="js/jquery.min.js"></script>
-								<script src="js/bootstrap.min.js"></script>
-								<script src="js/index.js"></script>
-								<script type="text/javascript">
-									
-									
-								</script>
-							</body>
-							</html>
+
+									</div>	
+
+
+
+									<script type="text/javascript" src="js/jquery.min.js"></script>
+									<script src="js/bootstrap.min.js"></script>
+									<script src="js/index.js"></script>
+									<script type="text/javascript" src="js/jquery.jplayer.js"></script>
+									<script type="text/javascript" src="js/jplayer.playlist.js"></script>
+									<script type="text/javascript">
+
+										$(document).ready(function(){
+
+											new jPlayerPlaylist({
+												jPlayer: "#jquery_jplayer_1",
+												cssSelectorAncestor: "#jp_container_1"
+											}, [
+											{
+												title:"Cro Magnon Man",
+												artist:"The Stark Palace",
+												mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+												oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
+												poster: "http://www.jplayer.org/audio/poster/The_Stark_Palace_640x360.png"
+											},
+											{
+												title:"Your Face",
+												artist:"The Stark Palace",
+												mp3:"http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
+												oga:"http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg",
+												poster: "http://www.jplayer.org/audio/poster/The_Stark_Palace_640x360.png"
+											},
+											{
+												title:"Hidden",
+												artist:"Miaow",
+												mp3:"http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
+												oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg",
+												poster: "http://www.jplayer.org/audio/poster/Miaow_640x360.png"
+											},
+											{
+												title:"Big Buck Bunny Trailer",
+												artist:"Blender Foundation",
+												m4v:"http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
+												ogv:"http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
+												webmv: "http://www.jplayer.org/video/webm/Big_Buck_Bunny_Trailer.webm",
+												poster:"http://www.jplayer.org/video/poster/Big_Buck_Bunny_Trailer_480x270.png"
+											},
+											{
+												title:"Finding Nemo Teaser",
+												artist:"Pixar",
+												m4v: "http://www.jplayer.org/video/m4v/Finding_Nemo_Teaser.m4v",
+												ogv: "http://www.jplayer.org/video/ogv/Finding_Nemo_Teaser.ogv",
+												webmv: "http://www.jplayer.org/video/webm/Finding_Nemo_Teaser.webm",
+												poster: "http://www.jplayer.org/video/poster/Finding_Nemo_Teaser_640x352.png"
+											},
+											{
+												title:"Cyber Sonnet",
+												artist:"The Stark Palace",
+												mp3:"http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
+												oga:"http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg",
+												poster: "http://localhost/IS501-Deezer/img/goku.jpg"
+											},
+											{
+												title:"Incredibles Teaser",
+												artist:"Pixar",
+												m4v: "http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v",
+												ogv: "http://www.jplayer.org/video/ogv/Incredibles_Teaser.ogv",
+												webmv: "http://www.jplayer.org/video/webm/Incredibles_Teaser.webm",
+												poster: "http://localhost/IS501-Deezer/img/goku.jpg"
+											},
+											{
+												title:"Tempered Song",
+												artist:"Miaow",
+												mp3:"http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
+												oga:"http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg",
+												poster: "http://www.jplayer.org/audio/poster/Miaow_640x360.png"
+											},
+											{
+												title:"Lentement",
+												artist:"Miaow",
+												mp3:"http://www.jplayer.org/audio/mp3/Miaow-03-Lentement.mp3",
+												oga:"http://www.jplayer.org/audio/ogg/Miaow-03-Lentement.ogg",
+												poster: "http://www.jplayer.org/audio/poster/Miaow_640x360.png"
+											}
+											], {
+												swfPath: "../../dist/jplayer",
+												supplied: "webmv, ogv, m4v, oga, mp3",
+												useStateClassSkin: true,
+												autoBlur: false,
+												smoothPlayBar: true,
+												keyEnabled: true,
+												audioFullScreen: true
+											});
+										});
+									</script>
+								</body>
+								</html>
