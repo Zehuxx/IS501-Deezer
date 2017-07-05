@@ -50,12 +50,14 @@ $(".jp-mute").hover(function () {
     $("#volplus").removeClass("ocultoo");
     $("#ran").addClass("ocultoo");
     $("#repetir").addClass("ocultoo");
+    $("#cola").addClass("ocultoo");
 },function(){
  setTimeout(function(){
  $("#barravol").addClass("ocultoo");
  $("#volplus").addClass("ocultoo");
  $("#ran").removeClass("ocultoo");
  $("#repetir").removeClass("ocultoo");
+ $("#cola").removeClass("ocultoo");
  }
  , 5000);
  

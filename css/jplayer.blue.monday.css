@@ -4,7 +4,7 @@
  * Skin for jPlayer Plugin (jQuery JavaScript Library)
  * http://www.jplayer.org
  *
- * Skin Name: Blue Monday
+ * Skin Name: Blue Monday 
  *
  * Copyright (c) 2010 - 2014 Happyworm Ltd
  * Licensed under the MIT license.
@@ -217,8 +217,8 @@ font-size: 27px
 .jp-volume-controls {
   position: relative;
   top: 32px;
-  left: 388px;
-  width: 200px; }
+  margin-left: -10px;
+  width: 250px; }
 
 .jp-audio-stream .jp-volume-controls {
   left: 70px; }
@@ -252,7 +252,7 @@ color: white;
 
 .jp-volume-max{
   top: 5px;
-  margin-left: 220px;
+  margin-left: 240px;
   z-index: 30;
   position: absolute;
 }
@@ -271,7 +271,7 @@ color: white;
   top: 13px;
   border-radius: 4px;
   left: 125px;
-  width: 85px;
+  width: 108px;
   height: 4px;
   cursor: pointer; }
 
@@ -434,7 +434,7 @@ span.jp-artist {
 /* The audio toggles are nested inside jp-time-holder */
 .jp-toggles {
   top: 29px;
-  left: 210px;
+  left: 190px;
   margin: 0 auto;
   overflow: hidden; }
 
@@ -453,7 +453,7 @@ span.jp-artist {
   right: 16px;
   margin: 0;
   margin-top: 10px;
-  width: 100px; }
+  width: 300px; }
 
 .jp-toggles button {
   display: block;
@@ -482,7 +482,7 @@ span.jp-artist {
 .jp-repeat {
 
 color:#c2c2ca ;
-font-size: 20px;
+font-size: 15px;
  }
 
 .jp-repeat:hover {
@@ -500,12 +500,15 @@ color:white ;
 .jp-shuffle {
   left: 30px;
   color:#c2c2ca ;
-  font-size: 20px;
+  font-size: 15px;
   }
 .jp-shuffle:hover {
  color: white;
 }
 
+#cola{
+  margin-left: 53px;
+}
 
 .jp-state-shuffled .jp-shuffle {
   color: #007feb;
