@@ -29,7 +29,11 @@
 						<ul class="nav navbar-nav">
 							<li><a href="">FUNCIONALIDADES</a></li>
 							<li><a href="">DISPOSITIVOS</a></li>
-							<li><a href="">OFERTAS</a></li>
+							<ul class="dropdown-menu"><li><a href="">OFERTAS</a>
+       <li class="dropdown-header">CABECERA 1</li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
 							<li class="dropdown active">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
 									Empresa <span class="caret"></span>

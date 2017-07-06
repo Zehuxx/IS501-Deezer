@@ -25,7 +25,7 @@
 		<p class="mac">Disfruta de acceso instantáneo a tu música directamente desde tu Mac. Gestiona tu biblioteca
 		 musical y añade música a tu biblioteca con un click. Sin necesidad de abrir tu navegador, tan 
 		 solo descarga la aplicación y ya está.</p>
-		 <a href="http://www.deezer.com/formac"  style="text-decoration:none"><p class="mac"><span class="azul">Más información ></span></p></a>
+		 <a href="#"  style="text-decoration:none"><p class="mac"><span class="azul">Más información ></span></p></a>
 	</div>
 	<div class="windows">
 		<img src="img/forwin.png" align="right"><h1 class="mac1">Windows 10</h1>
