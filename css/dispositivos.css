@@ -378,8 +378,8 @@ body
 
 hr
 {
-	color:#656555;
-	background-color:#656555;
+	color:solid gray;
+	background:gray;
 	margin-left: 150px;
 	border: 0px;
 }

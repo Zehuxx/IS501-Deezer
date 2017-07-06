@@ -45,6 +45,10 @@ li {
    border-bottom: 3px solid #007feb;
 }
 
+.bar>li>a:hover{
+    border-bottom: 3px solid #007feb;
+}
+
 .bar>li>a, .bar>li>button {
     background-color: transparent;
     box-sizing: border-box;
@@ -70,7 +74,7 @@ li {
 }
 
 .contenido2{
-  width:1144px;
+  width:1147px;
   height: 644px;
 }
 

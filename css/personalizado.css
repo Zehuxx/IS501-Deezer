@@ -1,5 +1,6 @@
 
 /* index.php */
+
 input[type="checkbox"] {
     display:none;
 
@@ -26,7 +27,7 @@ input[type="checkbox"] {
    float: left;
    height: 100%;
    background-color: #23232c;
-
+   z-index: 2;
 }
 
 .cerrarsesion{
@@ -53,7 +54,7 @@ input[type="checkbox"] {
 .col-lgj-10 {
 	width:1366px;
 	height: 100%; 
-
+  z-index: 1;
 }
 
 .svg-icon{
@@ -69,6 +70,7 @@ fill: #c2c2ca;
     border: 1px solid transparent;
     border-radius: 4px;
     margin-top: 3px;
+    margin-bottom: 3px;
     padding: 6px 45px 6px 45px;
 }
 
@@ -145,7 +147,7 @@ html{
   color: white;
   font-size: 15px;
 }
-
+ 
 .hijo .flecha{
   float: right;
   margin-right: 30px;
@@ -153,8 +155,8 @@ html{
   color: #c5c5cd;
 }
 
-.nav .hijo li a .flecha:hover{
-  font-size: 10px;
+.oculto>li>a>.flecha:hover{
+  font-size: 12px;
 }
 
 .hijo li:focus,
@@ -165,7 +167,7 @@ html{
 }
 
 .nav {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-left: -11px;
 }
 
@@ -243,18 +245,19 @@ html{
     cursor: pointer;
 }
 
+
 #cover{
   height: 140px;
   width: 220px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+ 
   opacity: 0.2;
   background-image: url("../img/goku.jpg");
+  position: absolute;
 }
 
 .nombresong{
   padding-top: 8px;
-  margin-right: 30px;
+  margin-right: 23px;
   overflow: hidden;
   white-space:nowrap;
   text-overflow: ellipsis;
@@ -262,6 +265,21 @@ html{
   color: #fff;
 }
 
+#iconos{
+ color:#c2c2ca;
+}
+#iconos:hover{
+  color: white;
+}
+
+
+.nombresong > #nombresong:hover{
+  text-decoration: underline;
+}
+
+.nombreartista > #nombreartista:hover{
+  text-decoration: underline;
+}
 
 #nombresong{
     font-family:"Open Sans", Arial, sans-serif;
@@ -333,16 +351,55 @@ color: #fff;
   overflow: hidden;
 } 
 
-.col-lgj-2 ul li:hover > div{
+.col-lgj-2 ul li:hover> div{
 opacity: 1;
 visibility: visible;
 
   }
+.hijo2 {
+    width: 368px;
+    height: 701px; 
+    background-color: #F8FAFA;
+    position:fixed; 
+    margin-left: 230px; 
+    margin-top: -320px;
+    transition-duration:  0.4s;
+}
+
+.hijo5 {
+    width: 368px;
+    height: 701px; 
+    background-color: #F8FAFA;
+    position:fixed; 
+    margin-left: 230px; 
+    margin-top: -430px;
+    transition-duration:  0.4s;
+}
+
+.hijo3 {
+    width: 368px;
+    height: 701px; 
+    background-color: #F8FAFA;
+    position:fixed; 
+    margin-left: 230px; 
+    margin-top: -360px;
+    transition-duration:  0.4s;
+}
+
+.hijo4 {
+    width: 368px;
+    height: 701px; 
+    background-color: #F8FAFA;
+    position:fixed; 
+    margin-left: 230px; 
+    margin-top: -395px;
+    transition-duration:  0.4s;
+}
 
   .hijo{
     width: 368px;
     height: 701px; 
-    background-color: #fff;
+    background-color: #F8FAFA;
     position:fixed; 
     margin-left: 230px; 
     margin-top: -215px;
