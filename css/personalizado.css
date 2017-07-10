@@ -376,6 +376,27 @@ visibility: visible;
     transition-duration:  0.4s;
 }
 
+
+.jp-toggles > a > span > div{
+    
+}
+
+.hijo6{
+    width: 368px;
+    height: 701px;
+    position:fixed;
+
+    margin-left: 51px; 
+    margin-top: -665px;
+    transition-duration:  0.4s;
+}
+
+.jp-toggles > a > span:hover > div{
+  opacity: 1;
+  visibility: visible;
+  cursor: default;
+}
+
 .hijo3 {
     width: 368px;
     height: 701px; 

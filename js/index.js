@@ -16,6 +16,17 @@ function ifra2(link){
     	$("#ifra2").html("<iframe class='contenido2' src='dispositivosconectados.php' frameborder='0'></iframe>");
 }
 
+function ifra3(link){
+    if (link==1)
+        $("#ifra3").html('<iframe class="contenido3" src="features.php" frameborder="0"  ></iframe>');
+    if(link==2)
+        $("#ifra3").html("<iframe class='contenido3' src='dispositivos.php'frameborder='0' ></iframe>");
+     if(link==3)
+        $("#ifra3").html("<iframe class='contenido3' src='ofertas.php' frameborder='0' ></iframe>");
+    if(link==4)
+        $("#ifra3").html("<iframe class='contenido3' src='company.php' frameborder='0' ></iframe>");
+}
+
 function reload(){
             var container = document.getElementById("barrra");
             var content = container.innerHTML;
@@ -29,21 +40,15 @@ function cambiarborde(id,id2,id3){
    $("#"+id3).removeClass("borderr");
 }
 
-$("#playy").click(function(){
-    if ($("#pausee").hasClass("ocultoo")) {
-       $("#playy").addClass("ocultoo");
-       $("#pausee").removeClass("ocultoo");
-       
-    }
-});
+function borde(id,id2,id3,id4){
 
-$("#pausee").click(function(){
-    if ($("#playy").hasClass("ocultoo")) {
-       $("#pausee").addClass("ocultoo");
-       $("#playy").removeClass("ocultoo");
-       
-    }
-});
+   $("#"+id).addClass("borde");
+   $("#"+id2).removeClass("borde");
+   $("#"+id3).removeClass("borde");
+   $("#"+id4).removeClass("borde");
+}
+
+
 
 $(".jp-mute").hover(function () {
     $("#barravol").removeClass("ocultoo");

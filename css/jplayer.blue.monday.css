@@ -152,7 +152,17 @@ color: #c2c2ca;
 font-size: 34px;
 }
 
+.jp-pause {
+color: #c2c2ca;
+font-size: 34px;
+}
+
 .jp-play:hover{
+
+color: white;
+}
+
+.jp-pause:hover{
 
 color: white;
 }
@@ -257,11 +267,11 @@ color: white;
   position: absolute;
 }
 
-
-
 .ocultoo{
   display: none;
 }
+
+
 
 .jp-volume-bar {
   z-index: 30;
@@ -327,6 +337,7 @@ color: white;
 .jp-details,
 .jp-playlist {
   width: 100%;
+  height: 701px;
   background-color: #ccc;
   border-top: 1px solid #009be3; }
 
@@ -340,40 +351,45 @@ color: white;
   font-size: .72em;
   font-weight: bold; }
 
-.jp-playlist ul {
+div.jp-playlist ul {
   list-style-type: none;
   margin: 0;
   padding: 0 20px;
   font-size: .72em; }
 
-.jp-playlist li {
-  padding: 5px 0 4px 20px;
+
+
+  .hijo6 .jp-playlist li{
+  padding-top: 10px;
+  padding-bottom: 22px;
+  color: red;
   border-bottom: 1px solid #eee; }
 
 .jp-playlist li div {
-  display: inline; }
+  display:inline; 
+color: red}
 
 /* Note that the first-child (IE6) and last-child (IE6/7/8) selectors do not work on IE */
-div.jp-type-playlist div.jp-playlist li:last-child {
-  padding: 5px 0 5px 20px;
-  border-bottom: none; }
+div.jp-playlist li:first-child {
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+ }
 
-div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
-  list-style-type: square;
-  list-style-position: inside;
-  padding-left: 7px; }
+div.jp-playlist li.jp-playlist-current {
+  padding-left: 10px; 
+}
 
-div.jp-type-playlist div.jp-playlist a {
+div.jp-playlist a {
   color: #333;
   text-decoration: none; }
 
-div.jp-type-playlist div.jp-playlist a:hover {
+div.jp-playlist a:hover {
   color: #0d88c1; }
 
-div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
+div.jp-playlist a.jp-playlist-current {
   color: #0d88c1; }
 
-div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
+div.jp-playlist a.jp-playlist-item-remove {
   float: right;
   display: inline;
   text-align: right;
@@ -381,19 +397,19 @@ div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
   font-weight: bold;
   color: #666; }
 
-div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove:hover {
+div.jp-playlist a.jp-playlist-item-remove:hover {
   color: #0d88c1; }
 
-div.jp-type-playlist div.jp-playlist span.jp-free-media {
+div.jp-playlist span.jp-free-media {
   float: right;
   display: inline;
   text-align: right;
   margin-right: 10px; }
 
-div.jp-type-playlist div.jp-playlist span.jp-free-media a {
+div.jp-playlist span.jp-free-media a {
   color: #666; }
 
-div.jp-type-playlist div.jp-playlist span.jp-free-media a:hover {
+div.jp-playlist span.jp-free-media a:hover {
   color: #0d88c1; }
 
 span.jp-artist {

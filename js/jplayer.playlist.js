@@ -15,14 +15,14 @@
  *  - jPlayer 2.8.2+
  */
 
-/*global jPlayerPlaylist:true */
+ /*global jPlayerPlaylist:true */
 
-(function($, undefined) {
+ (function($, undefined) {
 
-	jPlayerPlaylist = function(cssSelector, playlist, options) {
-		var self = this;
+ 	jPlayerPlaylist = function(cssSelector, playlist, options) {
+ 		var self = this;
 
-		this.current = 0;
+ 		this.current = 0;
 		this.loop = false; // Flag used with the jPlayer repeat event
 		this.shuffled = false;
 		this.removing = false; // Flag is true during remove animation, disabling the remove() method until complete.
@@ -172,8 +172,8 @@
 
 			switch(option) {
 				case "enableRemoveControls":
-					this._updateControls();
-					break;
+				this._updateControls();
+				break;
 				case "itemClass":
 				case "freeGroupClass":
 				case "freeItemClass":
@@ -181,23 +181,23 @@
 					this._refresh(true); // Instant
 					this._createItemHandlers();
 					break;
-			}
-			return this;
-		},
-		_init: function() {
-			var self = this;
-			this._refresh(function() {
-				if(self.options.playlistOptions.autoPlay) {
-					self.play(self.current);
-				} else {
-					self.select(self.current);
 				}
-			});
-		},
-		_initPlaylist: function(playlist) {
-			this.current = 0;
-			this.shuffled = false;
-			this.removing = false;
+				return this;
+			},
+			_init: function() {
+				var self = this;
+				this._refresh(function() {
+					if(self.options.playlistOptions.autoPlay) {
+						self.play(self.current);
+					} else {
+						self.select(self.current);
+					}
+				});
+			},
+			_initPlaylist: function(playlist) {
+				this.current = 0;
+				this.shuffled = false;
+				this.removing = false;
 			this.original = $.extend(true, [], playlist); // Copy the Array of Objects
 			this._originalPlaylist();
 		},
@@ -215,38 +215,38 @@
 			 *	true -> no animation
 			 *	function -> use animation timings and excute function at half way point.
 			 */
-			var self = this;
+			 var self = this;
 
-			if(instant && !$.isFunction(instant)) {
-				$(this.cssSelector.playlist + " ul").empty();
-				$.each(this.playlist, function(i) {
-					$(self.cssSelector.playlist + " ul").append(self._createListItem(self.playlist[i]));
-				});
-				this._updateControls();
-			} else {
-				var displayTime = $(this.cssSelector.playlist + " ul").children().length ? this.options.playlistOptions.displayTime : 0;
+			 if(instant && !$.isFunction(instant)) {
+			 	$(this.cssSelector.playlist + " ul").empty();
+			 	$.each(this.playlist, function(i) {
+			 		$(self.cssSelector.playlist + " ul").append(self._createListItem(self.playlist[i]));
+			 	});
+			 	this._updateControls();
+			 } else {
+			 	var displayTime = $(this.cssSelector.playlist + " ul").children().length ? this.options.playlistOptions.displayTime : 0;
 
-				$(this.cssSelector.playlist + " ul").slideUp(displayTime, function() {
-					var $this = $(this);
-					$(this).empty();
-					
-					$.each(self.playlist, function(i) {
-						$this.append(self._createListItem(self.playlist[i]));
-					});
-					self._updateControls();
-					if($.isFunction(instant)) {
-						instant();
-					}
-					if(self.playlist.length) {
-						$(this).slideDown(self.options.playlistOptions.displayTime);
-					} else {
-						$(this).show();
-					}
-				});
-			}
-		},
-		_createListItem: function(media) {
-			var self = this;
+			 	$(this.cssSelector.playlist + " ul").slideUp(displayTime, function() {
+			 		var $this = $(this);
+			 		$(this).empty();
+
+			 		$.each(self.playlist, function(i) {
+			 			$this.append(self._createListItem(self.playlist[i]));
+			 		});
+			 		self._updateControls();
+			 		if($.isFunction(instant)) {
+			 			instant();
+			 		}
+			 		if(self.playlist.length) {
+			 			$(this).slideDown(self.options.playlistOptions.displayTime);
+			 		} else {
+			 			$(this).show();
+			 		}
+			 	});
+			 }
+			},
+			_createListItem: function(media) {
+				var self = this;
 
 			// Wrap the <li> contents in a <div>
 			var listItem = "<li><div>";
@@ -446,6 +446,7 @@
 			} else {
 				// The index will be zero if it just looped round
 				if(index > 0) {
+
 					this.play(index);
 				}
 			}

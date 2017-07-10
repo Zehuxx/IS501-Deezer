@@ -21,7 +21,9 @@
 			text-decoration:none;
 
 		}
-
+      li{
+      	color: red;
+      }
 		
 	</style>
 
@@ -153,9 +155,7 @@
 												
 											</div>
 											<div class="jp-gui">
-												<div class="jp-video-play">
-													<button class="jp-video-play-icon" role="button" tabindex="0">play</button>
-												</div>
+												
 												<div class="jp-interface">
 													<div class="jp-progress">
 														<div class="jp-seek-bar">
@@ -168,7 +168,7 @@
 														<div class="jp-controls">
 															
 															<a href="#"><span class="jp-previous glyphicon glyphicon-step-backward" aria-hidden="true"></span></a>
-															<a href=""  id="pausee" class="ocultoo"><span class="jp-play glyphicon glyphicon-pause"></span></a>
+															<a href=""  id="pausee"><span class="jp-pause glyphicon glyphicon-pause"></span></a>
 															<a href="" id="playy"><span class="jp-play glyphicon glyphicon-play"></span></a>
 															<a href="#"><span class="jp-next glyphicon glyphicon-step-forward" aria-hidden="true"></span></a>
 															
@@ -186,7 +186,16 @@
 															<div class="jp-toggles">
 																<a href="#" id="repetir"><span class=" jp-repeat glyphicon glyphicon-refresh"  aria-hidden="true"></span></a>
 																<a href="#" id="ran"><span class=" jp-shuffle glyphicon glyphicon-random" aria-hidden="true"></span></a>
-																<a href="#" id="cola"><span class="glyphicon glyphicon-list-alt" id="iconos" aria-hidden="true"></span></a>
+																<a href="#" id="cola"><span class="glyphicon glyphicon-list-alt" id="iconos" >
+																<div class="hijo6 " id="hijo6" >
+																
+																	<div class="jp-playlist" >
+																		<ul>
+																			<!-- The method Playlist.displayPlaylist() uses this unordered list -->
+																			<li>&nbsp;</li>
+																		</ul>
+																	</div>
+																</div></span></a>
 																
 															</div>
 														</div>
@@ -195,12 +204,7 @@
 														</div>
 													</div>
 												</div>
-												<div class="jp-playlist" style="display: none;">
-													<ul>
-														<!-- The method Playlist.displayPlaylist() uses this unordered list -->
-														<li>&nbsp;</li>
-													</ul>
-												</div>
+												
 												<div class="jp-no-solution">
 													<span>Update Required</span>
 													To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
@@ -235,10 +239,11 @@
 									</div>
 									-->
 								</div>
-								<div class="col-lgj-10" id="ifra"  >
+								<div class="col-lgj-10" id="ifra"   >
 
 									</div>	
 
+                                   
 
 
 									<script type="text/javascript" src="js/jquery.min.js"></script>
@@ -260,6 +265,28 @@
 												artist:"rev theory",
 												mp3:"http://localhost/IS501-Deezer/randi.mp3",
 												poster: "http://localhost/IS501-Deezer/img/orton.jpg"
+											},
+											{
+												title:"Cyber Sonnet",
+												artist:"The Stark Palace",
+												mp3:"http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
+												oga:"http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg",
+												poster: "http://localhost/IS501-Deezer/img/goku.jpg"
+											},
+											{
+												title:"Incredibles Teaser",
+												artist:"Pixar",
+												m4v: "http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v",
+												ogv: "http://www.jplayer.org/video/ogv/Incredibles_Teaser.ogv",
+												webmv: "http://www.jplayer.org/video/webm/Incredibles_Teaser.webm",
+												poster: "http://localhost/IS501-Deezer/img/goku.jpg"
+											},
+											{
+												title:"Tempered Song",
+												artist:"Miaow",
+												mp3:"http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
+												oga:"http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg",
+												poster: "http://www.jplayer.org/audio/poster/Miaow_640x360.png"
 											}
 											], {
 												swfPath: "../../dist/jplayer",
