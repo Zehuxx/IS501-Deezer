@@ -343,7 +343,7 @@ color: #fff;
     letter-spacing: .25px;
 }
 
-.col-lgj-2 ul li div{
+.col-lgj-2 ul li .hijo,.hijo2,.hijo3,.hijo4,.hijo5{
   
   opacity: 0;
   position: absolute;
@@ -351,11 +351,12 @@ color: #fff;
   overflow: hidden;
 } 
 
-.col-lgj-2 ul li:hover> div{
-opacity: 1;
-visibility: visible;
+.col-lgj-2 ul li:hover >div{
+  opacity: 1;
+  visibility: visible;
 
   }
+
 .hijo2 {
     width: 368px;
     height: 701px; 
@@ -377,21 +378,26 @@ visibility: visible;
 }
 
 
-.jp-toggles > a > span > div{
-    
-}
-
 .hijo6{
     width: 368px;
     height: 701px;
     position:fixed;
-
     margin-left: 51px; 
     margin-top: -665px;
     transition-duration:  0.4s;
 }
 
-.jp-toggles > a > span:hover > div{
+
+
+ .jp-toggles a span .hijo6{
+  
+  opacity: 0;
+  position: fixed;
+  visibility: hidden;
+  overflow: hidden;
+}  
+
+.jp-toggles a span:hover > .hijo6{
   opacity: 1;
   visibility: visible;
   cursor: default;

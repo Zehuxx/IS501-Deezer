@@ -14,7 +14,7 @@
 			padding: 0;
 			overflow: hidden;
 		}
-		ul{
+		ul{ 
 			list-style:none;
 		}
 		a:link{
@@ -51,18 +51,18 @@
 						<ul class="oculto" >
 							<p class="titulo1">Cuenta<p>
 								<hr>
-								<li onclick="reload();ifra(1);"><a href="#">
+								<li onclick="ifra(1);"><a href="#">
 									<span class="glyphicon glyphicon-user icon "></span>
 									<span class="titulo">Ajustes de la cuenta</span>
 									<span class=" glyphicon glyphicon-chevron-right flecha"></span>
 								</a></li>
-								<li onclick="reload();" ><a href="#">
+								<li onclick="" ><a href="#">
 									<span class="glyphicon glyphicon-question-sign icon" style="background-color: #76d016"></span>
 									<span class="titulo">Ayuda</span>
 									<span class=" glyphicon glyphicon-chevron-right flecha"></span>
 								</a>
 							</li>
-							<li  onclick="reload();"><a href="#">
+							<li  onclick=""><a href="#">
 								<span class="glyphicon glyphicon-barcode icon" style="background-color: #8d05ad"></span>
 								<span class="titulo">Activar un código</span>
 								<span class=" glyphicon glyphicon-chevron-right flecha"></span>
