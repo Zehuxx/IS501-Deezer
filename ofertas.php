@@ -8,7 +8,7 @@
 	   <link rel="stylesheet" type="text/css" href="css/estilos.css">
       <link rel="stylesheet" type="text/css" href="css/Conectarse.css"> 
 	   <link href="css/bootstrap.min.css" rel="stylesheet">
-	   <link rel="stylesheet" href="fonts/style.css">
+	   <link rel="stylesheet" href="fonts/style.css"
 
 	</head>
 
@@ -36,17 +36,58 @@
           <li><p style="color:#848484;">Sin anuncios, sin cortes</p></li>
           <li><p style="color:#848484;">Descarga tú música que para poder escucharla in cluso sin conexion</p></li>
           <li><p style="color:#848484;">Disfruta sonido de alta velocidad</p></li>
-          </div> <br><br><br><br>
-<div class="container" style="height: 100px;"> <div class="jumbotron"><h6><p style="color:#424242;">Nuestras ofertas</p></h6><p style="color:#848484;">Seguro que encuentas la mejor para tí</p></div></div>
+          </div> <br><br><br><br>      
 
-</div><br><br><br><br>
-<div class="container-fluid">
+<div class="container-fluid" style="background-color:#EEECEA; height: 1000px;"><br><br><br>
+       <h2><p style="color:#424242;">Nuestras ofertas</p><p style=" color: #424242; float: right;"></p></h2>
+            <li><p style="color:#848484;">Seguro que encuentas la mejor para tí.</p></li><br>
+
+           <center><div style="width: 1200px; border-radius: 60px;" border-radius: 60px;"><div class="panel panel-default">
+           <div class="panel-body"><p style="color:#050505; float:left;">
+           <span class="glyphicon glyphicon-phone">Música ilimitada en tu ordenador o tablet</span></p></div></div></div>
+
+           <div style="width: 1200px;"><div class="panel panel-default">
+           <div class="panel-body"><p style="color:#050505; float:left;">
+           <span class="glyphicon glyphicon-phone">Música ilimitada en tu móvil</span></p></div></div></div>
+
+           <div style="width: 1200px;"><div class="panel panel-default">
+           <div class="panel-body"><p style="color:#050505; float:left;">
+           <span class="glyphicon glyphicon-phone">Sin anuncios</span></p></div></div></div>
+
+           <div style="width: 1200px;"><div class="panel panel-default">
+           <div class="panel-body"><p style="color:#050505; float:left;">
+           <span class="glyphicon glyphicon-phone">Música disponible offline</span></p></div></div></div>
+
+           <div style="width: 1200px;"><div class="panel panel-default">
+           <div class="panel-body"><p style="color:#050505; float:left;">
+           <span class="glyphicon glyphicon-phone">Calidad de sonido</span></p></div></div></div>
+
+           <div style="width: 1200px;"><div class="panel panel-default">
+           <div class="panel-body"><p style="color:#050505; float:left;">
+           <span class="glyphicon glyphicon-phone">	6 perfiles Premium+</span></p></div></div></div>
+
+           <div style="width: 1200px;"><div class="panel panel-default">
+           <div class="panel-body"><p style="color:#050505; float:left;">
+           <span class="glyphicon glyphicon-phone">	Perfiles para niños</span></p></div></div></div></center>
+
+      
+      <div style="width: 1200px">
+      <ul class="nav navbar-nav navbar-right">
+      <p class="navbar-btn">
+      <a href="#"></a><button type="button" class="btn btn-default" style="width:120px;"><h4>Registrase</h4></button>
+      <a href="#"></a><button type="button" class="btn btn-primary" style="width:160px;"><h4>Comenzar tus 30<br>días de prueba</h4></button>
+      <a href="#"></a><button type="button" class="btn btn-primary" style="width:120px;"><h4>Registrase</h4></button></p>
+      </ul></div><br><br><br><br>
+
+<h6><p style="color:#837D7D;">*Deezer Premium+, 30 días gratis: oferta no acumulable con ninguna otra oferta. Válida una sola vez durante 30 días. Oferta sin compromiso. Podrás cancelar tu suscripción en cualquier momento.
+</h6></p>
+      </div>
+</div>           
+<div class="container-fluid" style="background-color:#F9F8F7;">
   <img style="float:left; margin: 80px; width: 300px; height: 200px;" alt="" src="img/familia.png" class="img-responsive" /><br><br><br><br><br>
        <h2><p style="color:#424242;">Deezer Family</p><p style=" color: #424242; float: right;"></p></h2>
             <li><p style="color:#848484;">Consigue hasta 6 perfiles Premium+ por solo $8.99 y ofrece música a toda la familia.</p></li><br>
               <a href="#"  style="text-decoration:none"><p class="mac"><span class="azul">Más información ></span></p></a>
-
-
 
 </div>
 <div class="container-fluid">
@@ -59,13 +100,13 @@
 <div class="siguenos">
     <h2 class="sig">Síguenos</h2>
     <div id="btngroup2"">
-          <button id="btnn1" type="button" class="btn btn-default"><img src="img/"></button>
-          <button id="btnn2" type="button" class="btn btn-default"><img src="img/"></button>
-          <button id="btnn3" type="button" class="btn btn-default"><img src="img/"></button>
-          <button id="btnn4" type="button" class="btn btn-default"><img src="img/"></button>
-          <button id="btnn5" type="button" class="btn btn-default"><img src="img/"></button>
-          <button id="btnn6" type="button" class="btn btn-default"><img src="img/"></button>
-          <button id="btnn7" type="button" class="btn btn-default"><img src="img/"></button>
+          <button id="btnn1" type="button" class="btn btn-default"><img src="img/face.png"></button>
+          <button id="btnn2" type="button" class="btn btn-default"><img src="img/google+.png"></button>
+          <button id="btnn3" type="button" class="btn btn-default"><img src="img/twitter.png"></button>
+          <button id="btnn4" type="button" class="btn btn-default"><img src="img/youtube.png"></button>
+          <button id="btnn5" type="button" class="btn btn-default"><img src="img/instagram.png"></button>
+          <button id="btnn6" type="button" class="btn btn-default"><img src="img/blog.png"></button>
+          <button id="btnn7" type="button" class="btn btn-default"><img src="img/img1.png"></button>
         </div>   
   </div>
   <div class="otrasopciones">
@@ -181,11 +222,6 @@
         </select>
        </div>
   </div>
-
-
-</body>
-
-        
-
+</body>       
 </html>
 
