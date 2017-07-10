@@ -1,7 +1,7 @@
 .Principal
 {
 	margin-top: -28px;
-	height: 369px;
+	height: 376px;
 	width: 1349px;
 	background:#F8F8F9;
 }
@@ -37,97 +37,6 @@
 	margin-top: 150px;
 	margin-left:-150px;
 	color: #191929;
-}
-
-.btn-group
-{
-	position: absolute;
-	margin-left: 90px;
-	top: 42px;
-}
-
-#btn1
-{
-	border:none;
-	background: #F8F8F9;
-	width: 191.667px;
-	height: 152px;
-	cursor: pointer;
-}
-
-#btn2
-{
-	border:none;
-	background: #F8F8F9;
-	width: 191.667px;
-	height: 152px;
-	cursor: pointer;
-}
-
-#btn3
-{
-	border:none;
-	cursor: pointer;
-	background: #F8F8F9;
-	width: 191.667px;
-	height: 152px;
-}
-
-#btn4
-{
-	border:none;
-	background: #F8F8F9;
-	width: 191.667px;
-	height: 152px;
-	cursor: pointer;
-}
-
-#btn5
-{
-	border:none;
-	cursor: pointer;
-	background: #F8F8F9;
-	width: 191.667px;
-	height: 152px;
-}
-
-#btn6
-{
-	border:none;
-	cursor: pointer;
-	background: #F8F8F9;
-	width: 191.667px;
-	height: 152px;
-}
-
-#img1
-{
-	height: 90px;	
-}
-
-#img2
-{
-	height: 90px;	
-}
-
-#img3
-{
-	height: 90px;	
-}
-
-#img4
-{
-	height: 90px;	
-}
-
-#img5
-{
-	height: 90px;	
-}
-
-#img6
-{
-	height: 60px;
 }
 
 .auto
@@ -382,4 +291,73 @@ hr
 	background:gray;
 	margin-left: 150px;
 	border: 0px;
+}
+
+nav {
+    float: left;
+    margin-left: 100px;
+    width : 1150px;
+    height: 152px;
+    background :#F8F8F9;
+    top: 40px;
+    }
+
+    .menu
+    {
+        float: left;
+        margin-top: 30px;
+    }
+
+    nav ul {
+    margin : 0 auto;
+    width : 1150px;
+    height: 152px;
+    list-style : none;
+    }
+
+    nav ul li {
+    float : left;
+    }
+
+    nav ul li a {
+    display : block;
+    margin-right : 20px;
+    width : 140px;
+    font-size : 14px;
+    line-height : 44px;
+    text-align : center;
+    text-decoration : none;
+    color : #72727D;
+    }
+
+    nav ul li a:hover {
+    color : #7FBEF1;
+    }
+
+    nav ul li.selected a {
+    color : #7FBEF1;
+    background: #FBFBFC;
+    }
+.li1{
+    margin-top: 16px;
+}
+.li2{
+	margin-top: 22.87px;
+    margin-left:28px;
+}
+.li3{
+    margin-top: 2px;
+    margin-left:28px;
+}
+.li4{
+    margin-top: 6.5px;
+    margin-left:28px;
+}
+.li5{
+    margin-top: 15px;
+    margin-left:28px;
+}
+.li6{
+    margin-top: 53px;
+    margin-left:28px;
 }

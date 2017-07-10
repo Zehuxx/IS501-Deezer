@@ -10,14 +10,16 @@
 <div class="Principal">
   <h1 class="titulo">Deezer</h1>
   <h2 class="subtitulo"><span class="azul">En todos tus dispositivos</span> con Premium+.</h2>
-  <div id="btngroup" class="btn-group">
-   <button id="btn1" type="button" class="btn btn-default"><img id="img1" src="img/mac.png"><p><span class="azul">Pc/Mac</span></p></button>
-   <button id="btn2" type="button" class="btn btn-default"><img id="img2" src="img/moviles.png"><p>Moviles y SmartWatch</p></button>
-   <button id="btn3" type="button" class="btn btn-default"><img id="img3" src="img/tablets.png"><p>Tabletas</p></button>
-   <button id="btn4" type="button" class="btn btn-default"><img id="img4" src="img/televisores.png"><p>TV</p></button>
-   <button id="btn5" type="button" class="btn btn-default"><img id="img5" src="img/equipos de audio.png"><p>Sistemas de audio</p></button>
-   <button id="btn6" type="button" class="btn btn-default"><img id="img6" src="img/carros.png"><p class="auto">Automóviles</p></button>
-  </div>	 
+  <nav>  
+       <ul id="men1" class="menu">  
+           <li class="li1"><a href="#"><img src="img/mac.png">Pc/Mac</a></li>  
+           <li class="li2"><a href="#"><img src="img/moviles.png">Moviles y SmartWatch</a></li>  
+           <li class="li3"><a href="#"><img src="img/tablets.png" style="text-decoration:none">Tabletas</a></li>
+           <li class="li4"><a href="#"><img src="img/televisores.png">TV</a></li>
+           <li class="li5"><a href="#"><img src="img/equipos de audio.png">Sistemas de audio</a></li> 
+           <li class="li6"><a href="#"><img src="img/carros.png">Automóviles</a></li> 
+       </ul>    
+    </nav> 
 </div>
 <div class="contenido">
 	<div class="pmac">
