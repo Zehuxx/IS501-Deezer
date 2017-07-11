@@ -33,7 +33,8 @@
 	<div  class="col-lgj-2" id="barrra">
 		<img src="img/deezerr.png" id="fimage">
 		<input type="text" class="form-control" placeholder="Buscar" id="buscador">
-		<ul class="nav">
+		
+		<ul class="nav" id="nav">
 
 			<li><a href="#"  class="si"> <p  >INICIO</p></a>
 
@@ -51,18 +52,18 @@
 						<ul class="oculto" >
 							<p class="titulo1">Cuenta<p>
 								<hr>
-								<li onclick="ifra(1);"><a href="#">
+								<li onclick="reload();ifra(1);"><a href="#">
 									<span class="glyphicon glyphicon-user icon "></span>
 									<span class="titulo">Ajustes de la cuenta</span>
 									<span class=" glyphicon glyphicon-chevron-right flecha"></span>
 								</a></li>
-								<li onclick="" ><a href="#">
+								<li onclick="reload();" ><a href="#">
 									<span class="glyphicon glyphicon-question-sign icon" style="background-color: #76d016"></span>
 									<span class="titulo">Ayuda</span>
 									<span class=" glyphicon glyphicon-chevron-right flecha"></span>
 								</a>
 							</li>
-							<li  onclick=""><a href="#">
+							<li  onclick="reload();"><a href="#">
 								<span class="glyphicon glyphicon-barcode icon" style="background-color: #8d05ad"></span>
 								<span class="titulo">Activar un código</span>
 								<span class=" glyphicon glyphicon-chevron-right flecha"></span>
@@ -75,9 +76,9 @@
 								<li><a href="#">Fader</a></li>
 								<p class="titulo1">¿Qué es Deezer?</p>
 								<hr>
-								<li><a href="#">Planes de Suscripción<span class=" glyphicon glyphicon-chevron-right flecha"></span></a></li>
-								<li><a href="#">Quiénes somos<span class=" glyphicon glyphicon-chevron-right flecha"></span></a></li>
-								<li><a href="#">Ventajas<span class=" glyphicon glyphicon-chevron-right flecha"></span></a></li>
+								<li onclick="reload();window.open('deezerinfo.php?accion=1','_blank');"><a href="#">Planes de Suscripción<span class=" glyphicon glyphicon-chevron-right flecha"></span></a></li>
+								<li onclick="reload();window.open('deezerinfo.php?accion=2','_blank');"><a href="deezerinfo.php?accion=2" target="_blank">Quiénes somos<span class=" glyphicon glyphicon-chevron-right flecha"></span></a></li>
+								<li onclick="reload();window.open('deezerinfo.php?accion=3','_blank');"><a href="#">Ventajas<span class=" glyphicon glyphicon-chevron-right flecha"></span></a></li>
 								<li><a href="#">Trabajos<span class=" glyphicon glyphicon-chevron-right flecha"></span></a></li>
 								<hr>
 								
@@ -167,14 +168,14 @@
 													<div class="jp-controls-holder">
 														<div class="jp-controls">
 															
-															<a href="#"><span class="jp-previous glyphicon glyphicon-step-backward" aria-hidden="true"></span></a>
-															<a href=""  id="pausee"><span class="jp-pause glyphicon glyphicon-pause"></span></a>
-															<a href="" id="playy"><span class="jp-play glyphicon glyphicon-play"></span></a>
-															<a href="#"><span class="jp-next glyphicon glyphicon-step-forward" aria-hidden="true"></span></a>
+															<a href="#" title="Anterior"><span class="jp-previous glyphicon glyphicon-step-backward" aria-hidden="true"></span></a>
+															<a href="" title="Pausa" id="pausee"><span class="jp-pause glyphicon glyphicon-pause"></span></a>
+															<a href="" id="playy"  title="Reproducir"><span class="jp-play glyphicon glyphicon-play"></span></a>
+															<a href="#" title="Siguiente"><span class="jp-next glyphicon glyphicon-step-forward" aria-hidden="true"></span></a>
 															
 														</div>
 														<div class="jp-volume-controls">			
-															<a href="#"><span class="jp-mute glyphicon glyphicon-volume-off" id="iconos" aria-hidden="true"></span></a>
+															<a href="#" title="Silencio"><span class="jp-mute glyphicon glyphicon-volume-off" id="iconos" aria-hidden="true"></span></a>
 															<div class="ocultoo" id="barravol">
 																<div class="jp-volume-bar ">
 																	<div class="jp-volume-bar-value"></div>
@@ -184,12 +185,24 @@
 																
 															</div>
 															<div class="jp-toggles">
-																<a href="#" id="repetir"><span class=" jp-repeat glyphicon glyphicon-refresh"  aria-hidden="true"></span></a>
-																<a href="#" id="ran"><span class=" jp-shuffle glyphicon glyphicon-random" aria-hidden="true"></span></a>
-																<a href="#" id="cola"><span class="glyphicon glyphicon-list-alt" id="iconos" >
+																<a href="#" id="repetir" title="Repetir todas las canciones de la lista"><span class=" jp-repeat glyphicon glyphicon-refresh"  aria-hidden="true"></span></a>
+																<a href="#" id="ran" title="Activar modo aleatorio"><span class=" jp-shuffle glyphicon glyphicon-random" aria-hidden="true"></span></a>
+																<a href="#" id="cola" title="Lista de espera"><span class="glyphicon glyphicon-list-alt" id="iconos" >
 																<div class="hijo6 " id="hijo6" >
 																
 																	<div class="jp-playlist" >
+																	<div id="listaa">
+																		<div id="sublistaa">
+																		<div>
+																			<h2 class="espera elip estilo">Lista de espera</h2>
+																			<h3 class="total elip estilo">15 canciones 4:34:43</h3>
+                                                                          <div id="chek">
+																				<input type="checkbox" name="chk3" id="chk3"><label for="chk3"><p >Recomendaciones automaticas</p> </label>
+                                                                          </div>
+																		</div>
+																			
+																		</div>
+																	</div>
 																		<ul>
 																			<!-- The method Playlist.displayPlaylist() uses this unordered list -->
 																			<li>&nbsp;</li>
@@ -239,6 +252,7 @@
 									</div>
 									-->
 								</div>
+								
 								<div class="col-lgj-10" id="ifra"   >
 
 									</div>	

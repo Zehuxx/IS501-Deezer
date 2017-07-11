@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,6 +46,10 @@
 		</table>
 	</div>
 </div>
+
+<input type="text" id="ventana" style="display: none;" value='<?php if(isset($_GET["accion"])){
+	echo $_GET["accion"]; 
+} ?>'>
 <div class="contenidd" id="ifra3">
 	
 </div>

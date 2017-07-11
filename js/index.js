@@ -16,6 +16,7 @@ function ifra2(link){
     	$("#ifra2").html("<iframe class='contenido2' src='dispositivosconectados.php' frameborder='0'></iframe>");
 }
 
+
 function ifra3(link){
     if (link==1)
         $("#ifra3").html('<iframe class="contenido3" src="features.php" frameborder="0"  ></iframe>');
@@ -28,7 +29,7 @@ function ifra3(link){
 }
 
 function reload(){
-            var container = document.getElementById("barrra");
+            var container = document.getElementById("nav");
             var content = container.innerHTML;
             container.innerHTML= content;
         }
@@ -49,6 +50,21 @@ function borde(id,id2,id3,id4){
 }
 
 
+function abrir(){
+    if ($("#ventana").val()==3) {
+       $("#fun").addClass("borde");
+        $("#ifra3").html('<iframe class="contenido3" src="features.php" frameborder="0"  ></iframe>');
+    }
+    if ($("#ventana").val()==2) {
+       $("#empr").addClass("borde");
+       $("#ifra3").html("<iframe class='contenido3' src='company.php' frameborder='0' ></iframe>");
+    }
+    if ($("#ventana").val()==1) {
+       $("#ofer").addClass("borde");
+         $("#ifra3").html("<iframe class='contenido3' src='ofertas.php' frameborder='0' ></iframe>");
+    }
+}
+
 
 $(".jp-mute").hover(function () {
     $("#barravol").removeClass("ocultoo");
@@ -68,3 +84,6 @@ $(".jp-mute").hover(function () {
  
 });
 
+$(document).ready(function(){
+    abrir();
+});
