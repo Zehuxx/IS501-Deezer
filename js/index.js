@@ -49,6 +49,17 @@ function borde(id,id2,id3,id4){
    $("#"+id4).removeClass("borde");
 }
 
+function arreglo(borde,margen,borde2,margen2,borde3,margen3,borde4,margen4){
+   $("#"+borde).addClass("bordee");
+    $("#"+margen).addClass("margen");
+    $("#"+borde2).removeClass("bordee");
+    $("#"+margen2).removeClass("margen");
+    $("#"+borde3).removeClass("bordee");
+    $("#"+margen3).removeClass("margen");
+    $("#"+borde4).removeClass("bordee");
+    $("#"+margen4).removeClass("margen");
+}
+
 
 function abrir(){
     if ($("#ventana").val()==3) {
