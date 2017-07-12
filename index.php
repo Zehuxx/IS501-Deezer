@@ -36,16 +36,16 @@
 		
 		<ul class="nav" id="nav">
 
-			<li><a href="#"  class="si"> <p  >INICIO</p></a>
+			<li id="start" onclick="arreglo('start','first','mod','first3','start2','first2','start4','first4');" ><a href="#"  class="si"> <p id="first" >INICIO</p></a>
 
 				
 			</li>
-			<li><a href="#" class="si" ><p  >RECOMENDACIONES</p></a>
+			<li id="start2"><a href="#" class="si" onclick="arreglo('start2','first2','start','first','mod','first3','start4','first4');"><p id="first2">RECOMENDACIONES</p></a>
 			</li>
 			<hr>
-			<li id="mod" >
+			<li id="mod" onclick="arreglo('mod','first3','start','first','start2','first2','start4','first4');" >
 				<a href="#" class="si">
-					<span ><img src="img/goku.jpg" width="24" height="24" style="border-radius: 50%;margin-right: 5px"></span>
+					<span id="first3"><img src="img/goku.jpg" width="24" height="24" style="border-radius: 50%;margin-right: 5px"></span>
 					Mi Musica<svg class="svg-icon icon2 svg-icon-settings settings"  viewBox="0 0 12 12" role="img" aria-labelledby="ariaIconLabel1" height="15" width="15"><g><path d="M12,6.66665365 L12,5.33334049 L10.5489016,4.97053954 C10.4304016,4.44503537 10.2228507,3.9544824 9.94365134,3.51272632 L10.7141009,2.22871398 L9.77119813,1.28595766 L8.48725024,2.0563135 C8.04550002,1.77706141 7.55490017,1.56951053 7.02940187,1.45101047 L6.66664779,0 L5.33334635,0 L4.97059813,1.4509636 C4.44504709,1.56941678 3.95444724,1.77701454 3.51265015,2.05626663 L2.22880187,1.28596352 L1.28589907,2.22871984 L2.05624905,3.51263257 C1.77699696,3.95443552 1.56944608,4.44504123 1.45099876,4.97059227 L0,5.33334049 L0,6.66665365 L1.45099876,7.02940773 C1.56944608,7.55491189 1.7770497,8.04556448 2.05624905,8.48736743 L1.28589907,9.77122743 L2.22880187,10.7140365 L3.51265015,9.94373337 C3.9544531,10.2229855 4.44505295,10.4305363 4.97059813,10.5489895 L5.33334635,12 L6.66664779,12 L7.02939601,10.5489368 C7.55484744,10.4304367 8.04549416,10.2228859 8.48724438,9.94368064 L9.77119227,10.7140365 L10.7140951,9.77122743 L9.94364548,8.48726782 C10.2228976,8.04546487 10.4303957,7.55491189 10.5488958,7.02940773 L12,6.66665365 L12,6.66665365 Z M3.5,6 C3.5,4.61928525 4.61930254,3.5 5.99995331,3.5 C7.38069746,3.5 8.5,4.61928525 8.5,6 C8.5,7.38071475 7.38069746,8.5 5.99995331,8.5 C4.61930254,8.5 3.5,7.38071475 3.5,6 L3.5,6 Z"></path></g></svg></a>
 					
 					<div class="hijo" id="hijo"  >
@@ -92,10 +92,10 @@
 					<li>
 						<center><button class="boton">+ SUSCRIBIRSE</button></center>
 					</li>
-					<li >
+					<li id="start4" onclick="arreglo('start4','first4','start','first','mod','first3','start2','first2');" >
 						<a href="#" class="si" >
-							<span>
-								<svg class="svg-icon icon3 svg-icon-love" viewBox="0 0 12 12" aria-hidden="true" height="16" width="16"><g><path d="M6.00011325,2.5 C6.00011325,2.5 5.00009438,1 3.25,1 C1.66669813,1 1.65327318e-16,2.25 0,4.5 C1.65327318e-16,7.5 6,11.5 6,11.5 C6,11.5 11.9999997,7.5 12,4.5 C12.0000002,2.25 10.3335284,1 8.75,1 C7.00013213,1 6.00011325,2.5 6.00011325,2.5 Z"></path></g></svg> </span > <span style="margin-left: -4px">Canciones favoritas</span> 
+							<span id="first4">
+								<svg class="svg-icon icon3 svg-icon-love" viewBox="0 0 12 12" aria-hidden="true" height="16" width="16"><g><path d="M6.00011325,2.5 C6.00011325,2.5 5.00009438,1 3.25,1 C1.66669813,1 1.65327318e-16,2.25 0,4.5 C1.65327318e-16,7.5 6,11.5 6,11.5 C6,11.5 11.9999997,7.5 12,4.5 C12.0000002,2.25 10.3335284,1 8.75,1 C7.00013213,1 6.00011325,2.5 6.00011325,2.5 Z"></path></g></svg> </span > <span style="margin-left: -4px" >Canciones favoritas</span> 
 							</a>
 							
 						</li>
