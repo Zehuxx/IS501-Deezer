@@ -77,7 +77,7 @@
 								<p class="titulo1">¿Qué es Deezer?</p>
 								<hr>
 								<li onclick="reload();window.open('deezerinfo.php?accion=1','_blank');"><a href="#">Planes de Suscripción<span class=" glyphicon glyphicon-chevron-right flecha"></span></a></li>
-								<li onclick="reload();window.open('deezerinfo.php?accion=2','_blank');"><a href="deezerinfo.php?accion=2" target="_blank">Quiénes somos<span class=" glyphicon glyphicon-chevron-right flecha"></span></a></li>
+								<li onclick="reload();window.open('deezerinfo.php?accion=2','_blank');"><a href="#">Quiénes somos<span class=" glyphicon glyphicon-chevron-right flecha"></span></a></li>
 								<li onclick="reload();window.open('deezerinfo.php?accion=3','_blank');"><a href="#">Ventajas<span class=" glyphicon glyphicon-chevron-right flecha"></span></a></li>
 								<li><a href="#">Trabajos<span class=" glyphicon glyphicon-chevron-right flecha"></span></a></li>
 								<hr>
