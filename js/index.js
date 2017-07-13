@@ -14,7 +14,7 @@ function ifra2(link){
     	$("#ifra2").html("<iframe class='contenido2' src='notificaciones.php' frameborder='0'></iframe>");
      if(link==3)
     	$("#ifra2").html("<iframe class='contenido2' src='dispositivosconectados.php' frameborder='0'></iframe>");
-}
+} 
 
 
 function ifra3(link){
@@ -30,7 +30,29 @@ function ifra3(link){
 
 
 
-function reload(){
+function reload(hijo){
+  if ($("#"+hijo).css("visibility")=="visible") {
+    if (hijo=="hijo") {
+        $("#hijo").css({"visibility":"hidden","opacity":"0"});
+        
+    }
+     if (hijo=="hijo2") {
+        $("#hijo2").css({"visibility":"hidden","opacity":"0"});
+        
+    }
+     if (hijo=="hijo3") {
+        $("#hijo3").css({"visibility":"hidden","opacity":"0"});
+    }
+     if (hijo=="hijo4") {
+        $("#hijo4").css({"visibility":"hidden","opacity":"0"});
+    }
+     if (hijo=="hijo5") {
+        $("#hijo5").css({"visibility":"hidden","opacity":"0"});
+    }
+  }         $("#li6 .si").css("color","#C2C2CA");
+            $("#li7 .si").css("color","#C2C2CA");
+            $("#li8 .si").css("color","#C2C2CA");
+            $("#li9 .si").css("color","#C2C2CA");
             $("#hijo").css({"visibility":"hidden","opacity":"0"});
             $("#hijo2").css({"visibility":"hidden","opacity":"0"});
             $("#hijo3").css({"visibility":"hidden","opacity":"0"});
@@ -40,10 +62,22 @@ function reload(){
 
         }
 
-$("#drop").click(function(){
-     $("#hijo").css({"visibility":"hidden","opacity":"0"});
-    $("#drop").css({"visibility":"hidden","opacity":"0"});
-});
+    $("#drop").click(function(){
+         $("#li6").css("background-color","#23232c");
+         $("#li6 .si").css("color","#C2C2CA");
+         $("#li7").css("background-color","#23232c");
+         $("#li7 .si").css("color","#C2C2CA");
+         $("#li8").css("background-color","#23232c");
+         $("#li8 .si").css("color","#C2C2CA");
+         $("#li9").css("background-color","#23232c");
+         $("#li9 .si").css("color","#C2C2CA");
+         $("#hijo").css({"visibility":"hidden","opacity":"0"});
+         $("#hijo2").css({"visibility":"hidden","opacity":"0"});
+         $("#hijo3").css({"visibility":"hidden","opacity":"0"});
+         $("#hijo4").css({"visibility":"hidden","opacity":"0"});
+         $("#hijo5").css({"visibility":"hidden","opacity":"0"});
+         $("#drop").css({"visibility":"hidden","opacity":"0"});
+       });
 
 function cambiarborde(id,id2,id3){
 
@@ -66,24 +100,40 @@ function li(li){
          $("#li7").css("background-color","#23232c");
          $("#li8").css("background-color","#23232c");
          $("#li9").css("background-color","#23232c");
+         $("#" + li + " .si").css("color","#fff");
+         $("#li7 .si").css("color","#C2C2CA");
+         $("#li8 .si").css("color","#C2C2CA");
+         $("#li9 .si").css("color","#C2C2CA");
     }
     if (li=="li7") {
          $("#"+li).css("background-color","#191922");
          $("#li6").css("background-color","#23232c");
          $("#li8").css("background-color","#23232c");
          $("#li9").css("background-color","#23232c");
+         $("#" + li + " .si").css("color","#fff");
+         $("#li8 .si").css("color","#C2C2CA");
+         $("#li9 .si").css("color","#C2C2CA");
+         $("#li6 .si").css("color","#C2C2CA");
     }
     if (li=="li8") {
          $("#"+li).css("background-color","#191922");
          $("#li7").css("background-color","#23232c");
          $("#li6").css("background-color","#23232c");
          $("#li9").css("background-color","#23232c");
+         $("#" + li + " .si").css("color","#fff");
+         $("#li6 .si").css("color","#C2C2CA");
+         $("#li7 .si").css("color","#C2C2CA");
+         $("#li9 .si").css("color","#C2C2CA");
     }
     if (li=="li9") {
          $("#"+li).css("background-color","#191922");
          $("#li7").css("background-color","#23232c");
          $("#li8").css("background-color","#23232c");
          $("#li6").css("background-color","#23232c");
+         $("#" + li + " .si").css("color","#fff");
+         $("#li6 .si").css("color","#C2C2CA");
+         $("#li7 .si").css("color","#C2C2CA");
+         $("#li8 .si").css("color","#C2C2CA");
     }
    
 
@@ -136,19 +186,54 @@ function arreglo(borde,margen,borde2,margen2,borde3,margen3,borde4,margen4){
 
 function ver(div,div2,div3,div4,div5){
     if ($("#"+div).css("visibility")=="hidden"){
-       $("#"+div2).css("visibility","visible"); 
+       $("#"+div2).css("visibility","hidden");
+       $("#"+div3).css("visibility","hidden");
+       $("#"+div4).css("visibility","hidden");
+       $("#"+div5).css("visibility","hidden");
+    }else{
        $("#"+div2).css("visibility","hidden");
        $("#"+div3).css("visibility","hidden");
        $("#"+div4).css("visibility","hidden");
        $("#"+div5).css("visibility","hidden");
     }
 
-    if ($("#"+div).css("visibility")=="visible") {
-        $("#"+div).css({"visibility":"hidden","opacity":"0"});
-        $("#drop").css({"visibility":"hidden","opacity":"0"});
-    }else{
+    if ($("#"+div).css("visibility")=="hidden") {
+      if (div=="hijo2") {
+         $("#li6 .si").css("color","#fff");
+      }
+      if (div=="hijo3") {
+         $("#li7 .si").css("color","#fff");
+      }
+      if (div=="hijo4") {
+         $("#li8 .si").css("color","#fff");
+      }
+      if (div=="hijo5") {
+         $("#li9 .si").css("color","#fff");
+      }
+
         $("#"+div).css({"visibility":"visible","opacity":"1"});
         $("#drop").css({"visibility":"visible","opacity":"0.5"});
+    }else{
+      if (div=="hijo2") {
+         $("#li6 .si").css("color","#C2C2CA");
+         $("#li6").css("background-color","#23232c");
+      }
+      if (div=="hijo3") {
+         $("#li7 .si").css("color","#C2C2CA");
+         $("#li7").css("background-color","#23232c");
+      }
+      if (div=="hijo4") {
+         $("#li8 .si").css("color","#C2C2CA");
+         $("#li8").css("background-color","#23232c");
+      }
+      if (div=="hijo5") {
+         $("#li9 .si").css("color","#C2C2CA");
+         $("#li9").css("background-color","#23232c");
+      }
+
+       
+        $("#"+div).css({"visibility":"hidden","opacity":"0"});
+        $("#drop").css({"visibility":"hidden","opacity":"0"});
     }
 }
 
