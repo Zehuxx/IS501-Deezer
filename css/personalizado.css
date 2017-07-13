@@ -108,6 +108,11 @@ html{
    background-color: #191922;
 }
 
+.bordee2{
+  border-left: 13px solid #fff;
+   background-color: #191922;
+}
+
 #buscador{
 	margin-top: 10px;
   background-color: #d1d1d7;
