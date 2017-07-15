@@ -332,6 +332,7 @@ nav {
 
     nav ul li a:hover {
     color : #7FBEF1;
+    background: white;
     }
 
     nav ul li.selected a {
