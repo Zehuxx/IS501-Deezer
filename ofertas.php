@@ -11,11 +11,12 @@
 	   <link rel="stylesheet" href="fonts/style.css">
 	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     
+
 	</head>
 
   
 	<body style="background-image:url(img/fondoOfer.png); background-repeat:no-repeat; color:#ffffff;"><br><br><br>	
-
      <center><strong><font size=50>TU MÚSICA, SIN RESTRINCIONES.</font></strong></center><br><br>
      <center><strong><font size=5>$5.99 / mes<br><br>30 días gratis*</font></center></strong>
      <center><font size=5>Sin compromiso. Sí, puedes cancelar tu suscripcion cuando quieras.</font></center>
@@ -40,51 +41,68 @@
           </div> <br><br><br><br> 
 
 
-<div class="container-fluid" style="background-color:#EEECEA; height: 1000px;"><br><br><br>
+<div class="container-fluid" style="background-color:#E0E5E5; height: 1000px;"><br><br><br>
+
        <h2><p style="color:#424242;">Nuestras ofertas</p><p style=" color: #424242; float: right;"></p></h2>
             <li><p style="color:#848484;">Seguro que encuentas la mejor para tí.</p></li><br>
 
-           <center><div style="width: 1200px; border-radius: 60px;" border-radius: 60px;"><div class="panel panel-default">
-           <div class="panel-body"><p style="color:#050505; float:left;">
-           <i class="material-icons">desktop_windows</i>  Música ilimitada en tu ordenador o tablet</span></p></div></div></div>
 
-           <div style="width: 1200px;"><div class="panel panel-default">
-           <div class="panel-body"><p style="color:#050505; float:left;">
-           <span class="glyphicon glyphicon-phone">   Música ilimitada en tu móvil</span></p></div></div></div>
+           <center><div style="width: 1200px; ">
+           <div class="panel-body" id="contenedor"><p style="color:#050505; float:left; margin: 8px">
+           <i class="material-icons">desktop_windows</i>  Música ilimitada en tu ordenador o tablet</span>   
+           <span class="glyphicon glyphicon-ok" style="color: gray; left: 250px"></span>
+           <span class="glyphicon glyphicon-ok" style="color: blue; left: 500px"></span>
+           <span class="glyphicon glyphicon-ok" style="color: red; left: 730px"></span></p></div></div><br>
 
-           <div style="width: 1200px;"><div class="panel panel-default">
-           <div class="panel-body"><p style="color:#040000; float:left;">
-           <span class="glyphicon glyphicon-ban-circle">   Sin anuncios</span></p></div></div></div>
+           <div style="width: 1200px;">
+           <div class="panel-body" id="contenedor"><p style="color:#050505; float:left; margin: 8px">
+           <span class="glyphicon glyphicon-phone" id="contenedor">   Música ilimitada en tu móvil
+              <span style="margin: 200px; color: gray">Solo Flow y mixes</span>
+              <span class="glyphicon glyphicon-ok" style="color: blue"></span>
+              <span class="glyphicon glyphicon-ok" style="color: red; left: 220px"></span></span></p></div></div><br>
+ 
+           <div style="width: 1200px;">
+           <div class="panel-body" id="contenedor"><p style="color:#040000; float:left; margin: 8px">
+           <span class="glyphicon glyphicon-ban-circle">   Sin anuncios</span>           
+           <span class="glyphicon glyphicon-ok" style="color: blue; left: 690px"></span>           
+           <span class="glyphicon glyphicon-ok" style="color: red; left: 920px"></span></p></div></div><br>
 
-           <div style="width: 1200px;"><div class="panel panel-default">
-           <div class="panel-body"><p style="color:#050505; float:left;">
-           <span class="glyphicon glyphicon-arrow-down">   Música disponible offline</span></p></div></div></div>
+           <div style="width: 1200px;">
+           <div class="panel-body" id="contenedor"><p style="color:#050505; float:left; margin: 8px;">
+           <span class="glyphicon glyphicon-arrow-down">   Música disponible offline</span> 
+           <span class="glyphicon glyphicon-ok" style="color: blue; left: 610px"></span>           
+           <span class="glyphicon glyphicon-ok" style="color: red; left: 840px"></span></p></div></div><br>
 
-           <div style="width: 1200px;"><div class="panel panel-default">
-           <div class="panel-body"><p style="color:#050505; float:left;">
-           <span class="glyphicon glyphicon-stats">   Calidad de sonido</span></p></div></div></div>
+           <div style="width: 1200px;">
+           <div class="panel-body" id="contenedor"><p style="color:#050505; float:left; margin: 8px;">
+           <span class="glyphicon glyphicon-stats">   Calidad de sonido</span>             
+          <span style="margin: 300px; color: gray">Estándar</span>
+                    <span style=" color: blue">Alta calidad</span>
+                    <span style=" margin: 100px; color: red">Alta calidad</span>
 
-           <div style="width: 1200px;"><div class="panel panel-default">
-           <div class="panel-body"><p style="color:#050505; float:left;">
-           <span class="glyphicon glyphicon-user">   6 perfiles Premium+</span></p></div></div></div>
+         </p></div></div><br>
 
-           <div style="width: 1200px;"><div class="panel panel-default">
-           <div class="panel-body"><p style="color:#050505; float:left;">
-           <span class="glyphicon glyphicon-thumbs-up">   Perfiles para niños</span></p></div></div></div></center>
+           <div style="width: 1200px;">
+           <div class="panel-body" id="contenedor"><p style="color:#050505; float:left; margin: 8px">
+           <span class="glyphicon glyphicon-user">   6 perfiles Premium+</span>           
+           <span class="glyphicon glyphicon-ok" style="color: red; left: 880px"></span></p></div></div><br>
 
+           <div style="width: 1200px;">
+           <div class="panel-body" id="contenedor"><p style="color:#050505; float:left; margin: 8px;">
+           <span class="glyphicon glyphicon-thumbs-up">   Perfiles para niños</span>
+           <span class="glyphicon glyphicon-ok" style="color: red; left: 900px"></span></p></div></div></center>
       
-      <div style="width: 1200px">
+      <div style="width: 950px">
       <ul class="nav navbar-nav navbar-right">
       <p class="navbar-btn">
-      <a href="#"></a><button type="button" class="btn btn-default" style="width:120px;"><h4>Registrase</h4></button>
+      <a href="#"></a><button type="button" class="btn btn-default" style="width:120px;"><h4>Registrarse</h4></button>
       <a href="#"></a><button type="button" class="btn btn-primary" style="width:160px;"><h4>Comenzar tus 30<br>días de prueba</h4></button>
-      <a href="#"></a><button type="button" class="btn btn-primary" style="width:120px;"><h4>Registrase</h4></button></p>
-      </ul></div><br><br><br><br>
-
-<h6><p style="color:#837D7D;">*Deezer Premium+, 30 días gratis: oferta no acumulable con ninguna otra oferta. Válida una sola vez durante 30 días. Oferta sin compromiso. Podrás cancelar tu suscripción en cualquier momento.
+      <a href="#"></a><button type="button" class="btn btn-primary" style="width:120px margin: 100px; ;"><h4>Registrarse</h4></button></p>
+      </div><br><br><br><br>
+</div>
+<!--<h6><p style="color:#837D7D;">*Deezer Premium+, 30 días gratis: oferta no acumulable con ninguna otra oferta. Válida una sola vez durante 30 días. Oferta sin compromiso. Podrás cancelar tu suscripción en cualquier momento.
 </h6></p>
-      </div>
-</div>           
+      </div>-->           
 <div class="container-fluid" style="background-color:#F9F8F7;">
   <img style="float:left; margin: 80px; width: 300px; height: 200px;" alt="" src="img/familia.png" class="img-responsive" /><br><br><br><br><br>
        <h2><p style="color:#424242;">Deezer Family</p><p style=" color: #424242; float: right;"></p></h2>
@@ -225,6 +243,8 @@
        </div>
   </div>
 
-</body>       
+
+</body>   
+    
 </html>
 
