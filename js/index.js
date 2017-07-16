@@ -14,7 +14,7 @@ function ifra2(link){
     	$("#ifra2").html("<iframe class='contenido2' src='notificaciones.php' frameborder='0'></iframe>");
      if(link==3)
     	$("#ifra2").html("<iframe class='contenido2' src='dispositivosconectados.php' frameborder='0'></iframe>");
-}
+} 
 
 
 function ifra3(link){
@@ -28,11 +28,77 @@ function ifra3(link){
         $("#ifra3").html("<iframe class='contenido3' src='company.php' frameborder='0' ></iframe>");
 }
 
-function reload(){
-            var container = document.getElementById("nav");
-            var content = container.innerHTML;
-            container.innerHTML= content;
+
+function cambiar(){
+$("#start").removeClass("bordee");
+ $("#first").removeClass("margen");
+ $("#start2").removeClass("bordee");
+ $("#first2").removeClass("margen");
+ $("#star4").removeClass("bordee");
+ $("#first3").removeClass("margen");
+ $("#mod").removeClass("bordee");
+ $("#first4").removeClass("margen");
+ $("#first").css("color","#C2C2CA");
+   $("#first2").css("color","#C2C2CA");
+   $("#first3").css("color","#C2C2CA");
+   $("#first4").css("color","#C2C2CA");
+}
+
+
+function reload(hijo){
+  if ($("#"+hijo).css("visibility")=="visible") {
+    if (hijo=="hijo") {
+        $("#hijo").css({"visibility":"hidden","opacity":"0"});
+
+        
+    }
+     if (hijo=="hijo2") {
+        $("#hijo2").css({"visibility":"hidden","opacity":"0"});
+        
+    }
+     if (hijo=="hijo3") {
+        $("#hijo3").css({"visibility":"hidden","opacity":"0"});
+    }
+     if (hijo=="hijo4") {
+        $("#hijo4").css({"visibility":"hidden","opacity":"0"});
+    }
+     if (hijo=="hijo5") {
+        $("#hijo5").css({"visibility":"hidden","opacity":"0"});
+    }
+    if (hijo=="hijo6") {
+        $("#hijo6").css({"visibility":"hidden","opacity":"0"});
+    }
+  }         $("#li6 .si").css("color","#C2C2CA");
+            $("#li7 .si").css("color","#C2C2CA");
+            $("#li8 .si").css("color","#C2C2CA");
+            $("#li9 .si").css("color","#C2C2CA");
+            $("#hijo").css({"visibility":"hidden","opacity":"0"});
+            $("#hijo2").css({"visibility":"hidden","opacity":"0"});
+            $("#hijo3").css({"visibility":"hidden","opacity":"0"});
+            $("#hijo4").css({"visibility":"hidden","opacity":"0"});
+            $("#hijo5").css({"visibility":"hidden","opacity":"0"});
+            $("#hijo6").css({"visibility":"hidden","opacity":"0"});
+            $("#drop").css({"visibility":"hidden","opacity":"0"});
+
         }
+
+    $("#drop").click(function(){
+         $("#li6").css("background-color","#23232c");
+         $("#li6 .si").css("color","#C2C2CA");
+         $("#li7").css("background-color","#23232c");
+         $("#li7 .si").css("color","#C2C2CA");
+         $("#li8").css("background-color","#23232c");
+         $("#li8 .si").css("color","#C2C2CA");
+         $("#li9").css("background-color","#23232c");
+         $("#li9 .si").css("color","#C2C2CA");
+         $("#hijo").css({"visibility":"hidden","opacity":"0"});
+         $("#hijo2").css({"visibility":"hidden","opacity":"0"});
+         $("#hijo3").css({"visibility":"hidden","opacity":"0"});
+         $("#hijo4").css({"visibility":"hidden","opacity":"0"});
+         $("#hijo5").css({"visibility":"hidden","opacity":"0"});
+         $("#hijo6").css({"visibility":"hidden","opacity":"0"});
+         $("#drop").css({"visibility":"hidden","opacity":"0"});
+       });
 
 function cambiarborde(id,id2,id3){
 
@@ -49,17 +115,165 @@ function borde(id,id2,id3,id4){
    $("#"+id4).removeClass("borde");
 }
 
-function arreglo(borde,margen,borde2,margen2,borde3,margen3,borde4,margen4){
-   $("#"+borde).addClass("bordee");
-    $("#"+margen).addClass("margen");
-    $("#"+borde2).removeClass("bordee");
-    $("#"+margen2).removeClass("margen");
-    $("#"+borde3).removeClass("bordee");
-    $("#"+margen3).removeClass("margen");
-    $("#"+borde4).removeClass("bordee");
-    $("#"+margen4).removeClass("margen");
+function li(li){
+    if (li=="li6") {
+         $("#"+li).css("background-color","#191922");
+         $("#li7").css("background-color","#23232c");
+         $("#li8").css("background-color","#23232c");
+         $("#li9").css("background-color","#23232c");
+         $("#" + li + " .si").css("color","#fff");
+         $("#li7 .si").css("color","#C2C2CA");
+         $("#li8 .si").css("color","#C2C2CA");
+         $("#li9 .si").css("color","#C2C2CA");
+    }
+    if (li=="li7") {
+         $("#"+li).css("background-color","#191922");
+         $("#li6").css("background-color","#23232c");
+         $("#li8").css("background-color","#23232c");
+         $("#li9").css("background-color","#23232c");
+         $("#" + li + " .si").css("color","#fff");
+         $("#li8 .si").css("color","#C2C2CA");
+         $("#li9 .si").css("color","#C2C2CA");
+         $("#li6 .si").css("color","#C2C2CA");
+    }
+    if (li=="li8") {
+         $("#"+li).css("background-color","#191922");
+         $("#li7").css("background-color","#23232c");
+         $("#li6").css("background-color","#23232c");
+         $("#li9").css("background-color","#23232c");
+         $("#" + li + " .si").css("color","#fff");
+         $("#li6 .si").css("color","#C2C2CA");
+         $("#li7 .si").css("color","#C2C2CA");
+         $("#li9 .si").css("color","#C2C2CA");
+    }
+    if (li=="li9") {
+         $("#"+li).css("background-color","#191922");
+         $("#li7").css("background-color","#23232c");
+         $("#li8").css("background-color","#23232c");
+         $("#li6").css("background-color","#23232c");
+         $("#" + li + " .si").css("color","#fff");
+         $("#li6 .si").css("color","#C2C2CA");
+         $("#li7 .si").css("color","#C2C2CA");
+         $("#li8 .si").css("color","#C2C2CA");
+    }
+   
+
 }
 
+
+
+function arreglo(borde,margen,borde2,margen2,borde3,margen3,borde4,margen4){
+ $("#"+borde).addClass("bordee");
+ $("#"+margen).addClass("margen");
+ $("#"+borde2).removeClass("bordee");
+ $("#"+margen2).removeClass("margen");
+ $("#"+borde3).removeClass("bordee");
+ $("#"+margen3).removeClass("margen");
+ $("#"+borde4).removeClass("bordee");
+ $("#"+margen4).removeClass("margen");
+ $("#li6").css("background-color","#23232c");
+ $("#li7").css("background-color","#23232c"); 
+ $("#li8").css("background-color","#23232c");
+ $("#li9").css("background-color","#23232c");
+ if (margen== "first" ) {
+   $("#"+margen).css("color","white");
+   $("#first2").css("color","#C2C2CA");
+   $("#first3").css("color","#C2C2CA");
+   $("#first4").css("color","#C2C2CA");
+ }else{
+  if (margen=="first2") {
+    $("#"+margen).css("color","white");
+    $("#first").css("color","#C2C2CA");
+    $("#first3").css("color","#C2C2CA");
+    $("#first4").css("color","#C2C2CA");  
+  }else{
+   if (margen=="first4") {
+    $("#"+margen).css("color","white");
+    $("#first").css("color","#C2C2CA");
+    $("#first2").css("color","#C2C2CA");
+    $("#first3").css("color","#C2C2CA");
+  }else{
+    if (margen=="first3") {
+      $("#"+margen).css("color","white");
+      $("#first").css("color","#C2C2CA");
+      $("#first2").css("color","#C2C2CA");
+      $("#first4").css("color","#C2C2CA");   
+    }
+  }
+}
+}
+
+}
+
+
+function ver(div,div2,div3,div4,div5,div6){
+    if ($("#"+div).css("visibility")=="hidden"){
+       $("#"+div2).css("visibility","hidden");
+       $("#"+div3).css("visibility","hidden");
+       $("#"+div4).css("visibility","hidden");
+       $("#"+div5).css("visibility","hidden");
+       $("#"+div6).css("visibility","hidden");
+    }else{
+       $("#"+div2).css("visibility","hidden");
+       $("#"+div3).css("visibility","hidden");
+       $("#"+div4).css("visibility","hidden");
+       $("#"+div5).css("visibility","hidden");
+       $("#"+div6).css("visibility","hidden");
+    }
+
+      if (div=="hijo") {
+        if (($("#"+div2).css("visibility") || $("#"+div3).css("visibility") || $("#"+div4).css("visibility") || $("#"+div5).css("visibility"))=="visible" || "hidden") {
+         $("#li7 .si").css("color","#C2C2CA");
+         $("#li7").css("background-color","#23232c");
+         $("#li6 .si").css("color","#C2C2CA");
+         $("#li6").css("background-color","#23232c");
+         $("#li8 .si").css("color","#C2C2CA");
+         $("#li8").css("background-color","#23232c");
+         $("#li9 .si").css("color","#C2C2CA");
+         $("#li9").css("background-color","#23232c");
+        }
+        
+      }
+
+    if ($("#"+div).css("visibility")=="hidden") {
+      if (div=="hijo2") {
+         $("#li6 .si").css("color","#fff");
+      }
+      if (div=="hijo3") {
+         $("#li7 .si").css("color","#fff");
+      }
+      if (div=="hijo4") {
+         $("#li8 .si").css("color","#fff");
+      }
+      if (div=="hijo5") {
+         $("#li9 .si").css("color","#fff");
+      }
+         
+        $("#"+div).css({"visibility":"visible","opacity":"1"});
+        $("#drop").css({"visibility":"visible","opacity":"0.5"});
+    }else{
+      if (div=="hijo2") {
+         $("#li6 .si").css("color","#C2C2CA");
+         $("#li6").css("background-color","#23232c");
+      }
+      if (div=="hijo3") {
+         $("#li7 .si").css("color","#C2C2CA");
+         $("#li7").css("background-color","#23232c");
+      }
+      if (div=="hijo4") {
+         $("#li8 .si").css("color","#C2C2CA");
+         $("#li8").css("background-color","#23232c");
+      }
+      if (div=="hijo5") {
+         $("#li9 .si").css("color","#C2C2CA");
+         $("#li9").css("background-color","#23232c");
+      }
+        
+       
+        $("#"+div).css({"visibility":"hidden","opacity":"0"});
+        $("#drop").css({"visibility":"hidden","opacity":"0"});
+    }
+}
 
 function abrir(){
     if ($("#ventana").val()==3) {
@@ -75,6 +289,28 @@ function abrir(){
          $("#ifra3").html("<iframe class='contenido3' src='ofertas.php' frameborder='0' ></iframe>");
     }
 }
+
+
+
+
+
+
+
+
+
+$("#cola").click(function(){
+    $("#li6").css("background-color","#23232c");
+         $("#li6 .si").css("color","#C2C2CA");
+         $("#li7").css("background-color","#23232c");
+         $("#li7 .si").css("color","#C2C2CA");
+         $("#li8").css("background-color","#23232c");
+         $("#li8 .si").css("color","#C2C2CA");
+         $("#li9").css("background-color","#23232c");
+         $("#li9 .si").css("color","#C2C2CA");
+    $("#hijo6").css({"visibility":"visible","opacity":"1"});
+    $("#drop").css({"visibility":"visible","opacity":"0.5"});
+});
+
 
 
 $(".jp-mute").hover(function () {
