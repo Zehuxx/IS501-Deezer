@@ -313,6 +313,7 @@ $("#cola").click(function(){
 
 
 
+
 $(".jp-mute").hover(function () {
     $("#barravol").removeClass("ocultoo");
     $("#volplus").removeClass("ocultoo");
@@ -333,4 +334,5 @@ $(".jp-mute").hover(function () {
 
 $(document).ready(function(){
     abrir();
+  
 });

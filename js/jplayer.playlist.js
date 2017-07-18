@@ -21,7 +21,7 @@
 
  	jPlayerPlaylist = function(cssSelector, playlist, options) {
  		var self = this;
-
+        
  		this.current = 0;
 		this.loop = false; // Flag used with the jPlayer repeat event
 		this.shuffled = false;
@@ -99,6 +99,8 @@
 			}
 		});
 
+        
+         
 		// Create click handlers for the extra buttons that do playlist functions.
 		$(this.cssSelector.previous).click(function(e) {
 			e.preventDefault();
@@ -339,6 +341,16 @@
 			this._initPlaylist(playlist);
 			this._init();
 		},
+         getplay: function(){
+              
+              var self = this;
+			this.playlist = [];
+			// Make both arrays point to the same object elements. Gives us 2 different arrays, each pointing to the same actual object. ie., Not copies of the object.
+			$.each(this.original, function(i) {
+				self.playlist[i] = self.original[i];
+			});
+             return self.playlist;
+         },
 		add: function(media, playNow) {
 			$(this.cssSelector.playlist + " ul").append(this._createListItem(media)).find("li:last-child").hide().slideDown(this.options.playlistOptions.addTime);
 			this._updateControls();

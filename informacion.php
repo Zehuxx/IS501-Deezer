@@ -48,7 +48,7 @@
 					Datos visibles para otros usuarios
 					<hr>
 				</div>
-				<table>
+				<table >
 					<tr>
 						<td style="text-align: right;padding-left: 10px;padding-bottom: 17px">
 							<label class="extras">Sexo</label>
@@ -62,7 +62,7 @@
 						<td style="text-align: right;padding-left: 10px">
 							<label class="extras">Nombre de Usuario</label>
 						</td>
-						<td width="300" style="padding-left: 15px">
+						<td width="313" style="padding-left: 15px">
 							<input type="text" class="form-control">
 						</td>
 					</tr>
@@ -71,7 +71,7 @@
 					Datos Privados
 					<hr>
 				</div>
-				<table>
+				<table style="margin-left: -31px">
 					<tr>
 						<td style="text-align: right;padding-bottom: 15px">
 							<label class="extras">Apellido(s)</label>

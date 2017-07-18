@@ -2029,6 +2029,7 @@
 					if(this._validString(media.poster)) {
 						if(posterChanged) { // Since some browsers do not generate img onload event.
 							this.htmlElement.poster.src = media.poster;
+							
 						} else {
 							this.internal.poster.jq.show();
 						}
@@ -2040,6 +2041,22 @@
 					}
 					if(this.htmlElement.audio) {
 						this.htmlElement.audio.setAttribute('title', media.title);
+						this.htmlElement.audio.setAttribute('artist', media.artist);
+						var titulo = media.title.slice(0, 15);
+						var artista = media.artist.slice(0, 20);
+						if (titulo.length>=15) {
+							$("#nombresong").text(titulo+"...");
+						}else{
+							$("#nombresong").text(titulo);
+						}
+
+						if (artista.length>=20) {
+							$("#nombreartista").text(artista+"...");
+						}else{
+							$("#nombreartista").text(artista);
+						}
+						
+						
 					}
 					if(this.htmlElement.video) {
 						this.htmlElement.video.setAttribute('title', media.title);

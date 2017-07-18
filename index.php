@@ -157,6 +157,10 @@
 									</ul>
 									<div id="jp_container_1"  class="jp-video jp-video-270p" role="application" aria-label="media player">
 										<div class="jp-type-playlist" >
+											<span style="position: absolute;" id="detalles">
+												<p class="nombresong"><a href="#" id="nombresong"></a></p>
+												<p class="nombreartista" style="margin-top: -5px">de<a href="#" id="nombreartista"></a></p>
+											</span>	
 											<div id="jquery_jplayer_1" class="jp-jplayer">
 												
 											</div>
@@ -193,28 +197,28 @@
 																<a href="#" id="repetir" title="Repetir todas las canciones de la lista"><span class=" jp-repeat glyphicon glyphicon-refresh"  aria-hidden="true"></span></a>
 																<a href="#" id="ran" title="Activar modo aleatorio"><span class=" jp-shuffle glyphicon glyphicon-random" aria-hidden="true"></span></a>
 																<a href="#" id="cola" title="Lista de espera"><span class="glyphicon glyphicon-list-alt" id="iconos" >
-																<div class="hijo6 " id="hijo6" >
-																
+																</span></a>
+															<div class="hijo6 " id="hijo6" >
+
 																	<div class="jp-playlist" >
-																	<div id="listaa">
-																		<div id="sublistaa">
-																		<div>
-																			<h2 class="espera elip estilo">Lista de espera</h2>
-																			<h3 class="total elip estilo">15 canciones 4:34:43</h3>
-                                                                          <div id="chek">
-																				<input type="checkbox" name="chk3" id="chk3"><label for="chk3"><p >Recomendaciones automaticas</p> </label>
-                                                                          </div>
+																		<div id="listaa">
+																			<div id="sublistaa">
+																				<div>
+																					<h2 class="espera elip estilo">Lista de espera</h2>
+																					<h3 class="total elip estilo">15 canciones 4:34:43</h3>
+																					<div id="chek">
+																						<input type="checkbox" name="chk3" id="chk3"><label for="chk3"><p >Recomendaciones automaticas</p> </label>
+																					</div>
+																				</div>
+
+																			</div>
 																		</div>
-																			
-																		</div>
-																	</div>
-																		<ul>
+																		<ul id="listplay">
 																			<!-- The method Playlist.displayPlaylist() uses this unordered list -->
 																			<li>&nbsp;</li>
 																		</ul>
 																	</div>
-																</div></span></a>
-																
+																	</div>
 															</div>
 														</div>
 														<div class="jp-details">
@@ -229,16 +233,14 @@
 												</div>
 											</div>
 										</div>
+
 									<!--
 									<div id="cover">
 
 										
 									</div>
 									
-									<span style="position: relative;">
-										<p class="nombresong"><a href="#" id="nombresong">Chuva de Arros Juco</a></p>
-										<p class="nombreartista" style="margin-top: -5px">de<a href="#" id="nombreartista">calljksksdkkkkx 13</a></p>
-									</span>
+									
 
 									<div style="color: white;position: relative;padding-top: 74px">
 										<div style="text-align: center;">
@@ -257,12 +259,16 @@
 									</div>
 									-->
 								</div>
+
 								<div id="drop">
+								</div>
+								<div id="cover">
 									
 								</div>
 								<div class="col-lgj-10 " id="ifra"  >
 								
-							</div>	
+							</div>
+
 
                                    
 
@@ -276,14 +282,16 @@
 
 										$(document).ready(function(){
 
-											new jPlayerPlaylist({
+											
+
+										var py = new jPlayerPlaylist({
 												jPlayer: "#jquery_jplayer_1",
 												cssSelectorAncestor: "#jp_container_1"
-											}, [
+											},  [
 											
 											{
-												title:"voices",
-												artist:"rev theory",
+												title:"voices kdakfskfks skfksk",
+												artist:"rev theory kdakfskfks skfksk",
 												mp3:"http://localhost/IS501-Deezer/randi.mp3",
 												poster: "http://localhost/IS501-Deezer/img/orton.jpg"
 											},
@@ -318,7 +326,22 @@
 												keyEnabled: true,
 												audioFullScreen: true
 											});
+
+
+									function arr(){
+                                         for (var i = 0; i < py.playlist.length; i++) {
+                                         	//alert(py.playlist[i]["artist"]+py.playlist[i]["artist"]+py.playlist[i]["mp3"]+py.playlist[i]["poster"]);
+
+                                         }
+                                   }
+
+//console.log(py.playlist);
+
+	
+
 										});
+ 
+ 
 									</script>
 								</body>
 								</html>

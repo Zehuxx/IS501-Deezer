@@ -282,18 +282,21 @@ html{
 #cover{
   height: 140px;
   width: 220px;
- 
   opacity: 0.2;
-  background-image: url("../img/goku.jpg");
+  margin-top: 440px;
   position: absolute;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 .nombresong{
+  z-index: 3;
   padding-top: 8px;
   margin-right: 23px;
-  overflow: hidden;
-  white-space:nowrap;
-  text-overflow: ellipsis;
+  text-overflow:ellipsis;
+  white-space:nowrap; 
+  overflow:hidden; 
   font-size: 20px;
   color: #fff;
 }
@@ -314,14 +317,31 @@ html{
   text-decoration: underline;
 }
 
+.nombreartista{
+  font-family:"Open Sans", Arial, sans-serif;
+  padding-left: 22px;
+  margin-right: 30px;
+ text-overflow:ellipsis;
+  white-space:nowrap; 
+  overflow:hidden; 
+  position: absolute;
+  z-index: 3;
+  
+  color: #fff;
+  font-size:14px;
+  }
+
 #nombresong{
+    z-index: 3;
     font-family:"Open Sans", Arial, sans-serif;
     font-size:18px;
     font-weight:800;
-    padding-left: 22px;
-    padding-right: 30px;
+    margin-left: 22px;
+    position: relative;
     color: #fff;
-    
+    white-space:nowrap; 
+    overflow:hidden;
+    text-overflow:ellipsis;
     
 }
 
@@ -329,24 +349,18 @@ html{
   margin-right: 15px;
 }
 
-.nombreartista{
-  font-family:"Open Sans", Arial, sans-serif;
-  padding-left: 22px;
-  margin-right: 30px;
-  overflow: hidden;
-  white-space:nowrap;
-  text-overflow: ellipsis;
-  color: #fff;
-  font-size:14px;
-  }
 
 #nombreartista{
 font-family:"Open Sans", Arial, sans-serif;
 font-size:14px;
+z-index: 3;
+position: relative;
 font-weight:normal;
-padding-left: 6px;
+margin-left: 6px;
 color: #fff;
-
+  white-space:nowrap; 
+  overflow:hidden; 
+  text-overflow:ellipsis;
 }
 
 .datoss{
@@ -368,6 +382,8 @@ color: #fff;
 
 .personales{
     color: #72727d;
+    position: relative;
+    margin-left: -10px;
     margin-bottom: 24px;
     padding-top: 24px;
     font-family: "Open Sans",Arial,sans-serif;
@@ -403,7 +419,7 @@ color: #fff;
     width: 368px;
     height: 701px; 
     background-color: #F8FAFA;
-    position:fixed; 
+   
     margin-left: 231px; 
     margin-top: -320px;
     transition-duration:  0.4s;
@@ -417,7 +433,7 @@ color: #fff;
     width: 368px;
     height: 701px; 
     background-color: #F8FAFA;
-    position:fixed; 
+    
     margin-left: 231px; 
     margin-top: -430px;
     transition-duration:  0.4s;
@@ -425,29 +441,17 @@ color: #fff;
 
 
 .hijo6{
+    opacity: 0;
+    visibility: hidden;
     width: 368px;
     height: 701px;
     position:fixed;
-    margin-left: 51px; 
-    margin-top: -665px;
+    margin-left: 145px;
+    margin-top: -660px;
+    cursor: default; 
     transition-duration:  0.4s;
 }
 
-
-
- .jp-toggles a span .hijo6{
-  
-  opacity: 0;
-  position: fixed;
-  visibility: hidden;
-  overflow: hidden;
-}  
-
-.jp-toggles a span:hover > .hijo6{
-  opacity: 1;
-  visibility: visible;
-  cursor: default;
-}
 
 
 
@@ -459,7 +463,7 @@ color: #fff;
     width: 368px;
     height: 701px; 
     background-color: #F8FAFA;
-    position:fixed; 
+
     margin-left: 231px; 
     margin-top: -360px;
     transition-duration:  0.4s;
@@ -473,7 +477,6 @@ color: #fff;
     width: 368px;
     height: 701px; 
     background-color: #F8FAFA;
-    position:fixed; 
     margin-left: 231px; 
     margin-top: -395px;
     transition-duration:  0.4s;
@@ -487,7 +490,6 @@ color: #fff;
     width: 368px;
     height: 701px; 
     background-color: #F8FAFA;
-    position:fixed; 
     margin-left: 231px; 
     margin-top: -215px;
     transition-duration:  0.4s;
@@ -512,7 +514,7 @@ color: #fff;
 }
 
 #chek{
-  position: relative;
+  position: absolute;
   margin-top: 45px;
 }
 
