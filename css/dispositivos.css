@@ -254,7 +254,7 @@ body
 .info
 {
 	float: left;
-	margin-top: 60px;
+	margin-top: 2px;
 }
 
 .per
@@ -274,10 +274,9 @@ body
     color: #c2c2ca;
     cursor: pointer;
     font-size: 14px;
-    left: 0;
 	float: left;
 	margin-top: -20px;
-	margin-left: 159px;
+	margin-left: 120px;
     height: 30px;
     padding: 5px;
     width: 7%;
@@ -290,14 +289,6 @@ body
     -moz-appearance: none;
     appearance: none;
     
-}
-
-hr
-{
-	color:solid red;
-	background:red;
-	margin-left: 150px;
-	border: 0px;
 }
 
 nav {
@@ -380,4 +371,72 @@ nav {
     margin-left:30px;
     }
 
+    .separador
+    {
+      float: left; 
+      border-top: 1px #32323D solid;
+      width: 1136px;
+      height: 1px;
+      margin-top: 60px;
+      margin-left: 118px;
+    }
 
+    .parf
+    {
+    	margin-top: -2px;
+    }
+
+    .parf1
+    {
+    	float: left;
+    	margin-top: 4px;
+    }
+
+    i
+    {
+    	color:#888891;
+    }
+
+    .perr .par .fa-facebook:hover
+    {
+    	color: #fff;
+    }
+
+    .perr .par .fa-google-plus:hover
+    {
+    	color: #fff;
+    }
+
+    .perr .par .fa-twitter:hover
+    {
+    	color: #fff;
+    }
+
+    .perr .par .fa-youtube:hover
+    {
+    	color: #fff;
+    }
+
+    .perr .par .fa-instagram:hover
+    {
+    	color: #fff;
+    }
+
+    .perr .par .fa-linkedin:hover
+    {
+    	color: #fff;
+    }
+
+    .perr
+    {
+        float: left;
+        margin-left: 55px;
+        margin-top: -1px;
+    }
+
+    .par
+    {
+    	float: left;
+    	margin-top: 50px;
+    	margin-left: 55px;
+    }
