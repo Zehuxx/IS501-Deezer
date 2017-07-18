@@ -11,7 +11,7 @@
 	font-family:"Open Sans";
 	font-style: normal; 
 	font-weight: bold;
-	font-size: 45px;
+	font-size: 50px;
 	float:left;
 	margin-top: 65px;
 	margin-left: 90px;
@@ -32,10 +32,10 @@
     font-family: "Open Sans"; 
 	font-style: normal; 
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 28px;
 	float:left;
 	margin-top: 150px;
-	margin-left:-150px;
+	margin-left:-165px;
 	color: #191929;
 }
 
@@ -74,6 +74,7 @@ body
 	width: 1190px;
 	height:250px;
 	margin-left: 90px;
+	margin-top: 95px;
 }
 
 .windows
@@ -253,7 +254,7 @@ body
 .info
 {
 	float: left;
-	margin-top: 60px;
+	margin-top: 2px;
 }
 
 .per
@@ -266,37 +267,34 @@ body
 	margin-top: 15px;
 }
 
-.lenguajes
+#lenguajes
 {
 
     background-color: #42424d;
     color: #c2c2ca;
     cursor: pointer;
     font-size: 14px;
-    left: 0;
 	float: left;
 	margin-top: -20px;
-	margin-left: 159px;
+	margin-left: 120px;
     height: 30px;
     padding: 5px;
     width: 7%;
     border: 0px none;
     border-radius: 3px;
     display: block;
-}
-
-hr
-{
-	color:solid gray;
-	background:gray;
-	margin-left: 150px;
-	border: 0px;
+    box-shadow: none;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
 }
 
 nav {
     float: left;
     margin-left: 100px;
-    width : 1150px;
+    width : 1150.002px;
     height: 152px;
     background :#F8F8F9;
     top: 40px;
@@ -305,12 +303,13 @@ nav {
     .menu
     {
         float: left;
-        margin-top: 30px;
+        margin-top: 20px;
+        margin-left: -44px;
     }
 
     nav ul {
     margin : 0 auto;
-    width : 1150px;
+    width : 1150.002px;
     height: 152px;
     list-style : none;
     }
@@ -321,8 +320,9 @@ nav {
 
     nav ul li a {
     display : block;
-    margin-right : 20px;
-    width : 140px;
+    margin-right : -32px;
+    width : 191.677px;
+    height: 152px;
     font-size : 14px;
     line-height : 44px;
     text-align : center;
@@ -332,32 +332,111 @@ nav {
 
     nav ul li a:hover {
     color : #7FBEF1;
+    background: #FBFBFC;
+    text-decoration: none;
     }
 
     nav ul li.selected a {
     color : #7FBEF1;
+    text-decoration: none;
     background: #FBFBFC;
     }
-.li1{
-    margin-top: 16px;
-}
-.li2{
+
+   .li1{
+    margin-top: 22.87px;
+    }
+
+   .li2{
 	margin-top: 22.87px;
-    margin-left:28px;
-}
-.li3{
-    margin-top: 2px;
-    margin-left:28px;
-}
-.li4{
-    margin-top: 6.5px;
-    margin-left:28px;
-}
-.li5{
-    margin-top: 15px;
-    margin-left:28px;
-}
-.li6{
-    margin-top: 53px;
-    margin-left:28px;
-}
+    margin-left:30px;
+    }
+
+   .li3{
+    margin-top: 22.87px;
+    margin-left:30px;
+    }
+
+    .li4{
+    margin-top: 22.87px;
+    margin-left:30px;
+    }
+
+    .li5{
+    margin-top: 22.87px;
+    margin-left:30px;
+    }
+
+    .li6{
+    margin-top: 22.87px;
+    margin-left:30px;
+    }
+
+    .separador
+    {
+      float: left; 
+      border-top: 1px #32323D solid;
+      width: 1136px;
+      height: 1px;
+      margin-top: 60px;
+      margin-left: 118px;
+    }
+
+    .parf
+    {
+    	margin-top: -2px;
+    }
+
+    .parf1
+    {
+    	float: left;
+    	margin-top: 4px;
+    }
+
+    i
+    {
+    	color:#888891;
+    }
+
+    .perr .par .fa-facebook:hover
+    {
+    	color: #fff;
+    }
+
+    .perr .par .fa-google-plus:hover
+    {
+    	color: #fff;
+    }
+
+    .perr .par .fa-twitter:hover
+    {
+    	color: #fff;
+    }
+
+    .perr .par .fa-youtube:hover
+    {
+    	color: #fff;
+    }
+
+    .perr .par .fa-instagram:hover
+    {
+    	color: #fff;
+    }
+
+    .perr .par .fa-linkedin:hover
+    {
+    	color: #fff;
+    }
+
+    .perr
+    {
+        float: left;
+        margin-left: 55px;
+        margin-top: -1px;
+    }
+
+    .par
+    {
+    	float: left;
+    	margin-top: 50px;
+    	margin-left: 55px;
+    }
