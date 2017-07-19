@@ -445,6 +445,7 @@ color: #fff;
     visibility: hidden;
     width: 368px;
     height: 701px;
+    border-color: #f8f8fa;
     position:fixed;
     margin-left: 145px;
     margin-top: -660px;
@@ -515,7 +516,8 @@ color: #fff;
 
 #chek{
   position: absolute;
-  margin-top: 45px;
+  margin-top: 35px;
+  font-size: 15px;
 }
 
 

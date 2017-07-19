@@ -307,8 +307,15 @@ $("#cola").click(function(){
          $("#li8 .si").css("color","#C2C2CA");
          $("#li9").css("background-color","#23232c");
          $("#li9 .si").css("color","#C2C2CA");
-    $("#hijo6").css({"visibility":"visible","opacity":"1"});
-    $("#drop").css({"visibility":"visible","opacity":"0.5"});
+
+    if ($("#hijo6").css("visibility")=="visible") {
+         $("#hijo6").css({"visibility":"hidden","opacity":"0"});
+         $("#drop").css({"visibility":"hidden","opacity":"0"});
+    }else{
+         $("#hijo6").css({"visibility":"visible","opacity":"1"});
+         $("#drop").css({"visibility":"visible","opacity":"0.5"});
+    }
+    
 });
 
 

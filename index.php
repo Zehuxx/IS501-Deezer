@@ -213,10 +213,12 @@
 
 																			</div>
 																		</div>
+																		<div id="ul">
 																		<ul id="listplay">
 																			<!-- The method Playlist.displayPlaylist() uses this unordered list -->
 																			<li>&nbsp;</li>
 																		</ul>
+																		</div>
 																	</div>
 																	</div>
 															</div>
@@ -290,8 +292,8 @@
 											},  [
 											
 											{
-												title:"voices kdakfskfks skfksk",
-												artist:"rev theory kdakfskfks skfksk",
+												title:"voices",
+												artist:"rev theory",
 												mp3:"http://localhost/IS501-Deezer/randi.mp3",
 												poster: "http://localhost/IS501-Deezer/img/orton.jpg"
 											},

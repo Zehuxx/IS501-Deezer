@@ -252,10 +252,10 @@
 
 			// Wrap the <li> contents in a <div>
 			var listItem = "<li><div>";
-
+            
 			// Create remove control
 			listItem += "<a href='javascript:;' class='" + this.options.playlistOptions.removeItemClass + "'>&times;</a>";
-
+            listItem += "<span><img class='pictures' width='56' height='56' src='"+media.poster+"'></span>";
 			// Create links to free media
 			if(media.free) {
 				var first = true;
@@ -274,7 +274,17 @@
 			}
 
 			// The title is given next in the HTML otherwise the float:right on the free media corrupts in IE6/7
-			listItem += "<a href='javascript:;' class='" + this.options.playlistOptions.itemClass + "' tabindex='0'>" + media.title + (media.artist ? " <span class='jp-artist'>by " + media.artist + "</span>" : "") + "</a>";
+            var titulo = media.title.slice(0, 30);
+            var artista = media.artist.slice(0, 30);
+            if (titulo.length>=30) {
+							titulo=titulo+"...";
+						}
+
+						if (artista.length>=30) {
+							artista=artista+"...";
+						}
+			listItem += "<a href='javascript:;' class='titulos " + this.options.playlistOptions.itemClass + "' tabindex='0'>" + titulo +"</a>";
+			listItem += " <br><span class='jp-artist'>de <a href='javascript:;' class='artistas' >"+ artista + "</></span>"; 
 			listItem += "</div></li>";
 
 			return listItem;
