@@ -10,17 +10,17 @@
 <body>
 <div class="Principal">
   <h1 class="titulo">Deezer</h1>
-  <h2 class="subtitulo"><span class="azul">En todos tus dispositivos</span> con Premium+.</h2>
-  <nav>  
+  <h2 class="subtitulo"><span class="azul">En todos tus dispositivos</span> con Premium+.</h2> 
+      <div id="art"> 
        <ul id="men1" class="menu">  
-           <li class="li1"><a href="#"><img src="img/mac.png"><p>Pc/Mac</p></a></li>  
-           <li class="li2"><a href="#"><img src="img/moviles.png"><p>Moviles y SmartWatch</p></a></li>  
-           <li class="li3"><a href="#"><img src="img/tablets.png"><p>Tabletas</p></a></li>
-           <li class="li4"><a href="#"><img src="img/televisores.png"><p>TV</p></a></li>
-           <li class="li5"><a href="#"><img src="img/equipos de audio.png"><p>Sistemas de audio</p></a></li> 
-           <li class="li6"><a href="#"><img src="img/carros.png"><p>Automóviles</p></a></li> 
-       </ul>    
-    </nav> 
+           <li id="li1" class="active"><a href="#"><img src="img/mac.png"><p>Pc/Mac</p></a></li>  
+           <li id="li2" class="active1"><a href="#"><img src="img/moviles.png"><p>Moviles y SmartWatch</p></a></li>  
+           <li id="li3" class="active1"><a href="#"><img src="img/tablets.png"><p>Tabletas</p></a></li>
+           <li id="li4" class="active1"><a href="#"><img src="img/televisores.png"><p>TV</p></a></li>
+           <li id="li5" class="active1"><a href="#"><img src="img/equipos de audio.png"><p>Sistemas de audio</p></a></li> 
+           <li id="li6" class="active1"><a href="#"><img src="img/carros.png"><p>Automóviles</p></a></li> 
+       </ul>
+       </div>  
 </div>
 <div class="contenido">
 	<div class="pmac">
