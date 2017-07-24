@@ -8,13 +8,14 @@
 
 .titulo
 {
-	font-family:"Open Sans";
+	font-family:"Open Sans",Arial,sans-serif;
+    font-weight: 300;
 	font-style: normal; 
-	font-weight: bold;
-	font-size: 50px;
+	font-size: 54px;
 	float:left;
 	margin-top: 65px;
 	margin-left: 90px;
+    color: #191922;
 }
 
 .azul
@@ -29,10 +30,9 @@
 
 .subtitulo
 {
-    font-family: "Open Sans"; 
-	font-style: normal; 
-	font-weight: bold;
-	font-size: 28px;
+    font-family:"Open Sans",Arial,sans-serif;
+    font-weight: 300;
+	font-size: 30px;
 	float:left;
 	margin-top: 150px;
 	margin-left:-165px;
@@ -47,7 +47,7 @@
 .contenido
 {
 	width:1349px;
-    height:2205px; 
+    height:1450px; 
 }
 
 body
@@ -64,9 +64,9 @@ body
 
 .mac1
 {
-	font-family: "Open Sans"; 
-	font-style: normal; 
-	color:black;
+	font-family:"Open Sans",Arial,sans-serif;
+    font-weight: 300;
+	color:#191929;
 }
 
 .pmac
@@ -126,13 +126,13 @@ body
 {
 	background: #23232D;
 	width: 1349px;
-	height:466px;
+	height:525px;
 }
 
 .sig
 {
-	font-family: "Open Sans"; 
-	font-style: normal; 
+	font-family:"Open Sans",Arial,sans-serif;
+    font-weight: 300; 
 	color:#72727D;
 	font-size: 20px;
 	margin-left: 100px;
@@ -214,11 +214,14 @@ body
 {
 	font-family: "Open Sans"; 
 	font-style: normal; 
-	color:#72727D;
+	color:#92929d;
 }
 
 .pa
 {
+    font-family:"Open Sans",Arial,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
 	margin-top: 5px;
 	margin-bottom:40px; 
 }
@@ -241,14 +244,14 @@ body
 {
 	float: left;
     margin-top: 55px;
-    margin-left: 120px;
+    margin-left: 180px;
 }
 
 .legal
 {
 	float: left;
     margin-top: 55px;
-    margin-left: 120px;
+    margin-left: 180px;
 }
 
 .info
@@ -307,18 +310,18 @@ nav {
         margin-left: -44px;
     }
 
-    nav ul {
-    margin : 0 auto;
+    ul {
     width : 1150.002px;
     height: 152px;
     list-style : none;
+    float: left;
     }
 
-    nav ul li {
+    ul li {
     float : left;
     }
 
-    nav ul li a {
+    ul li a {
     display : block;
     margin-right : -32px;
     width : 191.677px;
@@ -330,43 +333,36 @@ nav {
     color : #72727D;
     }
 
-    nav ul li a:hover {
-    color : #7FBEF1;
-    background: #FBFBFC;
+    ul li a:hover {
+    color : #007FEB;
     text-decoration: none;
     }
 
-    nav ul li.selected a {
-    color : #7FBEF1;
-    text-decoration: none;
-    background: #FBFBFC;
-    }
-
-   .li1{
+   #li1{
     margin-top: 22.87px;
     }
 
-   .li2{
+   #li2{
 	margin-top: 22.87px;
     margin-left:30px;
     }
 
-   .li3{
+   #li3{
     margin-top: 22.87px;
     margin-left:30px;
     }
 
-    .li4{
+    #li4{
     margin-top: 22.87px;
     margin-left:30px;
     }
 
-    .li5{
+    #li5{
     margin-top: 22.87px;
     margin-left:30px;
     }
 
-    .li6{
+    #li6{
     margin-top: 22.87px;
     margin-left:30px;
     }
@@ -440,3 +436,69 @@ nav {
     	margin-top: 50px;
     	margin-left: 55px;
     }
+
+    ul li.active a{
+    	color: #007FEB;
+    	background: #fff;
+    	text-decoration: none;
+}
+
+#art{
+	float: left;
+	margin-left: 100px;
+}
+
+#navegadores
+{
+    float: left;
+    margin-top: 25px;
+}
+
+#naver1
+{
+    margin-left: 25px;
+}
+
+#naver2
+{
+    margin-left: 25px;
+}
+
+#naver3
+{
+    margin-left: 25px;
+}
+
+#wins
+{
+    float: left;
+    margin-top: 15px;
+    width: 128px;
+    height: 45px;
+}
+
+p
+{
+    font-family: arial;
+    font-size: 16px;
+}
+
+dd
+{
+    font-family:"Open Sans",Arial,sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+dl dd a:hover
+{
+    color: #fff;
+}
+
+#navi
+{
+    font-family:"Open Sans",Arial,sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}

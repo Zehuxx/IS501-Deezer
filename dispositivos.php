@@ -10,17 +10,17 @@
 <body>
 <div class="Principal">
   <h1 class="titulo">Deezer</h1>
-  <h2 class="subtitulo"><span class="azul">En todos tus dispositivos</span> con Premium+.</h2>
-  <nav>  
+  <h2 class="subtitulo"><span class="azul">En todos tus dispositivos</span> con Premium+.</h2> 
+      <div id="art"> 
        <ul id="men1" class="menu">  
-           <li class="li1"><a href="#"><img src="img/mac.png"><p>Pc/Mac</p></a></li>  
-           <li class="li2"><a href="#"><img src="img/moviles.png"><p>Moviles y SmartWatch</p></a></li>  
-           <li class="li3"><a href="#"><img src="img/tablets.png"><p>Tabletas</p></a></li>
-           <li class="li4"><a href="#"><img src="img/televisores.png"><p>TV</p></a></li>
-           <li class="li5"><a href="#"><img src="img/equipos de audio.png"><p>Sistemas de audio</p></a></li> 
-           <li class="li6"><a href="#"><img src="img/carros.png"><p>Automóviles</p></a></li> 
-       </ul>    
-    </nav> 
+           <li id="li1" class="active"><a href="#"><img src="img/mac.png"><p id="navi">Pc/Mac</p></a></li>  
+           <li id="li2" class="active1"><a href="#"><img src="img/moviles.png"><p id="navi">Moviles y SmartWatch</p></a></li>  
+           <li id="li3" class="active1"><a href="#"><img src="img/tablets.png"><p id="navi">Tabletas</p></a></li>
+           <li id="li4" class="active1"><a href="#"><img src="img/televisores.png"><p id="navi">TV</p></a></li>
+           <li id="li5" class="active1"><a href="#"><img src="img/equipos de audio.png"><p id="navi">Sistemas de audio</p></a></li> 
+           <li id="li6" class="active1"><a href="#"><img src="img/carros.png"><p id="navi">Automóviles</p></a></li> 
+       </ul>
+       </div>  
 </div>
 <div class="contenido">
 	<div class="pmac">
@@ -39,10 +39,19 @@
 	<div class="navegigator">
 		<img src="img/pcmac.png" align="right"><h1 class="mac1">Deezer en tu navegador</h1>
 		<p class="mac">Abre tu navegador, vete a Deezer.com, dale al play y sube el volumen. Disfrutar de la música en tu ordenador no puede ser más fácil.</p>
+		<div id="navegadores">
+			<img id="naver" src="img/crome.png">
+            <img id="naver1" src="img/firefox.png">
+            <img id="naver2" src="img/explorer.png">
+			<img id="naver3" src="img/safari.png">
+		</div>
 	</div>
 	<div class="win8">
 		<img src="img/windows8.png" align="right"><h1 class="mac1"><span class="azul">Windows 8</span></h1>
 		<p class="mac">Disfruta de Deezer en tu PC o tableta Windows 8. Escucha tus playlists preferidas y organiza las canciones como te apetezca.</p>
+		 <a href="#"  style="text-decoration:none"><p class="mac"><span class="azul">Ver el vídeo ></span></p></a>
+		 <a href="https://www.microsoft.com/en-us/store/p/deezer/9wzdncrfj26h?rtc=1"><img id="wins" src="img/winstore.png"></a>
+	</div>
 	</div>
 	<div class="siguenos">
 		<h2 class="sig">Síguenos</h2>
@@ -71,11 +80,8 @@
 	     <div class="extras">
 	           <dl>
 	           <dt><h3 class="pa"><span class="azul1">Extras</span></h3></dt>
-	     		<dd><a href="" style="text-decoration:none" class="der"> Android </a></dd>
-	     		<dd><a href="" style="text-decoration:none" class="der">Ventajas</a></dd>
-	     		<dd><a href="" style="text-decoration:none" class="der">Quiénes somos</a></dd>
-	     		<dd><a href="" style="text-decoration:none" class="der">Prensa</a></dd>
-	     		<dd><a href="" style="text-decoration:none" class="der">Ofertas de empleo Deezer</a></dd>
+	     		<dd><a href="" style="text-decoration:none" class="der">Developers </a></dd>
+	     		<dd><a href="" style="text-decoration:none" class="der">Sellos y artistas </a></dd>
 	     	   </dl>
 	     </div>
 	     <div class="dispositivo">
@@ -84,6 +90,7 @@
 	     		<dd><a href="" style="text-decoration:none" class="der">Android</a></dd>
 	     		<dd><a href="" style="text-decoration:none" class="der">iPhone - Ipod Touch - iPad </a></dd>
 	     		<dd><a href="" style="text-decoration:none" class="der">Windows Phone </a></dd>
+	     		<dd><a href="" style="text-decoration:none" class="der">PC/Mac</a></dd>
 	     		<dd><a href="" style="text-decoration:none" class="der">Tabletas</a></dd>
 	     		<dd><a href="" style="text-decoration:none" class="der">TV</a></dd>
 	     		<dd><a href="" style="text-decoration:none" class="der">Sistemas de audio</a></dd>

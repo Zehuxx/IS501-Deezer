@@ -2,7 +2,7 @@ function ifra(link){
     if (link==1)
     	$("#ifra").html('<iframe class="contenido" src="configuraciones.php" frameborder="0"  ></iframe>');
     if(link==2)
-    	$("#ifra").html("<iframe class='contenido' src='notific.php'frameborder='0' ></iframe>");
+    	$("#ifra").html("<iframe class='contenido' src='notific.php' frameborder='0' ></iframe>");
      if(link==3)
     	$("#ifra").html("<iframe class='contenido' src='disposi.php' frameborder='0' ></iframe>");
 }
@@ -99,6 +99,8 @@ function reload(hijo){
          $("#hijo6").css({"visibility":"hidden","opacity":"0"});
          $("#drop").css({"visibility":"hidden","opacity":"0"});
        });
+
+
 
 function cambiarborde(id,id2,id3){
 
@@ -297,7 +299,6 @@ function abrir(){
 
 
 
-
 $("#cola").click(function(){
     $("#li6").css("background-color","#23232c");
          $("#li6 .si").css("color","#C2C2CA");
@@ -343,3 +344,10 @@ $(document).ready(function(){
     abrir();
   
 });
+  
+$("#start4").click(function(){
+$("#ifra").html('<iframe class="contenido" src="perfil.php?accion=1" frameborder="0" id="pru" ></iframe>');
+
+});
+
+

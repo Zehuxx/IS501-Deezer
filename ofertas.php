@@ -11,7 +11,9 @@
 	   <link rel="stylesheet" href="fonts/style.css">
 	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     
+     <style type="text/css">
+       
+     </style>
 
 	</head>
 
