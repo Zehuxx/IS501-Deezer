@@ -3,7 +3,7 @@
 <head>
 	<title>Deezer</title>
 	<link rel="icon" href="img/fav.ico" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/personalizado.css">
 	<link href="css/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
@@ -32,7 +32,7 @@
 	
 	<div  class="col-lgj-2" id="barrra">
 		<img src="img/deezerr.png" id="fimage">
-		<input type="text" class="form-control" placeholder="Buscar" id="buscador">
+		<input type="text" class="form-control" value="1" placeholder="Buscar" id="buscador">
 		
 		<ul class="nav" id="nav">
 
@@ -270,7 +270,42 @@
 								<div class="col-lgj-10 " id="ifra"  >
 								
 							</div>
+<!-- Modal -->
+<div class="modal fade" id="newplaylist" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div id="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <center><h4 class="modal-title" id="myModalLabel">Crear una playlist</h4></center>
+      </div>
+      <div class="modal-body">
+      <center>
+       <table  id="camara">
+       	<tr>
+       		<td id="col1"><img src="img/perfil.jpg" id="fotop"></td>
+       		<td>
+       		<span id="pon">Para ponerle nombre,aqui:</span>
+       		<input type="text" id="name-play" placeholder="Nombre de la playlist" class="form-control" >
+       		<input type="checkbox" name="chk6" id="chk6"><label for="chk6"><span class="aparte">Privada<h6 class="apart">(solo tu puedes ver este playlist)</h6> </span></label>
+       		<br>
+            <input type="checkbox" name="chk7" id="chk7"><label for="chk7"><span class="aparte">Colaborativa</span> </label>
+       		
+       		</td>
+       	</tr>
+       </table>
 
+       </center>
+       <span class="dinos">Dinos algo de tu playlist...</span>
+       <input type="text" class="form-control" id="descrip" placeholder="Introduce una descripcion (opcional)">
+      </div>
+      <div class="modal-footer">
+         <button type="button" class="btn btn-primary"  style="float: right;">Crear</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" style="float: left;">Cancelar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
 
                                    
 
@@ -345,5 +380,9 @@
  
  
 									</script>
+
+
+
+
 								</body>
 								</html>
