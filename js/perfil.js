@@ -111,7 +111,7 @@ function ifra4(link){
     if(link==2)
     	$("#ifra4").html("<iframe class='contenido4' onload='redimensionariframe(this)' src='playlists.php' frameborder='0' ></iframe>");
      if(link==3)
-    	$("#ifra4").html("<iframe class='contenido4' src='disposi.php' frameborder='0' ></iframe>");
+    	$("#ifra4").html("<iframe class='contenido4' onload='redimensionariframe(this)' src='albumes.php' frameborder='0' ></iframe>");
 }
 
 

@@ -16,7 +16,7 @@ function ifra2(link){
     	$("#ifra2").html("<iframe class='contenido2' src='dispositivosconectados.php' frameborder='0'></iframe>");
 } 
 
-
+ 
 function ifra3(link){
     if (link==1)
         $("#ifra3").html('<iframe class="contenido3" src="features.php" frameborder="0"  ></iframe>');
