@@ -90,7 +90,7 @@
                        								</td>
                        								<tr>
                        									<td>
-                       										<span class="tipop">de <span class="tipop2">';echo cortar("artistasjdsdddddddddddjjksdkdkskdkskd");echo '</span><span>
+                       										<span class="tipop">de <span class="tipop2">';echo cortar("artistasjdsdddddddddddjjksdkdkskdkskd");echo '</span></span>
                        									</td>
                        								</tr>
                        							</tr>
@@ -125,12 +125,6 @@
         });
 
      $(document).ready(function(){
-
-     	$('#newplaylist',window.parent.parent.document).on('hide.bs.modal', function (e) {
-     if($("#dropp",window.parent.parent.document).hasClass("modal-backdrop")){
-    $(".modal-backdrop",window.parent.parent.document).remove();
-}
-});
 
 
 

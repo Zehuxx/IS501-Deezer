@@ -69,7 +69,7 @@
 							<a href="javascript:;" id="alb" onclick="ifra4(3)" onmouseover="sobre('alb')" onmouseleave="unsobre('alb');" ><span id="bla">Albumes</span></a>
 						</td>
 						<td>
-							<a href="javascript:;" id="art" onmouseover="sobre('art')" onmouseleave="unsobre('art');"  ><span id="tra">Artistas</span></a>
+							<a href="javascript:;" id="art" onclick="ifra4(4)" onmouseover="sobre('art')" onmouseleave="unsobre('art');"  ><span id="tra">Artistas</span></a>
 						</td>
 						<td >
 							<a href="javascript:;" style="padding-bottom: 16px;padding-top: 10px;" id="sma" onmouseover="sobre('sma')" onmouseleave="unsobre('sma');" ><span id="mas">Mas <span  class="glyphicon glyphicon-chevron-down" id="flecha" aria-hidden="true"></span></span>

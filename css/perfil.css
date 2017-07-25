@@ -460,6 +460,13 @@ hr{
     border-radius: 4px;
 }
 
+
+.perf2{
+    cursor: pointer;
+    width: 225px;
+    border-radius: 50%;
+}
+
 .dash:hover{
     background-color: #efeff2;
 }
@@ -470,6 +477,14 @@ hr{
     position: absolute;
     margin-left: -16px;
 }
+
+
+.fotos2{
+    cursor: default;
+    position: absolute;
+    margin-left: -16px;
+}
+
 
 .dash{
         background-color: transparent;
@@ -488,11 +503,15 @@ hr{
       text-decoration: underline;
 }
 
+
+
 .name-play{
       cursor: pointer;
       color: #32323d;
       font-size: 14px;
 }
+
+
 
 .name-play,.tipop{
 
@@ -523,6 +542,16 @@ font-size: 12px;
     top: 235px;
     left:2px;
 }
+
+.informacion2{
+   margin: 0 20%;
+    position: absolute;
+    text-align: center;
+    top: 235px;
+    left:-10px;
+}
+
+
 
 .dash2{
     background-color: transparent;
@@ -559,6 +588,16 @@ font-size: 12px;
     opacity: 0;
 }
 
+.ubicar2{
+    top: 220px;
+    position: relative;
+    margin-top:-50px;
+    margin-left: 53px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
 
 
 .change{
@@ -568,6 +607,20 @@ font-size: 12px;
     opacity: 1; 
     position: absolute; 
     cursor: pointer;
+    top: 0; 
+    transition-duration: .15s; 
+    transition-property: opacity; 
+}
+
+
+.change2{
+    border-radius: 50%;
+    background-color: #efeff2;
+    bottom: 0; 
+    content: ''; 
+    opacity: 1; 
+    position: absolute; 
+    cursor: default;
     top: 0; 
     transition-duration: .15s; 
     transition-property: opacity; 
