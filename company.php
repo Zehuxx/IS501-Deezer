@@ -9,7 +9,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/company.css">
 </head>
-<body style="background-image:url(img/company-background-desktop.jpg); color:#ffffff;background-repeat:no-repeat;background-size:cover;">
+<body style="background-image:url(img/company-background-desktop.jpg); color:#ffffff;background-repeat:no-repeat;background-size:1350px 700px;">
 	<div class="container">
 		<header>
 			<nav class="navbar navbar-inverse navbar-fixed-top" style="">
@@ -30,7 +30,7 @@
 							<li><a href="">FUNCIONALIDADES</a></li>
 							<li><a href="">DISPOSITIVOS</a></li>
 							<ul class="dropdown-menu"><li><a href="">OFERTAS</a>
-       <li class="dropdown-header">CABECERA 1</li>
+       			<li class="dropdown-header">CABECERA 1</li>
                 <li><a href="#">Link 1</a></li>
                 <li><a href="#">Link 2</a></li>
                 <li><a href="#">Link 3</a></li>
@@ -73,6 +73,13 @@
 	    	</center>
 		</header>
 	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<center>
+		<div class="container">
+			<h1 style="color:#800000; float: left;">Déjate sorprender por la música</h1>
+		</div>
+	</center>
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
