@@ -160,7 +160,7 @@
   $(this).css({"visibility":"visible","opacity":"1"});
    $(this).siblings("div.change").css("opacity","0.8");
 });
-
+ 
 
 $(".change").hover(function(){
   $(this).css("opacity","0.8");

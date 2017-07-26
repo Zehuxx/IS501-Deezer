@@ -7,7 +7,7 @@
      	echo $text;
      }
 
-   }
+   } 
 ?>
 
 <!DOCTYPE html>

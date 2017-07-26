@@ -21,10 +21,38 @@
     border-radius: 4px;
 }
 
+.es-but{
+        color: #72727d;
+    font-family: "Lucida Grande",Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.33333333;
+    font-weight: 700;
+}
+
+.btnn:hover{
+    background-color: #92929d;
+}
+
+.btnn{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #c2c2ca;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    padding: 7px 12px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .song3,.art3{
     margin-left: 3px;
 }
-
+ 
 
 .art3{
     position: relative;
@@ -405,6 +433,12 @@ hr{
     line-height: 1.33333333;
 }
 
+.othercolor{
+    color: #72727d;
+}
+
+
+
 .btn-listen{
 	margin-top: 10px;
 	margin-left: -3px;
@@ -588,6 +622,15 @@ font-size: 12px;
     opacity: 0;
 }
 
+.ubicar3{
+    top: 220px;
+    position: relative;
+    margin-top:-50px;
+    margin-left: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
 .ubicar2{
     top: 220px;
     position: relative;
@@ -597,10 +640,28 @@ font-size: 12px;
     opacity: 0;
 }
 
+.azz:hover{
+    color:#007feb;
+}
 
-
+.link:hover{
+    color:#007feb;
+    cursor: pointer;
+}
 
 .change{
+    background-color: #efeff2;
+    bottom: 0; 
+    content: ''; 
+    opacity: 1; 
+    position: absolute; 
+    cursor: pointer;
+    top: 0; 
+    transition-duration: .15s; 
+    transition-property: opacity; 
+}
+
+.change3{
     background-color: #efeff2;
     bottom: 0; 
     content: ''; 

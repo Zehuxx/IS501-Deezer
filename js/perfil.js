@@ -114,6 +114,8 @@ function ifra4(link){
     	$("#ifra4").html("<iframe class='contenido4' onload='redimensionariframe(this)' src='albumes.php' frameborder='0' ></iframe>");
     if(link==4)
       $("#ifra4").html("<iframe class='contenido4' onload='redimensionariframe(this)' src='artistas.php' frameborder='0' ></iframe>");
+    if(link==5)
+      $("#ifra4").html("<iframe class='contenido4' onload='redimensionariframe(this)' src='mimusica.php' frameborder='0' ></iframe>");
 }
 
 
@@ -143,8 +145,41 @@ function info(){
  $('#ifra', window.parent.document).html('<iframe class="contenido" src="configuraciones.php" frameborder="0"  ></iframe>');
 }
 
+function comprobar(){
+  var a=window.parent.document.getElementById("pla");
+  var b=window.parent.document.getElementById("alb");
+  var c=window.parent.document.getElementById("mu");
+  var d=window.parent.document.getElementById("art");
+  if (a.classList.contains("borde-a")) {
+     a.classList.remove("borde-a");
+  }
+  if (b.classList.contains("borde-a")) {
+      b.classList.remove("borde-a");
+  }
+  if (c.classList.contains("borde-a")) {
+       c.classList.remove("borde-a");
+  }
+  if (d.classList.contains("borde-a")) {
+       d.classList.remove("borde-a");
+  }
+  
+}
 
-
+function subventana(id){
+  comprobar();
+  if (id==1) {
+    window.parent.document.getElementById("pla").classList.add("borde-a");
+    $('#ifra4', window.parent.document).html('<iframe class="contenido4" onload="redimensionariframe(this)" src="playlists.php" frameborder="0"  ></iframe>');
+  }
+  if (id==2) {
+    window.parent.document.getElementById("alb").classList.add("borde-a");
+    $('#ifra4', window.parent.document).html('<iframe class="contenido4" onload="redimensionariframe(this)" src="albumes.php" frameborder="0"  ></iframe>');
+  }
+  if (id==3) {
+    window.parent.document.getElementById("art").classList.add("borde-a");
+    $('#ifra4', window.parent.document).html('<iframe class="contenido4" onload="redimensionariframe(this)" src="artistas.php" frameborder="0"  ></iframe>');
+  }
+}
 
 
 function moddd(){

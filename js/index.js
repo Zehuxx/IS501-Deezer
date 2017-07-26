@@ -28,7 +28,7 @@ function ifra3(link){
         $("#ifra3").html("<iframe class='contenido3' src='company.php' frameborder='0' ></iframe>");
 }
 
-
+ 
 function cambiar(){
 $("#start").removeClass("bordee");
  $("#first").removeClass("margen");
@@ -350,4 +350,9 @@ $("#ifra").html('<iframe class="contenido" src="perfil.php?accion=1" frameborder
 
 });
 
+
+$("#li3").click(function(){
+$("#ifra").html('<iframe class="contenido" src="perfil.php?accion=2" frameborder="0" id="pru" ></iframe>');
+
+});
 

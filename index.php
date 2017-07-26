@@ -21,7 +21,7 @@
 			text-decoration:none;
 
 		}
-      li{
+      li{ 
       	color: red;
       }
 		

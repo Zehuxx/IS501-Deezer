@@ -57,7 +57,7 @@
 					<tr>
 						<td>
 
-							<a href="javascript:;"  id="mu" onmouseover="sobre('mu')" onmouseleave="unsobre('mu');" ><span id="um">Mi musica</span></a>
+							<a href="javascript:;"  id="mu" onclick="ifra4(5)" onmouseover="sobre('mu')" onmouseleave="unsobre('mu');" ><span id="um">Mi musica</span></a>
 						</td>
 						<td>
 							<a href="javascript:;" id="fav" onclick="ifra4(1)" onmouseover="sobre('fav')" onmouseleave="unsobre('fav');" ><span id="af">Mis favoritas</span></a>
@@ -125,7 +125,8 @@ $(document).ready(function(){
     $("#ifra4").html('<iframe class="contenido4" onload="redimensionariframe(this)" src="favoritas.php" frameborder="0"  ></iframe>');
   }
   if($("#help").val()==2){
-    $("#ifra4").html('<iframe class="contenido4" onload="redimensionariframe(this)" src="favoritas.php" frameborder="0"  ></iframe>');
+  	$("#mu").addClass("borde-a");
+    $("#ifra4").html('<iframe class="contenido4" onload="redimensionariframe(this)" src="mimusica.php" frameborder="0"  ></iframe>');
   }
 }
 cargar();
