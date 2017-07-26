@@ -144,7 +144,7 @@
 									</div>
 
 									
-									<li  id="li9" onclick="li('li9');ver('hijo5','hijo2','hijo3','hijo4','hijo')">
+									<li  id="li9" onclick="li('li9');ver('hijo5','hijo2','hijo3','hijo4','hijo','hijo6')">
 										<a href="#" class="si">
 											<span>
 												<svg class="svg-icon icon3 svg-icon-app" viewBox="0 0 12 12" aria-hidden="true" height="16" width="16"><g><path d="M0.375518305,6.90836424 C-0.126157409,6.40668852 -0.124187159,5.59134123 0.375518305,5.09163576 L5.09163576,0.375518305 C5.59331148,-0.126157409 6.40865877,-0.124187159 6.90836424,0.375518305 L11.6244817,5.09163576 C12.1261574,5.59331148 12.1241872,6.40865877 11.6244817,6.90836424 L6.90836424,11.6244817 C6.40668852,12.1261574 5.59134123,12.1241872 5.09163576,11.6244817 L0.375518305,6.90836424 L0.375518305,6.90836424 Z M8.56634425,6.00000601 L4.9734623,3.9469246 L4.9734623,8.0530754 L8.56634425,6.00000601 L8.56634425,6.00000601 Z"></path></g></svg></span>Aplicaciones
@@ -152,7 +152,43 @@
 											
 										</li>
 										<div class="hijo5" id="hijo5">
-											<p>5</p>
+											<span class="azul">0 <span class="apps">Aplicaciones</span></span>
+											<div class="alrededor">
+											<div class="paddd">
+											 <span class="reco">Deezer recomienda:</span>
+											 <div>
+											 	<img src="img/disney.jpg" class="disney" width="320" height="120">
+											 </div>
+											 <div class="content">
+											 <table class="dis" >
+											 	<tr>
+											 		<td >
+											 			<div style="padding-top:6px; "><span class="fath">Disney</span></div>
+											 	       <div style="padding-bottom:8px; "> <span class="son">Disney Magic !</span></div>
+											 		</td>
+											 		<td>
+											 			<span class="glyphicon glyphicon-heart cor"></span>
+											 		</td>
+											 	</tr>
+											 </table>
+											 	 
+											 </div>
+											 
+											 </div>	
+											</div>
+											<div class="mar">
+											 	<table >
+											 		<tr>
+											 			<td>
+											 				<button class="plus"><span class="glyphicon glyphicon-plus"></button>
+											 			</td>
+											 			<td id="can">
+											 				<span class="col-xs-12 fath2">Descubre nuestras apps</span>
+											 	            <span class="col-xs-12 son2">¡Juegos y musica!</span>
+											 			</td>
+											 		</tr>
+											 	</table>
+											 </div>
 										</div>
 									</ul>
 									<div id="jp_container_1"  class="jp-video jp-video-270p" role="application" aria-label="media player">
@@ -327,11 +363,48 @@
 											},  [
 											
 											{
-												title:"voices",
+												title:"voikdsssssssssksddddddddddlsdddddddddddddddddces",
 												artist:"rev theory",
-												mp3:"http://localhost/IS501-Deezer/randi.mp3",
-												poster: "http://localhost/IS501-Deezer/img/orton.jpg"
+												mp3:"http://localhost/IS501-Deezer/musica/randi.mp3",
+												poster: "http://localhost/IS501-Deezer/musica/covers/orton.jpg"
 											},
+											{
+												title:"On the floor",
+												artist:"Jlo, feat. pitbull",
+												mp3:"http://localhost/IS501-Deezer/musica/on the floor.mp3",
+												poster: "http://localhost/IS501-Deezer/musica/covers/pitbull.jpg"
+											},
+											{
+												title:"Angels cry",
+												artist:"No se",
+												mp3:"http://localhost/IS501-Deezer/musica/Angels cry.mp3",
+												poster: "http://localhost/IS501-Deezer/musica/covers/pitbull.jpg"
+											},
+											{
+												title:"Hey baby",
+												artist:"No se",
+												mp3:"http://localhost/IS501-Deezer/musica/Hey baby.mp3",
+												poster: "http://localhost/IS501-Deezer/musica/covers/pitbull.jpg"
+											},
+											{
+												title:"Esta noche",
+												artist:"No se",
+												mp3:"http://localhost/IS501-Deezer/musica/esta noche.mp3",
+												poster: "http://localhost/IS501-Deezer/musica/covers/pitbull.jpg"
+											},
+											{
+												title:"Everything",
+												artist:"No se",
+												mp3:"http://localhost/IS501-Deezer/musica/Everything.mp3",
+												poster: "http://localhost/IS501-Deezer/musica/covers/pitbull.jpg"
+											},
+											{
+												title:"throw",
+												artist:"No se",
+												mp3:"http://localhost/IS501-Deezer/musica/throw.mp3",
+												poster: "http://localhost/IS501-Deezer/musica/covers/pitbull.jpg"
+											},
+
 											{
 												title:"Cyber Sonnet",
 												artist:"The Stark Palace",

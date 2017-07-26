@@ -660,6 +660,131 @@ margin-top: -40px;
 overflow:hidden;
 }
 
+
+.reco{
+  color: #72727d;
+    
+    margin-left: 23px;
+    font-size: 14px;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+}
+
+.fath{
+  margin-bottom: 3px;
+color: #32323d;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+        line-height: 16px;
+        padding-top: 10px;
+        padding-left: 17px;
+}
+
+.fath2{
+  margin-bottom: 3px;
+color: #32323d;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+        line-height: 16px;
+        padding-top: 10px;
+}
+
+#can:hover,.content:hover{
+background-color:#efeff2;
+}
+
+#can{
+  cursor: pointer;
+}
+
+.cor{
+  margin-left: 195px;
+  font-size: 12px;
+  color: #92929d;
+  cursor: pointer;
+}
+
+.mar{
+  margin-left: 23px;
+  margin-top: 17px;
+  margin-right: 23px;
+}
+
+.fath:hover,.son:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.plus{
+  background-color: #f8f8f9;
+    height: 56px;
+    width: 87px;
+    outline: 0px;
+    position: relative;
+    background-color: #007feb;
+    border-radius: 3px;
+    color: #fff;
+    border: 0px;
+    line-height: 56px;
+    border-radius: 4px;
+}
+
+.dis{
+  padding-top: 10px;
+}
+
+.son{
+color: #72727d;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+}
+
+.son2{
+color: #72727d;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+
+}
+
+.content{
+  background-color: #fff;
+  margin-left: 23px;
+  width: 320px;
+  border-radius: 4px;
+}
+
+.alrededor{
+  background-color: #e8e8ec;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.disney{
+
+  margin-left: 23px;
+  margin-top: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.apps{
+      color: #32323d;
+}
+
+.paddd{
+  padding-top:12px;
+}
+
 .final{
   width: 100%;
     background: #e0e0e0;
@@ -672,6 +797,16 @@ overflow:hidden;
     display: block;
     font-family: "Lucida Grande",Arial,sans-serif;
     line-height: 1.33333333;
+}
+
+.azul{
+  padding-left: 23px;
+  color: #007feb;
+      font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+        line-height: 60px;
+            font-size: 18px;
+    letter-spacing: .25px;
 }
 
 .dentro{
