@@ -368,42 +368,6 @@
 												mp3:"http://localhost/IS501-Deezer/musica/randi.mp3",
 												poster: "http://localhost/IS501-Deezer/musica/covers/orton.jpg"
 											},
-											{
-												title:"On the floor",
-												artist:"Jlo, feat. pitbull",
-												mp3:"http://localhost/IS501-Deezer/musica/on the floor.mp3",
-												poster: "http://localhost/IS501-Deezer/musica/covers/pitbull.jpg"
-											},
-											{
-												title:"Angels cry",
-												artist:"No se",
-												mp3:"http://localhost/IS501-Deezer/musica/Angels cry.mp3",
-												poster: "http://localhost/IS501-Deezer/musica/covers/pitbull.jpg"
-											},
-											{
-												title:"Hey baby",
-												artist:"No se",
-												mp3:"http://localhost/IS501-Deezer/musica/Hey baby.mp3",
-												poster: "http://localhost/IS501-Deezer/musica/covers/pitbull.jpg"
-											},
-											{
-												title:"Esta noche",
-												artist:"No se",
-												mp3:"http://localhost/IS501-Deezer/musica/esta noche.mp3",
-												poster: "http://localhost/IS501-Deezer/musica/covers/pitbull.jpg"
-											},
-											{
-												title:"Everything",
-												artist:"No se",
-												mp3:"http://localhost/IS501-Deezer/musica/Everything.mp3",
-												poster: "http://localhost/IS501-Deezer/musica/covers/pitbull.jpg"
-											},
-											{
-												title:"throw",
-												artist:"No se",
-												mp3:"http://localhost/IS501-Deezer/musica/throw.mp3",
-												poster: "http://localhost/IS501-Deezer/musica/covers/pitbull.jpg"
-											},
 
 											{
 												title:"Cyber Sonnet",
