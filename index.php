@@ -229,6 +229,7 @@
 <<<<<<< HEAD
 									<div class="hijo4" id="hijo4">
 										<p>4</p>
+<<<<<<< HEAD
 										
 =======
 									<div class="hijo5" id="hijo5">
@@ -270,6 +271,8 @@
 											</table>
 										</div>
 >>>>>>> e80052f82deafa27e35f53bc6ff2da7564f49277
+=======
+>>>>>>> parent of 8300a08... XD
 									</div>
 								</ul>
 								<div id="jp_container_1"  class="jp-video jp-video-270p" role="application" aria-label="media player">

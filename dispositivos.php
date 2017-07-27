@@ -180,6 +180,3 @@
 </div>
 </body>
 </html>
-
-
-<i class="fa fa-bolt" aria-hidden="true"></i>
