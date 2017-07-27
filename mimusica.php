@@ -18,7 +18,7 @@
      }
 
    }
-
+ 
 
 ?>
 
@@ -128,7 +128,7 @@
           <h2 class="head col-xs-2">
             <span onclick="subventana(2)" class="link">
           <span class="color-primary">13</span>
-          <span class="azz">
+          <span class="azz"> 
           <span> Playlists</span>
            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
            </span>
