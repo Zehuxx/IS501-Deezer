@@ -19,7 +19,7 @@ input[type="checkbox"] {
     background:url("../img/check.png")  no-repeat;
     background-size:18px; 
 }
-
+ 
 input[type="checkbox"] + label p{
     display:inline;
     padding-left: 25px;
@@ -519,15 +519,161 @@ margin-top: -40px;
     transition-duration:  0.4s;
   }
 
+.link:hover{
+    color:#007feb;
+    cursor: pointer;
+}
+
+.tamano{
+  font-size: 12px;
+}
+.tamano2{
+  font-size: 10px;
+}
+
+.listad{
+  display: none;
+  position: fixed;
+    z-index: 10;
+    background-color: #F8FAFA;
+    border: 1px solid #d1d1d7;
+    box-shadow: 0 4px 6px rgba(10,10,22,.2);
+    box-sizing: border-box;
+}
+
+.fil{
+   position: absolute;
+   margin-left: 180px;
+   margin-top: -24px;
+}
+.like{
+ margin-top: -27px;
+margin-left: 277px;
+position: absolute;
+}
+
+.add{
+  margin-top: 22px;
+  font-size: 12px;
+  color: white;
+}
+
+.lineahr{
+  background-color: #e8e8ec;
+  height: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%
+}
+
+.addplay{
+  width: 56px;
+  height: 56px;
+  text-align: center;
+  border-radius: 4px;
+  background-color:#007feb;
+}
+
+.plista{
+  height: 587px;
+  padding: 0px 20px; 
+  overflow: auto;
+}
+
+.separacion{
+  height:5px;
+  
+}
+
+.principal{
+    color: #32323d;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.playl tr td:first-child{
+  cursor: pointer;
+}
+.playl tr:first-child{
+  cursor: pointer;
+}
+
+.espacio{
+  width: 320px;
+  padding-left: 15px;
+}
+
+.espacio:hover{
+   background-color: #d1d1d7;
+}
+
+.listad tr td{
+  font-size: 12px;
+  cursor: pointer;
+  padding: 6px 5px;
+
+}
+
+.like:hover>table.listad{
+   display: block;
+}
+
+.listad tr td:hover{
+      background-color: #d1d1d7;
+    color: #32323d;
+  
+}
+
+.likeselect{
+      font-size: 12px;
+    padding: 3px 7px;
+    border: solid 1px #d1d1d7;
+    color: #92929d;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filtrar{
+      background-color: #f8f8f9;
+    border-color: #d1d1d7;
+    height: 22px;
+    width: 88px;
+    padding: 6px 6px;
+}
+
+.margen2{
+  margin-left: 23px;
+  margin-right: 21px;
+  margin-top: 20px;
+}
+
+
+.color-primary {
+    color: #007feb!important;
+    }
+
+    .azz:hover{
+    color:#007feb;
+}
+
+
+
 .hijo2 {
     opacity: 0;
     position: absolute;
     visibility: hidden;
     overflow: hidden;
     width: 368px;
+
+    letter-spacing: .25px;
     height: 701px; 
     background-color: #F8FAFA;
-   
+    color: #72727d;
+    font-family: "Lucida Grande",Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.33333333;
     margin-left: 231px; 
     margin-top: -320px;
     transition-duration:  0.4s;
