@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/personalizado.css">
 	<link href="css/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+	<link rel="stylesheet" type="text/css" href="css/actividades">
 	<style type="text/css">
 		body{
 			height: 100%;
@@ -183,12 +184,35 @@
 									<span>
 										<svg class="svg-icon icon3 svg-icon-time" viewBox="0 0 12 12" aria-hidden="true" height="16" width="16"><g><path d="M11,6 C11,3.23857625 8.76142375,1 6,1 C3.23857625,1 1,3.23857625 1,6 C1,8.76142375 3.23857625,11 6,11 C8.76142375,11 11,8.76142375 11,6 Z M7,6.50952148 L7,3.49047852 C7,3.21505737 6.77614237,3 6.5,3 C6.23193359,3 6,3.21959471 6,3.49047852 L6,6 L4.49538898,6 C4.2157526,6 4,6.22385763 4,6.5 C4,6.76806641 4.2217932,7 4.49538898,7 L6.50461102,7 C6.64282453,7 6.76543159,6.94531282 6.85409473,6.85665508 C6.94267961,6.76617647 7,6.64418681 7,6.50952148 Z" fill-rule="evenodd"></path></g></svg></span>Actividad
 									</a>
-
+                               <!-- parte que me dijiste maje  -- >
 								</li>
 								<div class="hijo4" id="hijo4">
-									<p>4</p>
-								</div>
+									<div id="navbar">
+										<table border="1px" id="tabla">
+											<tr>
+												<td><span id="super0" class="glyphicon glyphicon-time"></span></td>
+                                                <td><span id="super1" class="glyphicon glyphicon-music"></span></td>
+												<td><span id="super2" class="glyphicon glyphicon-user"></span></td>
+											</tr>
+										</table>
+									</div>
 
+									<div class="navbar2">
+										<p id="par1">Actividad</p>
+									</div>
+
+									<img id="amigos" src="img/amigos.png">
+									<div class="parrafo1"><p id="para1">No estés solo.</p></div>
+									<div class="parrafo2"><p id="para2">Conéctate a tus redes sociales para encontrar</p><p id="para3"> a tus amigos.</p>
+									</div>
+
+									<button id="tamm1" type="button" class="btn btn-primary  btn-sm"><img id="imgs" src="img/f.png">Facebook</button>
+
+									<button id="tamm2" type="button" class="btn btn-primary  btn-sm"><img id="imgs" src="img/t.png">Twitter</button>
+
+									<button id="tamm3" type="button" class="btn btn-primary  btn-sm"><img id="imgs" src="img/g.png">Google+</button>
+								</div>
+                                <!-- parte que me dijiste maje  -- >
 
 								<li  id="li9" onclick="li('li9');ver('hijo5','hijo2','hijo3','hijo4','hijo','hijo6')">
 									<a href="#" class="si">

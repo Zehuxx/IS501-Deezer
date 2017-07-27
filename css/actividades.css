@@ -1,0 +1,144 @@
+#navbar
+{
+	height: 40px;
+	width: 368px;
+	float: left;
+}
+
+.navbar2
+{
+	width: 368px;
+	height: 60px;
+	float: left;
+	border-bottom: 1px solid;
+}
+
+#par1
+{
+	float: left;
+	margin-top: 17px;
+	margin-left: 20px;
+	color: #32323d;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+#tabla
+{
+	width: 368px;
+	height: 40px;
+	float: left;
+}
+
+#td1
+{
+	float: left;
+	margin-left: 15px;
+}
+
+#super0
+{
+	float: left;
+	margin-left: 50px;
+}
+
+#super1
+{
+	float: left;
+	margin-left: 60px;
+}
+
+#super2
+{
+	float: left;
+	margin-left: 50px;
+}
+
+#amigos
+{
+	float: left;
+	margin-top: 60px;
+	margin-left: 160px;
+}
+
+#para1
+{
+	color: #32323d;
+	font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#para2
+{
+	font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#para3
+{
+	font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 89px;
+    margin-top: -11px;
+}
+
+.parrafo1
+{
+	height: 18.6667px;
+	float: left;
+	margin-top: 140px;
+	margin-left: -70px;
+}
+
+.parrafo2
+{
+	width: 256px;
+	height: 32px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 60px;
+}
+
+#facebook
+{
+	size: 150px;
+}
+
+#tamm1
+{
+	margin-top: 20px;
+	margin-left:110px;
+	float: left;
+	width: 150px;
+	background: #3B5998;
+}
+
+#tamm2
+{
+	margin-top: 10px;
+	margin-left:110px;
+	float: left;
+	width: 150px;
+	background: #37ABDE;
+}
+
+#tamm3
+{
+	margin-top: 10px;
+	margin-left:110px;
+	float: left;
+	width: 150px;
+	background: #DF4A32;
+}
+
+#imgs
+{
+   height: 20px;
+   float: left;
+
+}
