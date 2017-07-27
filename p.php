@@ -5,10 +5,9 @@
 	<link rel="icon" href="img/fav.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/personalizado.css">
-	<link href="css/jplayer.blue.monday.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans">
+	<link href="css/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 	<link rel="stylesheet" type="text/css" href="css/actividades">
-	<link rel="stylesheet" type="text/css" href="css/albumenes.css">
 	<style type="text/css">
 		body{
 			height: 100%;
@@ -176,13 +175,7 @@
 
 							</li>
 							<div class="hijo3" id="hijo3">
-								<div class="albumenes">
-								<p id="per"><span class="azulc">0</span>  álbumes</p>
-								</div>
-
-								<div class="nemu">
-									<span class="glyphicon glyphicon-record">Ver todos los álbums</span>
-								</div>
+								<p>3</p>
 							</div>
 
 
@@ -191,7 +184,7 @@
 									<span>
 										<svg class="svg-icon icon3 svg-icon-time" viewBox="0 0 12 12" aria-hidden="true" height="16" width="16"><g><path d="M11,6 C11,3.23857625 8.76142375,1 6,1 C3.23857625,1 1,3.23857625 1,6 C1,8.76142375 3.23857625,11 6,11 C8.76142375,11 11,8.76142375 11,6 Z M7,6.50952148 L7,3.49047852 C7,3.21505737 6.77614237,3 6.5,3 C6.23193359,3 6,3.21959471 6,3.49047852 L6,6 L4.49538898,6 C4.2157526,6 4,6.22385763 4,6.5 C4,6.76806641 4.2217932,7 4.49538898,7 L6.50461102,7 C6.64282453,7 6.76543159,6.94531282 6.85409473,6.85665508 C6.94267961,6.76617647 7,6.64418681 7,6.50952148 Z" fill-rule="evenodd"></path></g></svg></span>Actividad
 									</a>
-                      
+                               <!-- parte que me dijiste maje  -- >
 								</li>
 								<div class="hijo4" id="hijo4">
 									<div id="navbar">
@@ -219,7 +212,7 @@
 
 									<button id="tamm3" type="button" class="btn btn-primary  btn-sm"><img id="imgs" src="img/g.png">Google+</button>
 								</div>
-                       
+                                <!-- parte que me dijiste maje  -- >
 
 								<li  id="li9" onclick="li('li9');ver('hijo5','hijo2','hijo3','hijo4','hijo','hijo6')">
 									<a href="#" class="si">
@@ -228,7 +221,7 @@
 										</a> 
 
 									</li>
-<<<<<<< HEAD		
+<<<<<<< HEAD							
 =======
 									<div class="hijo5" id="hijo5">
 										<span class="azul">0 <span class="apps">Aplicaciones</span></span>
